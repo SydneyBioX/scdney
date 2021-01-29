@@ -7,12 +7,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## **Methodology and tools**
 
 ### Preprint
 
 + <font size="+1"> **Kim, H.J., Wang, K.Y., Chen, C., Lin, Y.**, Tam, P., Lin, D.M., **Yang, J.Y.H. and Yang, P.** (2021)  Cepo uncovers cell identity through differential stability. *Biorxiv*. [[package](https://PYangLab.github.io/Cepo)][[paper]( https://doi.org/10.1101/2021.01.10.426138)]</font>
 
-+ <font size="+1"> **Lin, Y.**, Wu, T., Wan, S., **Yang, J.Y.H.,** Wong, W.H., and **Wang, Y.X.R.** (2021)  scJoint: transfer learning for data integration of single-cell RNA-seq and ATAC-seq. *Biorxiv*. [[package](https://sydneybiox.github.io/scJoint)][[paper]( https://doi.org/10.1101/2020.12.31.424916)]</font>
++ <font size="+1"> **Lin, Y.**, Wu, T.Y., Wan, S., **Yang, J.Y.H.,** Wong, W.H., and **Wang, Y.X.R.** (2021)  scJoint: transfer learning for data integration of single-cell RNA-seq and ATAC-seq. *Biorxiv*. [[package](https://sydneybiox.github.io/scJoint)][[paper]( https://doi.org/10.1101/2020.12.31.424916)]</font>
 
 
 
@@ -45,4 +46,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 + <font size="+1"> **Ghazanfar, S.,** Bisogni, A., **Ormerod, J.T.,**, Lin, D.M., and **Yang, J.Y.H.** (2016) Integrated single cell data analysis reveals cell specific networks and novel coactivation markers. *BMC Systems Biology*. [[paper](https://doi.org/10.1186/s12918-016-0370-4)]</font>
 
+## **Applications**
+
++ <font size="+1"> Su, X., Zhao, L.N., Shi, Y., Zhang, R., Long, Q., Bai, S., Luo, Q.,  **Lin Y.,**, Zou, X., **Ghazanfar, S.,**, Tao, Kun., Yang, G., Wang, L., He, K.Y., Cui, X., He, J., Wu, J.X., Han, B., Wang, N., Li, X., **Yang, P.**, Hou, S., Sun, J.,  **Yang, J.Y.H.,** Chen, J. and Han, Z.G. (2021) Single-cell and single-variant resolution analysis of clonal evolution in human liver cancer. *Biorxiv*. [[paper](https://doi.org/10.1101/2020.12.30.424907)]</font>
+
++ <font size="+1"> Su, X., Long, Q., Bo, J., Shi, Y., Zhao, L.N.,  **Lin Y.,** Luo, Q., **Ghazanfar, S.**, Zhang, C., Liu, Q., Wang, L., He, K., He, J., Cui, X.,  **Yang, J.Y.H.**, Han, Z.G., Yang, G., and Sha, J.J. (2020) Mutational and transcriptomic landscapes of a rare human prostate basal cell carcinoma. *The Prostate*. [[paper](https://doi.org/10.1002/pros.23965)]</font>
+
++ <font size="+1"> He J., **Lin Y.,**, Su, X., Luo, Q., **Ghazanfar, S., Yang, J.Y.H.** and Han,Z.G. (2019) Single-Cell RNA-Seq Reveals Naïve B cells Associated with Better Prognosis of HCC. *Biorxiv*. [[paper](https://doi.org/10.1101/731935)]</font>
+
++ <font size="+1"> Su, X., Shi, Y., Zou, X., Lu, Z.N., Xie, G., **Yang, J.Y.H.,** Wu, C.C., Cui., X.F., He, K.Y., Luo, Q., Qu, Y.L., Wang, N., Wang, L., Han, Z.G. (2017) Single-cell RNA-Seq analysis reveals dynamic trajectories during mouse liver development *BMC Genomics*. [[paper](https://doi.org/10.1186/s12864-017-4342-x)]</font>
 
