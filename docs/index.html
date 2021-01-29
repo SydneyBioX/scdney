@@ -6,18 +6,19 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Single cell data integrative analysis • scdney</title>
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
-<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script><!-- sticky kit --><script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" integrity="sha256-c4Rlo1ZozqTPE2RLuvbusY3+SU1pQaJC0TjuhygMipw=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
+<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/cosmo/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
+<script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
+<!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="Single cell data integrative analysis">
 <meta property="og:description" content="A collection of single cell RNA-sequencing data analysis functions including normalisation, mixture modelling, clustering and cell type correction.">
-<meta name="twitter:card" content="summary">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body>
+<body data-spy="scroll" data-target="#toc">
     <div class="container template-home">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -30,41 +31,39 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">scdney</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.5</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.0</span>
       </span>
     </div>
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
 <li>
-  <a href="index.html">
-    <span class="fa fa-home fa-lg"></span>
-     
-  </a>
+  <a href="articles/website/package.html">Packages</a>
 </li>
 <li>
-  <a href="articles/scdney.html">Get started</a>
-</li>
-<li>
-  <a href="reference/index.html">Reference</a>
+  <a href="articles/website/publication.html">Publications</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Articles
+    Tutorial
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
 <li>
-      <a href="articles/scClassify.html">scClassify</a>
-    </li>
-    <li>
-      <a href="articles/scDC.html">scDC: single cell differential composition analysis</a>
+      <a href="articles/scMerge.html">scMerge</a>
     </li>
   </ul>
 </li>
       </ul>
-<ul class="nav navbar-nav navbar-right"></ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+  <a href="https://github.com/SydneyBioX/scdney">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
 </div>
 <!--/.nav-collapse -->
   </div>
@@ -73,411 +72,38 @@
 <!--/.navbar -->
 
       
+
       </header><div class="row">
   <div class="contents col-md-9">
-
 <div id="scdney---single-cell-data-integrative-analysis" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#scdney---single-cell-data-integrative-analysis" class="anchor"></a>scdney - Single cell data integrative analysis</h1></div>
-<p><br></p>
 <!--
-<img src="https://github.com/SydneyBioX/scMerge/raw/master/inst/logo.png" align="right" width="200" />
+<br />
 -->
-<p><a href="https://github.com/SydneyBioX/scdney/commits/master"><img src="https://img.shields.io/github/last-commit/SydneyBioX/scdney.svg"></a> <a href="https://travis-ci.org/SydneyBioX/scdney"><img src="https://travis-ci.org/SydneyBioX/scdney.svg?branch=master" alt="Travis build status"></a></p>
-<p><br></p>
-<p><code>scdney</code> is a R package with collection of single cell RNA-sequencing (scRNA-seq) data analysis functions developed by team of <a href="http://www.maths.usyd.edu.au/u/SMS/bioinformatics/"><strong>Sydney Precision Bioinformatics Research Group</strong></a> at The University of Sydney.</p>
-<p>This package contains useful functions for analysis of scRNA-seq data including clustering, cell type identification, etc.</p>
-</div>
-<div id="getting-started" class="section level1">
-<h1 class="hasAnchor">
-<a href="#getting-started" class="anchor"></a>Getting started</h1>
-<div id="vignette" class="section level2">
-<h2 class="hasAnchor">
-<a href="#vignette" class="anchor"></a>Vignette</h2>
-<p>You can find the vignette at our website: <a href="https://sydneybiox.github.io/scdney/" class="uri">https://sydneybiox.github.io/scdney/</a>.</p>
-</div>
+<!--
+[![](https://img.shields.io/github/last-commit/SydneyBioX/scdney.svg)](https://github.com/SydneyBioX/scdney/commits/master) [![Travis build status](https://travis-ci.org/SydneyBioX/scdney.svg?branch=master)](https://travis-ci.org/SydneyBioX/scdney)
+
+
+<br />
+
+-->
+<p><img src="img/ScdneySticker_2" align="right" width="200" hspace="20" vspace="10"></p>
+<p><font size="+1"> <code>scdney</code> is a wrapper package with collection of single cell analysis R packages developed by team of <a href="http://www.maths.usyd.edu.au/u/SMS/bioinformatics/"><strong>Sydney Precision Bioinformatics Alliance</strong></a> at The University of Sydney. </font></p>
+<p><font size="+1"> More information about the <code>scdney</code> package: <a href="https://sydneybiox.github.io/scdney/" class="uri">https://sydneybiox.github.io/scdney/</a>. </font></p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_github</a></span>(<span class="st">"SydneyBioX/scdney"</span>, <span class="dt">build_opts =</span> <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"--no-resave-data"</span>, <span class="st">"--no-manual"</span>))
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(scdney)</code></pre></div>
-<p>For <code>devtools (&lt; 2.0.0)</code>,</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_github</a></span>(<span class="st">"SydneyBioX/scdney"</span>, <span class="dt">build_vignettes =</span> <span class="ot">TRUE</span>)
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(scdney)</code></pre></div>
-<p>Building the vignette may take some time. If you wish not to create the vignette during installation, try:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_github</a></span>(<span class="st">"SydneyBioX/scdney"</span>)
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(scdney)</code></pre></div>
-<p><strong>NOTE:</strong> <em>For mac users, the official cran mirror of R tools for OS X and R tools for OS X on r.research.att.com that lists the gfortran binary are out of date. You will need to update <code>gfortran</code> and add the following line <code>FLIBS=-L/usr/local/Cellar/gcc/X.Y.Z/lib/gcc/X</code> (where <code>X.Y.Z</code> is your gcc version) to <code>~/.R/Makevars</code> prior to this package installation.</em></p>
+<ul>
+<li>To install all packages in available <code>scdney</code> and attached the installed <code>scdney</code> packages in the current R session.</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="r"><span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"SydneyBioX/scdney"</span>)
+<span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">scdney</span>)</pre></div>
 </div>
 </div>
-<div id="usage" class="section level1">
-<h1 class="hasAnchor">
-<a href="#usage" class="anchor"></a>Usage</h1>
-<div id="section-1---clustering" class="section level2">
-<h2 class="hasAnchor">
-<a href="#section-1---clustering" class="anchor"></a>Section 1 - Clustering</h2>
-<div id="scclust" class="section level3">
-<h3 class="hasAnchor">
-<a href="#scclust" class="anchor"></a>scClust</h3>
-<p>See: Kim, T., Chen, I., Lin, Y., Wang, A., Yang, J., &amp; Yang, P.† (2018) Impact of similarity metrics on single-cell RNA-seq data clustering. <strong><em>Briefings in Bioinformatics</em></strong> <a href="https://doi.org/10.1093/bib/bby076">[</a><a href="https://doi.org/10.1093/bib/bby076" class="uri">https://doi.org/10.1093/bib/bby076</a>]</p>
-<p><img src="https://github.com/SydneyBioX/scdney/raw/master/img/scClust.jpg" alt="alt text"></p>
-<p>Current version of this package is implemented to run a modified version of SIMLR (Wang et al, 2017) or k-means clustering methods with various similarity metrics.</p>
-<p>Available metrics include:</p>
-<p>SIMLR - <code>"pearson"</code> correlation, <code>"spearman"</code> corelation and <code>"euclidean"</code> distance.</p>
-<p>K-means - <code>"pearson"</code> correlation, <code>"spearman"</code> correlation, <code>"euclidean"</code> distance, <code>"manhattan"</code> distance and <code>"maximum"</code> distance.</p>
-<div id="load-data" class="section level4">
-<h4 class="hasAnchor">
-<a href="#load-data" class="anchor"></a>Load Data</h4>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/utils/topics/data">data</a></span>(GSE82187.sample)
-mat &lt;-<span class="st"> </span>GSE82187
-
-mat &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/Log">log2</a></span>(mat<span class="op">+</span><span class="dv">1</span>)
-
-<span class="co"># set number of clusters (classes defined in colnames)</span>
-nCs &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/length">length</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/colnames">colnames</a></span>(mat)))</code></pre></div>
-</div>
-<div id="part-a--clustering-with-different-similarity-metrics-with-scclust" class="section level4">
-<h4 class="hasAnchor">
-<a href="#part-a--clustering-with-different-similarity-metrics-with-scclust" class="anchor"></a>Part A. Clustering with different similarity metrics with <code>scClust</code>
-</h4>
-<p>To run scClust,</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># SIMLR</span>
-simlr.result &lt;-<span class="st"> </span><span class="kw"><a href="reference/scClust.html">scClust</a></span>(mat, nCs, <span class="dt">similarity =</span> <span class="st">"pearson"</span>, <span class="dt">method =</span> <span class="st">"simlr"</span>, <span class="dt">seed =</span> <span class="dv">1</span>, <span class="dt">cores.ratio =</span> <span class="dv">0</span>)
-
-<span class="co"># K-means</span>
-kmeans.result &lt;-<span class="st"> </span><span class="kw"><a href="reference/scClust.html">scClust</a></span>(mat, nCs, <span class="dt">similarity =</span> <span class="st">"pearson"</span>, <span class="dt">method =</span> <span class="st">"kmeans"</span>, <span class="dt">seed =</span> <span class="dv">1</span>, <span class="dt">nstart =</span> <span class="dv">10</span>, <span class="dt">iter.max =</span> <span class="dv">10</span>)</code></pre></div>
-<p>This function allows you to perform clustering with a user specified similarity metrics. The return values of <code>scClust</code> are identical to clustering methods for <code>Kmeans</code> and <code>SIMLR</code> functions.</p>
-</div>
-<div id="part-b--benchmarking-different-similarity-metrics-with-scclustbench" class="section level4">
-<h4 class="hasAnchor">
-<a href="#part-b--benchmarking-different-similarity-metrics-with-scclustbench" class="anchor"></a>Part B. Benchmarking different similarity metrics with <code>scClustBench</code>
-</h4>
-<p>This section is to compare a set of similarity metrics on clustering methods to benchmark their perfomance accuracy.</p>
-<p>To run scClustBench,</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># SIMLR</span>
-simlr.result &lt;-<span class="st"> </span><span class="kw"><a href="reference/scClustBench.html">scClustBench</a></span>(mat, nCs, <span class="dt">method =</span> <span class="st">"simlr"</span>, <span class="dt">rep =</span> <span class="dv">2</span>, <span class="dt">seed =</span> <span class="dv">1</span>, <span class="dt">cores =</span> <span class="dv">1</span>, <span class="dt">cores.ratio =</span> <span class="dv">0</span>)
-
-<span class="co"># K-means</span>
-kmeans.result &lt;-<span class="st"> </span><span class="kw"><a href="reference/scClustBench.html">scClustBench</a></span>(mat, nCs, <span class="dt">method =</span> <span class="st">"kmeans"</span>, <span class="dt">rep =</span> <span class="dv">2</span>, <span class="dt">seed =</span> <span class="dv">1</span>, <span class="dt">cores =</span> <span class="dv">1</span>, <span class="dt">nstart =</span> <span class="dv">10</span>, <span class="dt">iter.max =</span> <span class="dv">10</span>)</code></pre></div>
-<p>You can evaluate this result with the function <code>evalScClustBench</code> and plot with <code>plotSimlrEval</code> or <code>plotKmeansEval</code>.</p>
-<p>For further demonstrations, see:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/utils/topics/browseVignettes">browseVignettes</a></span>(<span class="st">"scdney"</span>)</code></pre></div>
-</div>
-</div>
-</div>
-<div id="section-2---post-hoc-cell-type-classification" class="section level2">
-<h2 class="hasAnchor">
-<a href="#section-2---post-hoc-cell-type-classification" class="anchor"></a>Section 2 - Post hoc cell type classification</h2>
-<div id="screclassify" class="section level3">
-<h3 class="hasAnchor">
-<a href="#screclassify" class="anchor"></a>scReClassify</h3>
-<p><img src="https://github.com/SydneyBioX/scdney/raw/master/img/scReClassify.jpg" alt="alt text"></p>
-<p>Current version of this package is implemented to run with <code>svm</code> and <code>radomForest</code> classifiers.</p>
-<div id="load-data-1" class="section level4">
-<h4 class="hasAnchor">
-<a href="#load-data-1" class="anchor"></a>Load data</h4>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/utils/topics/data">data</a></span>(GSE87795_liver.development.data)
-dat &lt;-<span class="st"> </span>GSE87795_liver.development.data<span class="op">$</span>data
-cellTypes &lt;-<span class="st"> </span>GSE87795_liver.development.data<span class="op">$</span>cellTypes
-
-<span class="co"># number of clusters</span>
-nCs &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/length">length</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cellTypes))
-
-<span class="co"># This demo dataset is already pre-processed</span>
-dat.processed =<span class="st"> </span>dat</code></pre></div>
-</div>
-<div id="part-a--screclassify-demonstration" class="section level4">
-<h4 class="hasAnchor">
-<a href="#part-a--screclassify-demonstration" class="anchor"></a>Part A. scReClassify (Demonstration)</h4>
-<div id="dimension-reduction" class="section level5">
-<h5 class="hasAnchor">
-<a href="#dimension-reduction" class="anchor"></a>Dimension reduction</h5>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">dat.selected =<span class="st"> </span><span class="kw"><a href="reference/matPCs.html">matPCs</a></span>(dat.processed, <span class="fl">0.7</span>)</code></pre></div>
-</div>
-<div id="synthetic-noise-demonstration-purpose" class="section level5">
-<h5 class="hasAnchor">
-<a href="#synthetic-noise-demonstration-purpose" class="anchor"></a>Synthetic noise (Demonstration purpose)</h5>
-<p>Here in this example, we will synthetically generate varying degree of noise in sample labels.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">lab &lt;-<span class="st"> </span>cellTypes
-
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/Random">set.seed</a></span>(<span class="dv">1</span>)
-noisyCls &lt;-<span class="st"> </span><span class="cf">function</span>(dat, rho, cls.truth){
-  cls.noisy &lt;-<span class="st"> </span>cls.truth
-  <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/names">names</a></span>(cls.noisy) &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/colnames">colnames</a></span>(dat)
-  <span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/length">length</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cls.noisy))) {
-    <span class="co"># class label starts from 0</span>
-    <span class="cf">if</span> (i <span class="op">!=</span><span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/length">length</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cls.noisy))) {
-      cls.noisy[<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/sample">sample</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(cls.truth <span class="op">==</span><span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/names">names</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cls.noisy))[i]), <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/Round">floor</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/sum">sum</a></span>(cls.truth <span class="op">==</span><span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/names">names</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cls.noisy))[i]) <span class="op">*</span><span class="st"> </span>rho))] &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/names">names</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cls.noisy))[i<span class="op">+</span><span class="dv">1</span>]
-    } <span class="cf">else</span> {
-      cls.noisy[<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/sample">sample</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(cls.truth <span class="op">==</span><span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/names">names</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cls.noisy))[i]), <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/Round">floor</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/sum">sum</a></span>(cls.truth <span class="op">==</span><span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/names">names</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cls.noisy))[i]) <span class="op">*</span><span class="st"> </span>rho))] &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/names">names</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cls.noisy))[<span class="dv">1</span>]
-    }
-  }
-
-  <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/print">print</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/sum">sum</a></span>(cls.truth <span class="op">!=</span><span class="st"> </span>cls.noisy))
-  <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/function">return</a></span>(cls.noisy)
-}
-
-cls.noisy01 &lt;-<span class="st"> </span><span class="kw">noisyCls</span>(dat.selected, <span class="dt">rho=</span><span class="fl">0.1</span>, lab)
-cls.noisy02 &lt;-<span class="st"> </span><span class="kw">noisyCls</span>(dat.selected, <span class="dt">rho=</span><span class="fl">0.2</span>, lab)
-cls.noisy03 &lt;-<span class="st"> </span><span class="kw">noisyCls</span>(dat.selected, <span class="dt">rho=</span><span class="fl">0.3</span>, lab)
-cls.noisy04 &lt;-<span class="st"> </span><span class="kw">noisyCls</span>(dat.selected, <span class="dt">rho=</span><span class="fl">0.4</span>, lab)
-cls.noisy05 &lt;-<span class="st"> </span><span class="kw">noisyCls</span>(dat.selected, <span class="dt">rho=</span><span class="fl">0.5</span>, lab)</code></pre></div>
-</div>
-<div id="use-screclassify-with-adasampling-to-correct-mislabelled-cell-types-" class="section level5">
-<h5 class="hasAnchor">
-<a href="#use-screclassify-with-adasampling-to-correct-mislabelled-cell-types-" class="anchor"></a>Use scReClassify with AdaSampling to correct mislabelled cell types.</h5>
-<p>Here, we will only Support Vector machine (<code>svm</code>) as base classifier.</p>
-</div>
-</div>
-<div id="benchmark-evaluation" class="section level4">
-<h4 class="hasAnchor">
-<a href="#benchmark-evaluation" class="anchor"></a>Benchmark Evaluation</h4>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">###################################
-<span class="co"># SVM</span>
-###################################
-acc01 &lt;-<span class="st"> </span>acc02 &lt;-<span class="st"> </span>acc03 &lt;-<span class="st"> </span>acc04 &lt;-<span class="st"> </span>acc05 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>()
-ari01 &lt;-<span class="st"> </span>ari02 &lt;-<span class="st"> </span>ari03 &lt;-<span class="st"> </span>ari04 &lt;-<span class="st"> </span>ari05 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>()
-base &lt;-<span class="st"> "svm"</span>
-
-<span class="cf">for</span>(j <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span><span class="dv">10</span>) {
-  final &lt;-<span class="st"> </span><span class="kw"><a href="reference/multiAdaSampling.html">multiAdaSampling</a></span>(dat.selected, cls.noisy01, <span class="dt">seed=</span>j, <span class="dt">classifier=</span>base, <span class="dt">percent=</span><span class="dv">1</span>, <span class="dt">L=</span><span class="dv">10</span>)<span class="op">$</span>final
-  ari01 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(ari01, mclust<span class="op">::</span><span class="kw"><a href="https://mclust-org.github.io/mclust/reference/adjustedRandIndex.html">adjustedRandIndex</a></span>(lab, final))
-  acc01 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(acc01, <span class="kw"><a href="reference/bAccuracy.html">bAccuracy</a></span>(lab, final))
-  final &lt;-<span class="st"> </span><span class="kw"><a href="reference/multiAdaSampling.html">multiAdaSampling</a></span>(dat.selected, cls.noisy02, <span class="dt">seed=</span>j, <span class="dt">classifier=</span>base, <span class="dt">percent=</span><span class="dv">1</span>, <span class="dt">L=</span><span class="dv">10</span>)<span class="op">$</span>final
-  ari02 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(ari02, mclust<span class="op">::</span><span class="kw"><a href="https://mclust-org.github.io/mclust/reference/adjustedRandIndex.html">adjustedRandIndex</a></span>(lab, final))
-  acc02 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(acc02, <span class="kw"><a href="reference/bAccuracy.html">bAccuracy</a></span>(lab, final))
-  final &lt;-<span class="st"> </span><span class="kw"><a href="reference/multiAdaSampling.html">multiAdaSampling</a></span>(dat.selected, cls.noisy03, <span class="dt">seed=</span>j, <span class="dt">classifier=</span>base, <span class="dt">percent=</span><span class="dv">1</span>, <span class="dt">L=</span><span class="dv">10</span>)<span class="op">$</span>final
-  ari03 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(ari03, mclust<span class="op">::</span><span class="kw"><a href="https://mclust-org.github.io/mclust/reference/adjustedRandIndex.html">adjustedRandIndex</a></span>(lab, final))
-  acc03 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(acc03, <span class="kw"><a href="reference/bAccuracy.html">bAccuracy</a></span>(lab, final))
-  final &lt;-<span class="st"> </span><span class="kw"><a href="reference/multiAdaSampling.html">multiAdaSampling</a></span>(dat.selected, cls.noisy04, <span class="dt">seed=</span>j, <span class="dt">classifier=</span>base, <span class="dt">percent=</span><span class="dv">1</span>, <span class="dt">L=</span><span class="dv">10</span>)<span class="op">$</span>final
-  ari04 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(ari04, mclust<span class="op">::</span><span class="kw"><a href="https://mclust-org.github.io/mclust/reference/adjustedRandIndex.html">adjustedRandIndex</a></span>(lab, final))
-  acc04 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(acc04, <span class="kw"><a href="reference/bAccuracy.html">bAccuracy</a></span>(lab, final))
-  final &lt;-<span class="st"> </span><span class="kw"><a href="reference/multiAdaSampling.html">multiAdaSampling</a></span>(dat.selected, cls.noisy05, <span class="dt">seed=</span>j, <span class="dt">classifier=</span>base, <span class="dt">percent=</span><span class="dv">1</span>, <span class="dt">L=</span><span class="dv">10</span>)<span class="op">$</span>final
-  ari05 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(ari05, mclust<span class="op">::</span><span class="kw"><a href="https://mclust-org.github.io/mclust/reference/adjustedRandIndex.html">adjustedRandIndex</a></span>(lab, final))
-  acc05 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(acc05, <span class="kw"><a href="reference/bAccuracy.html">bAccuracy</a></span>(lab, final))
-}
-
-result =<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/list">list</a></span>(
-  <span class="dt">acc01 =</span> acc01,
-  <span class="dt">acc02 =</span> acc02,
-  <span class="dt">acc03 =</span> acc03,
-  <span class="dt">acc04 =</span> acc04,
-  <span class="dt">acc05 =</span> acc05,
-  <span class="dt">ari01 =</span> ari01,
-  <span class="dt">ari02 =</span> ari02,
-  <span class="dt">ari03 =</span> ari03,
-  <span class="dt">ari04 =</span> ari04,
-  <span class="dt">ari05 =</span> ari05
-)
-
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/frame">plot.new</a></span>()
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/par">par</a></span>(<span class="dt">mfrow =</span> <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="dv">1</span>,<span class="dv">2</span>))
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/boxplot">boxplot</a></span>(acc01, acc02, acc03, acc04, acc05, <span class="dt">col=</span><span class="st">"lightblue"</span>, <span class="dt">main=</span><span class="st">"SVM Acc"</span>, <span class="dt">ylim=</span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="fl">0.45</span>, <span class="dv">1</span>))
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/points">points</a></span>(<span class="dt">x=</span><span class="dv">1</span><span class="op">:</span><span class="dv">5</span>, <span class="dt">y=</span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="kw"><a href="reference/bAccuracy.html">bAccuracy</a></span>(lab, cls.noisy01), <span class="kw"><a href="reference/bAccuracy.html">bAccuracy</a></span>(lab, cls.noisy02),
-                  <span class="kw"><a href="reference/bAccuracy.html">bAccuracy</a></span>(lab, cls.noisy03), <span class="kw"><a href="reference/bAccuracy.html">bAccuracy</a></span>(lab, cls.noisy04),
-                  <span class="kw"><a href="reference/bAccuracy.html">bAccuracy</a></span>(lab, cls.noisy05)), <span class="dt">col=</span><span class="st">"red3"</span>, <span class="dt">pch=</span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>), <span class="dt">cex=</span><span class="dv">1</span>)
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/boxplot">boxplot</a></span>(ari01, ari02, ari03, ari04, ari05, <span class="dt">col=</span><span class="st">"lightblue"</span>, <span class="dt">main=</span><span class="st">"SVM ARI"</span>, <span class="dt">ylim=</span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="fl">0.25</span>, <span class="dv">1</span>))
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/points">points</a></span>(<span class="dt">x=</span><span class="dv">1</span><span class="op">:</span><span class="dv">5</span>, <span class="dt">y=</span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(mclust<span class="op">::</span><span class="kw"><a href="https://mclust-org.github.io/mclust/reference/adjustedRandIndex.html">adjustedRandIndex</a></span>(lab, cls.noisy01), mclust<span class="op">::</span><span class="kw"><a href="https://mclust-org.github.io/mclust/reference/adjustedRandIndex.html">adjustedRandIndex</a></span>(lab, cls.noisy02),
-                  mclust<span class="op">::</span><span class="kw"><a href="https://mclust-org.github.io/mclust/reference/adjustedRandIndex.html">adjustedRandIndex</a></span>(lab, cls.noisy03), mclust<span class="op">::</span><span class="kw"><a href="https://mclust-org.github.io/mclust/reference/adjustedRandIndex.html">adjustedRandIndex</a></span>(lab, cls.noisy04),
-                  mclust<span class="op">::</span><span class="kw"><a href="https://mclust-org.github.io/mclust/reference/adjustedRandIndex.html">adjustedRandIndex</a></span>(lab, cls.noisy05)), <span class="dt">col=</span><span class="st">"red3"</span>, <span class="dt">pch=</span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>), <span class="dt">cex=</span><span class="dv">1</span>)</code></pre></div>
-</div>
-<div id="part-b----screclassify-mislabelled-cell-type-correction" class="section level4">
-<h4 class="hasAnchor">
-<a href="#part-b----screclassify-mislabelled-cell-type-correction" class="anchor"></a>Part B. - scReClassify (mislabelled cell type correction)</h4>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># PCA procedure</span>
-dat.pc &lt;-<span class="st"> </span><span class="kw"><a href="reference/matPCs.html">matPCs</a></span>(dat.processed, <span class="fl">0.7</span>)
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/dim">dim</a></span>(dat.pc)
-
-<span class="co"># run scReClassify</span>
-cellTypes.reclassify &lt;-<span class="st"> </span><span class="kw"><a href="reference/multiAdaSampling.html">multiAdaSampling</a></span>(dat.pc, cellTypes, <span class="dt">seed =</span> <span class="dv">1</span>, <span class="dt">classifier =</span> <span class="st">"svm"</span>, <span class="dt">percent =</span> <span class="dv">1</span>, <span class="dt">L =</span> <span class="dv">10</span>)
-
-<span class="co"># Verification by marker genes</span>
-End &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"KDR"</span>, <span class="st">"LYVE1"</span>)
-
-<span class="co"># check examples</span>
-idx &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(cellTypes.reclassify<span class="op">$</span>final <span class="op">!=</span><span class="st"> </span>cellTypes)
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(dplyr)
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/cbind">cbind</a></span>(<span class="dt">original=</span>cellTypes[idx], <span class="dt">reclassify=</span>cellTypes.reclassify<span class="op">$</span>final[idx]) <span class="op">%&gt;%</span>
-<span class="st">  </span>DT<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/DT/topics/datatable">datatable</a></span>()
-
-c1 &lt;-<span class="st"> </span>dat.processed[, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(cellTypes<span class="op">==</span><span class="st">"Endothelial Cell"</span>)]
-c2 &lt;-<span class="st"> </span>dat.processed[, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(cellTypes<span class="op">==</span><span class="st">"Erythrocyte"</span>)]
-c3 &lt;-<span class="st"> </span>dat.processed[, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(cellTypes<span class="op">==</span><span class="st">"Hepatoblast"</span>)]
-c4 &lt;-<span class="st"> </span>dat.processed[, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(cellTypes<span class="op">==</span><span class="st">"Macrophage"</span>)]
-c5 &lt;-<span class="st"> </span>dat.processed[, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(cellTypes<span class="op">==</span><span class="st">"Megakaryocyte"</span>)]
-c6 &lt;-<span class="st"> </span>dat.processed[, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(cellTypes<span class="op">==</span><span class="st">"Mesenchymal Cell"</span>)]
-cs &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/grDevices/topics/palettes">rainbow</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/length">length</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cellTypes)))
-
-<span class="co"># (example 1 E13.5_C20)</span>
-#####
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/par">par</a></span>(<span class="dt">mfrow=</span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="dv">1</span>,<span class="dv">2</span>))
-marker &lt;-<span class="st"> </span>End[<span class="dv">1</span>]
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/boxplot">boxplot</a></span>(c1[marker,], c2[marker,], c3[marker,], c4[marker,], c5[marker,], c6[marker,], <span class="dt">col=</span>cs, <span class="dt">main=</span>marker, <span class="dt">names=</span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"Reclassified"</span>, <span class="st">"Orignal"</span>, <span class="st">"Others"</span>, <span class="st">"Others"</span>, <span class="st">"Others"</span>, <span class="st">"Others"</span>), <span class="dt">las=</span><span class="dv">2</span>)
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/points">points</a></span>(<span class="dv">1</span>, dat.processed[marker, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/colnames">colnames</a></span>(dat.processed) <span class="op">%in%</span><span class="st"> "E13.5_C20"</span>)], <span class="dt">pch=</span><span class="dv">16</span>, <span class="dt">col=</span><span class="st">"red"</span>, <span class="dt">cex=</span><span class="dv">2</span>)
-
-marker &lt;-<span class="st"> </span>End[<span class="dv">2</span>]
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/boxplot">boxplot</a></span>(c1[marker,], c2[marker,], c3[marker,], c4[marker,], c5[marker,], c6[marker,], <span class="dt">col=</span>cs, <span class="dt">main=</span>marker, <span class="dt">names=</span><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"Reclassified"</span>, <span class="st">"Orignal"</span>, <span class="st">"Others"</span>, <span class="st">"Others"</span>, <span class="st">"Others"</span>, <span class="st">"Others"</span>), <span class="dt">las=</span><span class="dv">2</span>)
-<span class="kw"><a href="https://www.rdocumentation.org/packages/graphics/topics/points">points</a></span>(<span class="dv">1</span>, dat.processed[marker, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/which">which</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/colnames">colnames</a></span>(dat.processed) <span class="op">%in%</span><span class="st"> "E13.5_C20"</span>)], <span class="dt">pch=</span><span class="dv">16</span>, <span class="dt">col=</span><span class="st">"red"</span>, <span class="dt">cex=</span><span class="dv">2</span>)
-#####</code></pre></div>
-</div>
-</div>
-</div>
-<div id="section-3---single-cell-differential-composition-analysis-with-scdc" class="section level2">
-<h2 class="hasAnchor">
-<a href="#section-3---single-cell-differential-composition-analysis-with-scdc" class="anchor"></a>Section 3 - single cell differential composition analysis with scDC</h2>
-<div id="load-in-example-data" class="section level3">
-<h3 class="hasAnchor">
-<a href="#load-in-example-data" class="anchor"></a>Load in example data</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/utils/topics/data">data</a></span>(<span class="st">"sim"</span>)
-exprsMat &lt;-<span class="st"> </span>sim<span class="op">$</span>sim_exprsMat
-subject &lt;-<span class="st"> </span>sim<span class="op">$</span>sim_subject
-cellTypes &lt;-<span class="st"> </span>sim<span class="op">$</span>sim_cellTypes
-cond &lt;-<span class="st"> </span>sim<span class="op">$</span>sim_cond
-
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/dim">dim</a></span>(exprsMat)
-<span class="co">#&gt; [1] 500 260</span>
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(subject, cellTypes)
-<span class="co">#&gt;                   cellTypes</span>
-<span class="co">#&gt; subject            n1 n4</span>
-<span class="co">#&gt;   Cond1_replicate1 24 21</span>
-<span class="co">#&gt;   Cond1_replicate2 30 27</span>
-<span class="co">#&gt;   Cond2_replicate1 57 18</span>
-<span class="co">#&gt;   Cond2_replicate2 66 17</span>
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/table">table</a></span>(cond, cellTypes)
-<span class="co">#&gt;        cellTypes</span>
-<span class="co">#&gt; cond     n1  n4</span>
-<span class="co">#&gt;   Cond1  54  48</span>
-<span class="co">#&gt;   Cond2 123  35</span></code></pre></div>
-</div>
-<div id="perform-scdc-without-clustering" class="section level3">
-<h3 class="hasAnchor">
-<a href="#perform-scdc-without-clustering" class="anchor"></a>Perform scDC (without clustering)</h3>
-<p><code>nboot</code> (number of bootstraps) is set to be 10000 by default. This is the recommended value for achieving the resolution required by confidence interval. In here, we set nboot=50 just for illustration purpose.</p>
-<p>The code can be run in parallel environment by passing in the <code>ncores</code> argument. By default , ncores = 1.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">res_scDC_noClust &lt;-<span class="st"> </span><span class="kw"><a href="reference/scDC_noClustering.html">scDC_noClustering</a></span>(cellTypes, subject, <span class="dt">calCI =</span> <span class="ot">TRUE</span>, 
-                                     <span class="dt">calCI_method =</span> <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"percentile"</span>, <span class="st">"BCa"</span>, <span class="st">"multinom"</span>),
-                                     <span class="dt">nboot =</span> <span class="dv">50</span>)
-<span class="co">#&gt; [1] "Calculating sample proportion..."</span>
-<span class="co">#&gt; [1] "Calculating bootstrap proportion..."</span>
-<span class="co">#&gt; [1] "Calculating percentile ..." "Calculating BCa ..."       </span>
-<span class="co">#&gt; [3] "Calculating multinom ..."  </span>
-<span class="co">#&gt; [1] "Calculating z0 ..."</span>
-<span class="co">#&gt; [1] "Calculating acc ..."</span></code></pre></div>
-</div>
-<div id="visualisation" class="section level3">
-<h3 class="hasAnchor">
-<a href="#visualisation" class="anchor"></a>Visualisation</h3>
-<p>scDC provides two forms of visualisation, barplot and density plot.<br>
-The second argument is the label of each sample. In this data, there are 4 samples of cond1 and 4 samples of cond2.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="reference/barplotCI.html">barplotCI</a></span>(res_scDC_noClust, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,
-                              <span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>))
-                              </code></pre></div>
-<p><img src="https://github.com/SydneyBioX/scdney/raw/master/img/barplot.png" alt="alt text"></p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="reference/densityCI.html">densityCI</a></span>(res_scDC_noClust, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,
-                              <span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>))
-<span class="co">#&gt; Picking joint bandwidth of 0.0239</span>
-<span class="co">#&gt; Picking joint bandwidth of 0.0239</span>
-                              </code></pre></div>
-<p><img src="https://github.com/SydneyBioX/scdney/raw/master/img/densityplot.png" alt="alt text"></p>
-</div>
-<div id="fitting-glm" class="section level3">
-<h3 class="hasAnchor">
-<a href="#fitting-glm" class="anchor"></a>Fitting GLM</h3>
-<p>Cell count output from each bootstrap can be fitted using GLM, which analyse the significance of variables associated with cell counts. The GLM models are pooled using Rubin’s rules to provide an overall estimates of statistics.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">res_GLM &lt;-<span class="st"> </span><span class="kw"><a href="reference/fitGLM.html">fitGLM</a></span>(res_scDC_noClust, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,
-                                      <span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>), 
-                  <span class="dt">pairwise =</span> <span class="ot">FALSE</span>)
-<span class="co">#&gt; Warning in checkConv(attr(opt, "derivs"), opt$par, ctrl =</span>
-<span class="co">#&gt; control$checkConv, : Model failed to converge with max|grad| = 0.0151388</span>
-<span class="co">#&gt; (tol = 0.001, component 1)</span>
-<span class="co">#&gt; [1] "fitting GLM... 10"</span>
-<span class="co">#&gt; Warning in checkConv(attr(opt, "derivs"), opt$par, ctrl =</span>
-<span class="co">#&gt; control$checkConv, : Model failed to converge with max|grad| = 0.00202052</span>
-<span class="co">#&gt; (tol = 0.001, component 1)</span>
-<span class="co">#&gt; [1] "fitting GLM... 20"</span>
-<span class="co">#&gt; Warning in checkConv(attr(opt, "derivs"), opt$par, ctrl =</span>
-<span class="co">#&gt; control$checkConv, : Model failed to converge with max|grad| = 0.0127663</span>
-<span class="co">#&gt; (tol = 0.001, component 1)</span>
-<span class="co">#&gt; [1] "fitting GLM... 30"</span>
-<span class="co">#&gt; Warning in checkConv(attr(opt, "derivs"), opt$par, ctrl =</span>
-<span class="co">#&gt; control$checkConv, : Model failed to converge with max|grad| = 0.00690679</span>
-<span class="co">#&gt; (tol = 0.001, component 1)</span>
-<span class="co">#&gt; [1] "fitting GLM... 40"</span>
-<span class="co">#&gt; [1] "fitting GLM... 50"</span>
-                              </code></pre></div>
-</div>
-<div id="summary-of-glm-results" class="section level3">
-<h3 class="hasAnchor">
-<a href="#summary-of-glm-results" class="anchor"></a>Summary of GLM results</h3>
-<div id="fixed-effect" class="section level4">
-<h4 class="hasAnchor">
-<a href="#fixed-effect" class="anchor"></a>Fixed effect</h4>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/summary">summary</a></span>(res_GLM<span class="op">$</span>pool_res_fixed)
-<span class="co">#&gt;                           estimate std.error  statistic        df</span>
-<span class="co">#&gt; (Intercept)              3.1766364 0.2021867 15.7114008 0.9065430</span>
-<span class="co">#&gt; cellTypesn4             -0.1421987 0.2929871 -0.4853411 0.5553828</span>
-<span class="co">#&gt; condcond2                0.9811378 0.2385603  4.1127457 0.9450767</span>
-<span class="co">#&gt; subjectCond1_replicate2  0.2363888 0.1994143  1.1854153 1.1998800</span>
-<span class="co">#&gt; subjectCond2_replicate1 -0.1013525 0.1593158 -0.6361736 1.1998800</span>
-<span class="co">#&gt; cellTypesn4:condcond2   -1.0794396 0.3994029 -2.7026332 0.5714735</span>
-<span class="co">#&gt;                            p.value</span>
-<span class="co">#&gt; (Intercept)             0.02454555</span>
-<span class="co">#&gt; cellTypesn4             0.70113140</span>
-<span class="co">#&gt; condcond2               0.11938361</span>
-<span class="co">#&gt; subjectCond1_replicate2 0.41965889</span>
-<span class="co">#&gt; subjectCond2_replicate1 0.62431043</span>
-<span class="co">#&gt; cellTypesn4:condcond2   0.19079656</span></code></pre></div>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/summary">summary</a></span>(res_GLM<span class="op">$</span>pool_res_random)
-<span class="co">#&gt;                         estimate std.error  statistic        df    p.value</span>
-<span class="co">#&gt; (Intercept)            3.3018092 0.1687007 19.5719937 1.2957214 0.01194922</span>
-<span class="co">#&gt; cellTypesn4           -0.1422120 0.2929826 -0.4853939 0.9236613 0.69342565</span>
-<span class="co">#&gt; condcond2              0.8065714 0.1969060  4.0962264 1.3747009 0.09891140</span>
-<span class="co">#&gt; cellTypesn4:condcond2 -1.0794020 0.3993927 -2.7026081 0.9504796 0.16732621</span></code></pre></div>
-</div>
-</div>
-<div id="scdc-with-clustering" class="section level3">
-<h3 class="hasAnchor">
-<a href="#scdc-with-clustering" class="anchor"></a>scDC (with clustering)</h3>
-<p>scDC has two options of performing cell type proportion estimates, without clustering and with clustering. When performed without clustering,the estimation does not take into account for the variability from clustering algorithm, and only takes variability from the population into account. When performed with clustering, the estimation takes both into consideration.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">res_scDC_clust =<span class="st"> </span><span class="kw"><a href="reference/scDC_clustering.html">scDC_clustering</a></span>(expresMat, cellTypes, 
-                                   subject, <span class="dt">calCI =</span> <span class="ot">TRUE</span>, 
-                                   <span class="dt">calCI_method =</span> <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"percentile"</span>, <span class="st">"BCa"</span>, <span class="st">"multinom"</span>))</code></pre></div>
-</div>
-<div id="visualisation-1" class="section level3">
-<h3 class="hasAnchor">
-<a href="#visualisation-1" class="anchor"></a>Visualisation</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="reference/barplotCI.html">barplotCI</a></span>(res_scDC_clust, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,
-                            <span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>))<span class="er">)</span>
-<span class="kw"><a href="reference/densityCI.html">densityCI</a></span>(res_scDC_clust, <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,
-                            <span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>))<span class="er">)</span></code></pre></div>
-</div>
-<div id="fitting-glm-1" class="section level3">
-<h3 class="hasAnchor">
-<a href="#fitting-glm-1" class="anchor"></a>Fitting GLM</h3>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">res_GLM &lt;-<span class="st"> </span><span class="kw"><a href="reference/fitGLM.html">fitGLM</a></span>(res_scDC_noClust,
-                  <span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/c">c</a></span>(<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,<span class="st">"cond1"</span>,
-                    <span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>,<span class="st">"cond2"</span>), <span class="dt">pairwise =</span> <span class="ot">FALSE</span>)</code></pre></div>
-</div>
-<div id="summary-of-glm-results-1" class="section level3">
-<h3 class="hasAnchor">
-<a href="#summary-of-glm-results-1" class="anchor"></a>Summary of GLM results</h3>
-<div id="fixed-effect-1" class="section level4">
-<h4 class="hasAnchor">
-<a href="#fixed-effect-1" class="anchor"></a>Fixed effect</h4>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/summary">summary</a></span>(res_GLM<span class="op">$</span>pool_res_fixed)</code></pre></div>
-</div>
-<div id="random-effect" class="section level4">
-<h4 class="hasAnchor">
-<a href="#random-effect" class="anchor"></a>Random effect</h4>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/summary">summary</a></span>(res_GLM<span class="op">$</span>pool_res_random)</code></pre></div>
-</div>
-</div>
-</div>
-</div>
-
   </div>
 
-  <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
+  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
@@ -487,24 +113,27 @@ The second argument is the label of each sample. In this data, there are 4 sampl
 <div class="developers">
 <h2>Developers</h2>
 <ul class="list-unstyled">
-<li>Taiyun Kim <br><small class="roles"> Maintainer </small>  </li>
+<li>Sydney Precision Bioinformatics Alliance <br><small class="roles"> Maintainer </small>  </li>
 </ul>
 </div>
 
   </div>
 </div>
 
+
       <footer><div class="copyright">
-  <p>Developed by Taiyun Kim.</p>
+  <p>Developed by Sydney Precision Bioinformatics Alliance.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.3.0.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.9000.</p>
 </div>
+
       </footer>
 </div>
 
   
+
 
   </body>
 </html>

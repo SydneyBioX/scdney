@@ -1,0 +1,48 @@
+---
+title: "Publications"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Preprint
+
++ <font size="+1"> **Kim, H.J., Wang, K.Y., Chen, C., Lin, Y.**, Tam, P., Lin, D.M., **Yang, J.Y.H. and Yang, P.** (2021)  Cepo uncovers cell identity through differential stability. *Biorxiv*. [[package](https://PYangLab.github.io/Cepo)][[paper]( https://doi.org/10.1101/2021.01.10.426138)]</font>
+
++ <font size="+1"> **Lin, Y.**, Wu, T., Wan, S., **Yang, J.Y.H.,** Wong, W.H., and **Wang, Y.X.R.** (2021)  scJoint: transfer learning for data integration of single-cell RNA-seq and ATAC-seq. *Biorxiv*. [[package](https://sydneybiox.github.io/scJoint)][[paper]( https://doi.org/10.1101/2020.12.31.424916)]</font>
+
+
+
+### 2020
+
++ <font size="+1"> **Ghazanfar, S., Lin, Y.**, Su, X., Lin, D.M., **Patrick, E.,** Han, Z.G., Marioni, J.C., and **Yang, J.Y.H.** (2020)  Investigating higher-order interactions in single-cell data with scHOT. *Nature Methods*. [[package](https://shazanfar.github.io/scHOT)][[paper](https://doi.org/10.1038/s41592-020-0885-x)]</font>
+
++ <font size="+1"> **Lin, Y., Cao, Y., Kim, H.J.,** Salim, A., Speed, T., Lin, D.M., **Yang, P. and Yang, J.Y.H.** (2020) scClassify: sample size estimation and multiscale classification of cells using single and multiple reference. *Molecular Systems Biology*. [[package](https://sydneybiox.github.io/scClassify)][[shiny](http://shiny.maths.usyd.edu.au/scClassify)][[paper](https://doi.org/10.15252/msb.20199389)] </font>
+
++ <font size="+1"> **Kim, H.J., Lin, Y., Geddes, T.A., Yang, J.Y.H. and Yang, P.** (2020) CiteFuse enables multi-modal analysis of CITE-seq data. *Bioinformatics*. [[package](https://sydneybiox.github.io/CiteFuse)][[shiny](http://shiny.maths.usyd.edu.au/CiteFuse)][[paper](https://doi.org/10.1093/bioinformatics/btaa282)]</font>
+
+### 2019
+
++ <font size="+1"> **Lin, Y., Ghazanfar, S., Wang, K.Y.,** Gagnon-Bartsch, J.A., **Lo, K.K.,** Su, X., Han, Z.G., **Ormerod, J.T., Speed, T.P., Yang, P. and Yang, J.Y.H.** (2019) scMerge leverages factor analysis, stable expression, and pseudoreplication to merge multiple single-cell RNA-seq datasets. *Proceedings of the National Academy of Sciences*. [[package](https://sydneybiox.github.io/scMerge)] [[paper](https://doi.org/10.1073/pnas.1820006116)]</font>
+
++ <font size="+1"> **Geddes, T., Kim, T.,** Nan, L., Burchfield, J., **Yang, J.Y.H.,** Tao, D. and **Yang, P.** (2019) Autoencoder-based cluster ensembles for single-cell RNA-seq data analysis. *BMC Bioinformatics*. [[package](https://github.com/gedcom/scCCESS)] [[paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3179-5)]</font>
+
+
++ <font size="+1"> **Cao, Y., Lin, Y., Ormerod, J., Yang, P., Yang, J.Y.H. & Lo, K.** (2019) scDC: single cell differential composition analysis. *BMC Bioinformatics*. [[package](https://sydneybiox.github.io/scDC)] [[paper](https://doi.org/10.1186/s12859-019-3211-9)]</font>
+
++ <font size="+1"> **Kim, T., Lo, K., Geddes, T., Kim, H.J., Yang, J.Y.H. & Yang, P.** (2019) scReClassify: post hoc cell type classification of single-cell RNA-seq data. *BMC Genomics*. [[package](https://github.com/SydneyBioX/scReClassify)] [[paper](https://doi.org/10.1186/s12864-019-6305-x)]</font>
+
++ <font size="+1"> **Lin, Y., Ghazanfar, S., Strbenac, D., Wang, A., Patrick, E.,**  Lin, D., Speed, T., **Yang, J.Y.H. & Yang, P.** (2019) Evaluating stably expressed genes in single cells. *GigaScience*. [[package](https://github.com/SydneyBioX/scMerge)] [[paper](https://doi.org/10.1093/gigascience/giz106)]</font>
+
+### 2018
+
++ <font size="+1"> **Kim, T., Chen, I., Lin, Y., Wang, A., Yang, J.Y.H. and Yang, P.** (2018) Impact of similarity metrics on single-cell RNA-seq data clustering. *Briefings in Bioinformatics*. [[package](https://taiyunkim.github.io/scClustBench)][[paper](https://doi.org/10.1093/bib/bby076)]</font>
+
+### 2016
+
++ <font size="+1"> **Ghazanfar, S.,** Bisogni, A., **Ormerod, J.T.,**, Lin, D.M., and **Yang, J.Y.H.** (2016) Integrated single cell data analysis reveals cell specific networks and novel coactivation markers. *BMC Systems Biology*. [[paper](https://doi.org/10.1186/s12918-016-0370-4)]</font>
+
+

@@ -8,11 +8,12 @@
 #'
 #' @return A data frame with gene's ordered by their significance.
 #'
-#' @export findMarker
+#' 
 #' @importFrom Hmisc rcorr
 #' @import MAST
-#' @useDynLib scdney projsplx
 #'
+#' @export
+
 findMarker <- function(mat, cluster, cluster_id){
   
   #group 1 is the cluster of interest

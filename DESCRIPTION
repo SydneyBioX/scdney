@@ -1,9 +1,9 @@
 Package: scdney
 Type: Package
 Title: Single cell data integrative analysis
-Version: 0.1.5
-Author: Taiyun Kim, Yingxin Lin, Pengyi Yang, Shila Ghazanfar
-Maintainer: Taiyun Kim <taiyun.kim@sydney.edu.au>
+Version: 0.2.0
+Author: Sydney Precision Bioinformatics Alliance
+Maintainer: Sydney Precision Bioinformatics Alliance <bioinformatics@maths.usyd.edu.au>
 Description: A collection of single cell RNA-sequencing data analysis functions including normalisation, mixture modelling, clustering and cell type correction.
 License: What license is it under?
 Encoding: UTF-8
@@ -12,40 +12,19 @@ Suggests:
     knitr,
     rmarkdown,
     testthat
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 VignetteBuilder: knitr
 LinkingTo: Rcpp
 Imports:
+    rstudioapi,
+    crayon,
+    cli,
     Rcpp,
-    gmodels (>= 2.18.1),
-    randomForest (>= 4.6-14),
-    e1071 (>= 1.7-0),
-    mclust (>= 5.4.2),
-    amap (>= 0.8-16),
-    caret (>= 6.0-81),
-    clusteval (>= 0.1),
-    dendextend (>= 1.9.0),
-    igraph (>= 1.2.2),
-    foreach (>= 1.4.4),
-    doParallel (>= 1.0.14),
-    doSNOW (>= 1.0.16),
-    ggplot2 (>= 3.1.0),
     Hmisc (>= 4.1-1),
-    parallel,
-    DescTools,
-    ggridges,
-    scran,
-    reshape2,
-    lme4,
-    mice,
-    Matrix,
-    methods,
     MAST,
-    cluster,
-    ggraph,
-    hopach,
-    limma,
-    minpack.lm,
-    mixtools,
-    pbmcapply,
-    proxy
+    scMerge,
+    scClassify,
+    CiteFuse
+Remotes: 
+    SydneyBioX/scDC,
+    taiyunkim/scClustBench

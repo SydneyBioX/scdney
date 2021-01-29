@@ -1,0 +1,23 @@
+template:
+  params:
+    bootswatch: cosmo
+toc:
+  depth: 3
+navbar:
+  title: ~
+  left:
+    - text: Packages
+      href: articles/website/package.html
+    - text: Publications
+      href: articles/website/publication.html
+    - text: Tutorial
+      menu:
+        - text: scMerge
+          href: articles/scMerge.html
+  right:
+    - icon: fa-github fa-lg
+      href: https://github.com/SydneyBioX/scdney
+      
+
+
+
