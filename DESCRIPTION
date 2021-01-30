@@ -14,7 +14,6 @@ Suggests:
     testthat
 RoxygenNote: 7.1.1
 VignetteBuilder: knitr
-LinkingTo: Rcpp
 Imports:
     rstudioapi,
     crayon,
@@ -24,7 +23,10 @@ Imports:
     MAST,
     scMerge,
     scClassify,
-    CiteFuse
+    CiteFuse,
+    scDC,
+    scClust,
+    class
 Remotes: 
     SydneyBioX/scDC,
     taiyunkim/scClustBench

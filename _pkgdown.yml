@@ -6,11 +6,14 @@ toc:
 navbar:
   title: ~
   left:
-    - text: Packages
+    - icon: fa-laptop-code fa-lg
+      text: Packages
       href: articles/website/package.html
-    - text: Publications
+    - icon: fa-book fa-lg
+      text: Publications
       href: articles/website/publication.html
-    - text: Tutorial
+    - icon: fa-server fa-lg
+      text: Tutorial
       menu:
         - text: scMerge
           href: articles/scMerge.html

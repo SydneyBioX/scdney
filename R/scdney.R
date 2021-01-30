@@ -79,7 +79,7 @@ msg <- function(..., startup = FALSE) {
   if (startup) {
     packageStartupMessage(text_col(...))
   } else {
-    message(text_col(x))
+    message(text_col(...))
   }
 }
 

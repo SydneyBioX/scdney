@@ -1,2 +1,10 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^README\.Rmd$
+.travis.yml
+^vignettes/website/
+_pkgdown.yml
+^docs$
+^doc$
+^_pkgdown\.yml$
+img
