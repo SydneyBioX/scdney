@@ -25,6 +25,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 + <font size="+1"> **Kim, H.J., Lin, Y., Geddes, T.A., Yang, J.Y.H. and Yang, P.** (2020) CiteFuse enables multi-modal analysis of CITE-seq data. *Bioinformatics*. [[package](https://sydneybiox.github.io/CiteFuse)][[shiny](http://shiny.maths.usyd.edu.au/CiteFuse)][[paper](https://doi.org/10.1093/bioinformatics/btaa282)]</font>
 
++ <font size="+1"> Patrick, R., Humphreys, D.T., Janbandhu, V., Oshlack, A., Ho, J.W.K., Harvey, R.P., **Lo, K.K.** (2020) Sierra: discovery of differential transcript usage from polyA-captured single-cell RNA-seq data. *Genome Biology*. [[package](https://github.com/VCCRI/Sierra)][[paper](https://doi.org/10.1186/s13059-020-02071-7)]</font>
+    
+
 ### 2019
 
 + <font size="+1"> **Lin, Y., Ghazanfar, S., Wang, K.Y.,** Gagnon-Bartsch, J.A., **Lo, K.K.,** Su, X., Han, Z.G., **Ormerod, J.T., Speed, T.P., Yang, P. and Yang, J.Y.H.** (2019) scMerge leverages factor analysis, stable expression, and pseudoreplication to merge multiple single-cell RNA-seq datasets. *Proceedings of the National Academy of Sciences*. [[package](https://sydneybiox.github.io/scMerge)] [[paper](https://doi.org/10.1073/pnas.1820006116)]</font>
