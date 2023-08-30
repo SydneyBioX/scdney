@@ -1,0 +1,36 @@
+Package: scdney
+Type: Package
+Title: Single cell data integrative analysis
+Version: 0.2.4
+Author: Sydney Precision Bioinformatics Alliance
+Maintainer: Sydney Precision Bioinformatics Alliance <bioinformatics@maths.usyd.edu.au>
+Description: A collection of single cell RNA-sequencing data analysis functions including data integration, clustering, cell type annotation and cell identity characterisation.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr
+Imports:
+    rstudioapi,
+    cli,
+    Rcpp,
+    crayon,
+    class,
+    Hmisc,
+    MAST,
+    Cepo,
+    CiteFuse,
+    scDC,
+    scClassify,
+    scMerge,
+    scHOT,
+    scFeatures,
+    scClust
+Remotes: 
+    taiyunkim/scClustBench,
+    SydneyBioX/scDC,
+    SydneyBioX/scFeatures
