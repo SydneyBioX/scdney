@@ -422,7 +422,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/github\.com\/SydneyBioX\/scdney_devel");
+      var filterRegex = new RegExp("*scdney-devel*");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
