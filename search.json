@@ -94,8 +94,8 @@
     "objectID": "index.html#scdney",
     "href": "index.html#scdney",
     "title": "SCDNEY",
-    "section": "scdney",
-    "text": "scdney\n\n\n\n\n\n    \n\nDeeper explanations of the functionality of our software can be found in the Software tab\n\nDownload them\nThe whole suite of scdney packages can be downloaded using BiocManager\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\n\nBiocManager::install( c(\"scMerge\",\n                        \"spicyR\",\n                        \"scHOT\"))"
+    "section": "SCDNEY",
+    "text": "SCDNEY\n\n\n\n\n\n    \n\nDeeper explanations of the functionality of our software can be found in the Software tab\n\nDownload them\nThe whole suite of scdney packages can be downloaded using BiocManager\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\n\nBiocManager::install( c(\"scMerge\",\n                        \"spicyR\",\n                        \"scHOT\"))"
   },
   {
     "objectID": "about.html",
