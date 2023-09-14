@@ -1,0 +1,34 @@
+project:
+  type: website
+
+website:
+  title: "SCDNEY"
+  navbar: 
+    logo: images/USydLogo.svg
+#    logo-href: "https://www.sydney.edu.au/science/our-research/research-centres/sydney-precision-data-science-centre.html"
+    background: "white"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About us
+      - href: software.qmd
+        text: Software
+      - href: Publications.qmd
+        text: Publications
+      - text: "Broad categories"
+        menu:
+          - text: scRNAseq
+          - text: Spatial
+            href: https://sydneybiox.github.io/Spatial/
+          - text: Multimodal
+    
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    css: styles.css
+    toc: true
+
+
+

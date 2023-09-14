@@ -1,0 +1,124 @@
+---
+title: "Publications"
+---
+
+## **Methodology and tools**
+
+### Preprint
+
++ <font size="+1"> **Lin, Y.,** Wu, T. Y., Chen, X., Wan, S., Chao, B., Xin, J., **Yang, J.Y.H & Wang,** Wong W.H., Wang R.Y.X. (2022). scTIE: data integration and inference of gene regulation using single-cell temporal multimodal data. *BioRxiv*. [[paper](https://www.biorxiv.org/content/10.1101/2023.05.18.541381v1)]</font>
+
+
++ <font size="+1"> **Yin, D.**, **Cao, Y.**, **Chen, J.**, Mak, C. L., Yu, K. H., Lin, Y., **Ho, J.W.K.** & **Yang, J.Y.H.** (2022). Covidscope: An atlas-scale COVID-19 resource for single-cell meta analysis at sample and cell levels. *BioRxiv*. [[paper](https://doi.org/10.1101/2022.12.03.518997)]</font>
+
+### 2023
+
++ <font size="+1"> **Couto, B. Z. P.,** **Robertson, N.,** **Patrick, E.,** & **Ghazanfar, S.** (2023). MoleculeExperiment enables consistent infrastructure for molecule-resolved spatial transcriptomics data in Bioconductor. *Accepted by Bioinformatics* [[paper](https://www.biorxiv.org/content/10.1101/2023.05.16.541040v1)]</font>
+
+
+
++ <font size="+1"> **Yu, L.,** **Liu, C.,** **Yang, J.Y.H.,** & **Yang, P.** (2023). Ensemble deep learning of embeddings for clustering multimodal single-cell omics data. *Bioinformatics*. [[paper](https://academic.oup.com/bioinformatics/article/39/6/btad382/7197799)]</font>
+
+
+
++ <font size="+1"> **Lin, Y.**, Cao, Y., Willie, E., Patrick, E., & Yang, J. Y. H. (2023). Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2. *Nature Communications*. [[paper](https://www.nature.com/articles/s41467-023-39923-2)]</font>
+
+
++ <font size="+1"> **Ghazanfar, S.,** Guibentif, C., & Marioni, J. C. (2023). Stabilized mosaic single-cell data integration using unshared features. Nature Biotechnology, 1-9. [[paper](https://www.nature.com/articles/s41587-023-01766-z)]</font>
+
+
++ <font size="+1"> **Liu, C.,** **Huang, H.,** & **Yang, P.** (2023). Multi-task learning from multimodal single-cell omics with Matilda. *Nucleic Acids Research*, 51(8), e45-e45.  [[paper](https://academic.oup.com/nar/article/51/8/e45/7076464)]</font>
+
+
++ <font size="+1"> **Patrick, E., Canete, N. P., Baharlou, H., Iyengar, S. S.,** Harman, A. N., Sutherland, G. T., and **Yang P.** (2021). Spatial analysis for highly multiplexed imaging data to identify tissue microenvironments. *Cytometry A*. [[package](http://bioconductor.org/packages/release/bioc/html/lisaClust.html)][[shiny](http://shiny.maths.usyd.edu.au/lisaClust)][[paper](https://doi.org/10.1101/2021.08.16.456469)]</font>
+
++ <font size="+1"> **Cao, Y.**, Ghazanfar, S., Yang, P., & **Yang, J.Y.H.** (2023). Benchmarking of analytical combinations for COVID-19 outcome prediction using single-cell RNA sequencing data. *Briefings in Bioinformatics*. [[paper](https://doi.org/10.1093/bib/bbad159)]</font>
+
++ <font size="+1"> **Cao, Y.**, **Tran, A.**, **Kim, H.**, Robertson, N., Lin, Y., Torkel, M., Yang, P., Patrick, E., **Ghazanfar, S.**, & **Yang, J.Y.H.** (2023). Thinking process templates for constructing data stories with SCDNEY. *F1000 Research*. [[paper](https://doi.org/10.12688/f1000research.130623.1)]</font>
+
++ <font size="+1"> **Yu, L.**, Cao, Y., Yang, J.Y.H., & **Yang, P**. (2022). Benchmarking clustering algorithms on estimating the number of cell types from single-cell RNA-sequencing data. *Genome Biology*. [[paper](https://doi.org/10.1186/s13059-022-02622-0)]</font>
+
+### 2022
+
++ <font size="+1"> **Canete, N. P., Iyengar, S. S.**, Wilmott. J. S., **Ormerod, J. T.**, Harman, A. N., and **Patrick, E.**(2021) spicyR: Spatial analysis of in situ cytometry data in R. *Bioinformatics*. [[package](http://bioconductor.org/packages/release/bioc/html/spicyR.html)][[shiny](http://shiny.maths.usyd.edu.au/spicyR/)][[paper](https://doi.org/10.1093/bioinformatics/btac268)]</font>
+
++ <font size="+1"> **Cao, Y., Lin, Y., Patrick, E., Yang, P., and Yang, J.Y.H.** (2022)  scFeatures: Multi-view representations of single-cell and spatial data for disease outcome prediction. *Bioinformatics*. [[paper](https://doi.org/10.1093/bioinformatics/btac590)]</font>
+
++ <font size="+1"> **Lin, Y.**, Wu, T.Y., Wan, S., **Yang, J.Y.H.,** Wong, W.H., and **Wang, Y.X.R.** (2022)  scJoint: transfer learning for data integration of single-cell RNA-seq and ATAC-seq. *Nature Biotechnology*. [[package](https://github.com/SydneyBioX/scJoint)][[paper]( https://doi.org/10.1038/s41587-021-01161-6)]</font>
+
++ <font size="+1"> **Tran, A., Yang P., Yang, J.Y.H., and Ormerod, J. T.** (2022)  scREMOTE: Using multimodal single cell data to predict regulatory gene relationships and to build a computational cell reprogramming model. *NAR Genomics and Bioinformaitics*. [[package](https://github.com/SydneyBioX/scREMOTE)][[paper]( https://doi.org/10.1093/nargab/lqac023)]</font>
+
+
+### 2021
+
++ <font size="+1"> **Kim, H.J., Wang, K.Y., Chen, C., Lin, Y.**, Tam, P., Lin, D.M., **Yang, J.Y.H. and Yang, P.** (2021)  Uncovering cell identity through differential stability with Cepo. *Nature Computational Science*. [[package](https://PYangLab.github.io/Cepo)][[paper]( https://doi.org/10.1038/s43588-021-00172-2)]</font>
+
++ <font size="+1"> **Cao, Y., Yang, P., and Yang, J.Y.H.** (2021)  A benchmark study of simulation methods for single-cell RNA sequencing data. *Nature Communications*. [[package](https://github.com/SydneyBioX/SimBench)][[paper](https://doi.org/10.1038/s41467-021-27130-w)]</font>
+
++ <font size="+1"> **Chan, A.**, Jiang W., Blyth E., **Yang, J.Y.H., and Patrick, E.** (2021) treekoR: identifying cellular-to-phenotype associations by elucidating hierarchical relationships in high-dimensional cytometry data. *Genome Biology*. [[package](http://bioconductor.org/packages/release/bioc/html/treekoR.html)][[paper](https://doi.org/10.1186/s13059-021-02526-5)]</font>
+
++ <font size="+1"> **Yang, P.**, Huang, H., and Liu, C. (2021) Feature selection revisited in the single-cell era. *Genome Biology*. [[paper](https://doi.org/10.1186/s13059-021-02544-3)]</font>
+
++ <font size="+1"> **Baharlou, H., Canete, N. P.**, Bertram, K. M., Sandgren, K. J., Cunningham, A. L., Harman, A. N., and **Patrick, E.** (2021). AFid: a tool for automated identification and exclusion of autofluorescent objects from microscopy images. *Bioinformatics*, 37(4):559–567. [[paper](https://doi.org/10.1093/bioinformatics/btaa780)]</font>
+
+
+
+### 2020
+
++ <font size="+1"> **Ghazanfar, S., Lin, Y.**, Su, X., Lin, D.M., **Patrick, E.,** Han, Z.G., Marioni, J.C., and **Yang, J.Y.H.** (2020)  Investigating higher-order interactions in single-cell data with scHOT. *Nature Methods*. [[package](https://shazanfar.github.io/scHOT)][[paper](https://doi.org/10.1038/s41592-020-0885-x)]</font>
+
++ <font size="+1"> **Lin, Y., Cao, Y., Kim, H.J.,** Salim, A., Speed, T., Lin, D.M., **Yang, P. and Yang, J.Y.H.** (2020) scClassify: sample size estimation and multiscale classification of cells using single and multiple reference. *Molecular Systems Biology*. [[package](https://sydneybiox.github.io/scClassify)][[shiny](http://shiny.maths.usyd.edu.au/scClassify)][[paper](https://doi.org/10.15252/msb.20199389)] </font>
+
++ <font size="+1"> **Kim, H.J., Lin, Y., Geddes, T.A., Yang, J.Y.H. and Yang, P.** (2020) CiteFuse enables multi-modal analysis of CITE-seq data. *Bioinformatics*. [[package](https://sydneybiox.github.io/CiteFuse)][[shiny](http://shiny.maths.usyd.edu.au/CiteFuse)][[paper](https://doi.org/10.1093/bioinformatics/btaa282)]</font>
+
++ <font size="+1"> Patrick, R., Humphreys, D.T., Janbandhu, V., Oshlack, A., Ho, J.W.K., Harvey, R.P., **Lo, K.K.** (2020) Sierra: discovery of differential transcript usage from polyA-captured single-cell RNA-seq data. *Genome Biology*. [[package](https://github.com/VCCRI/Sierra)][[paper](https://doi.org/10.1186/s13059-020-02071-7)]</font>
+    
++ <font size="+1"> **Patrick, E.**, Taga, M., Ergun, A., Ng, B., Casazza, W., Cimpean, M., Yung, C., Schneider, J. A., Bennett, D. A., Gaiteri, C., Jager, P. L. D., Bradshaw, E. M., and Mostafavi, S. (2020). Deconvolving the contributions of cell-type heterogeneity on cortical gene expression. *PLOS Computational Biology*, 16(8):e1008120.[[paper](https://doi.org/10.1371/journal.pcbi.1008120)]</font>
+
+
+### 2019
+
++ <font size="+1"> **Lin, Y., Ghazanfar, S., Wang, K.Y.,** Gagnon-Bartsch, J.A., **Lo, K.K.,** Su, X., Han, Z.G., **Ormerod, J.T., Speed, T.P., Yang, P. and Yang, J.Y.H.** (2019) scMerge leverages factor analysis, stable expression, and pseudoreplication to merge multiple single-cell RNA-seq datasets. *Proceedings of the National Academy of Sciences*. [[package](https://sydneybiox.github.io/scMerge)] [[paper](https://doi.org/10.1073/pnas.1820006116)]</font>
+
++ <font size="+1"> **Geddes, T., Kim, T.,** Nan, L., Burchfield, J., **Yang, J.Y.H.,** Tao, D. and **Yang, P.** (2019) Autoencoder-based cluster ensembles for single-cell RNA-seq data analysis. *BMC Bioinformatics*. [[package](https://github.com/gedcom/scCCESS)] [[paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-3179-5)]</font>
+
+
++ <font size="+1"> **Cao, Y., Lin, Y., Ormerod, J., Yang, P., Yang, J.Y.H. & Lo, K.** (2019) scDC: single cell differential composition analysis. *BMC Bioinformatics*. [[package](https://sydneybiox.github.io/scDC)] [[paper](https://doi.org/10.1186/s12859-019-3211-9)]</font>
+
++ <font size="+1"> **Kim, T., Lo, K., Geddes, T., Kim, H.J., Yang, J.Y.H. & Yang, P.** (2019) scReClassify: post hoc cell type classification of single-cell RNA-seq data. *BMC Genomics*. [[package](https://github.com/SydneyBioX/scReClassify)] [[paper](https://doi.org/10.1186/s12864-019-6305-x)]</font>
+
++ <font size="+1"> **Lin, Y., Ghazanfar, S., Strbenac, D., Wang, A., Patrick, E.,**  Lin, D., Speed, T., **Yang, J.Y.H. & Yang, P.** (2019) Evaluating stably expressed genes in single cells. *GigaScience*. [[package](https://github.com/SydneyBioX/scMerge)] [[paper](https://doi.org/10.1093/gigascience/giz106)]</font>
+
+
++ <font size="+1"> **Baharlou, H., Canete, N. P.,** Cunningham, A. L., Harman, A. N., and **Patrick, E.** (2019). Mass Cytometry Imaging for the Study of Human Diseases—Applications and Data Analysis Strategies. *Frontiers in Immunology*, 10.[[paper](https://doi.org/10.3389/fimmu.2019.02657)]</font>
+
+### 2018
+
++ <font size="+1"> **Kim, T., Chen, I., Lin, Y., Wang, A., Yang, J.Y.H. and Yang, P.** (2018) Impact of similarity metrics on single-cell RNA-seq data clustering. *Briefings in Bioinformatics*. [[package](https://taiyunkim.github.io/scClustBench)][[paper](https://doi.org/10.1093/bib/bby076)]</font>
+
+### 2016
+
++ <font size="+1"> **Ghazanfar, S.,** Bisogni, A., **Ormerod, J.T.,**, Lin, D.M., and **Yang, J.Y.H.** (2016) Integrated single cell data analysis reveals cell specific networks and novel coactivation markers. *BMC Systems Biology*. [[paper](https://doi.org/10.1186/s12918-016-0370-4)]</font>
+
+## **Applications**
+
+
++ <font size="+1"> **Kim, H.J.,**  O’Hara-Wright, M., **Kim, D.,** Loi, T. H., Lim, B. Y., Jamieson, R. V., ... & **Yang, P.** (2023). Comprehensive characterization of fetal and mature retinal cell identity to assess the fidelity of retinal organoids. Stem Cell Reports, 18(1), 175-189. [[paper](https://www.sciencedirect.com/science/article/pii/S2213671122005914)]</font>
+
+
++ <font size="+1"> **Lin, Y.,** Loo, L., **Tran, A.,** Lin, D. M., Moreno, C., Hesselson, D., Neely G.G., & **Yang, J.Y.** (2022). Scalable workflow for characterization of cell-cell communication in COVID-19 patients. *PLOS Computational Biology*, 18(10), e1010495. [[paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010495)]</font>
+
+
++ <font size="+1"> Su, X., Zhao, L.N., Shi, Y., Zhang, R., Long, Q., Bai, S., Luo, Q.,  **Lin Y.,**, Zou, X., **Ghazanfar, S.,**, Tao, Kun., Yang, G., Wang, L., He, K.Y., Cui, X., He, J., Wu, J.X., Han, B., Wang, N., Li, X., **Yang, P.**, Hou, S., Sun, J.,  **Yang, J.Y.H.,** Chen, J. and Han, Z.G. (2021) Single-cell and single-variant resolution analysis of clonal evolution in human liver cancer. *Journal of Hematology & Oncology*. [[paper](https://doi.org/10.1101/2020.12.30.424907)]</font>
+
++ <font size="+1"> Singh, R., Cottle, L., Loudovaris, T., **Xiao, D., Yang. P.,** Thomas, H., Kebede, A. M., and Thorn, P. (2020) Enhanced structure and function of human pluripotent stem cell-derived beta-cells cultured on extracellular matrix. *Stem cells translational medicine*. [[paper](https://doi.org/10.1002/sctm.20-0224)]</font>
+
++ <font size="+1"> Su, X., Long, Q., Bo, J., Shi, Y., Zhao, L.N.,  **Lin Y.,** Luo, Q., **Ghazanfar, S.**, Zhang, C., Liu, Q., Wang, L., He, K., He, J., Cui, X.,  **Yang, J.Y.H.**, Han, Z.G., Yang, G., and Sha, J.J. (2020) Mutational and transcriptomic landscapes of a rare human prostate basal cell carcinoma. *The Prostate*. [[paper](https://doi.org/10.1002/pros.23965)]</font>
+
++ <font size="+1"> McGuire, H. M., Rizzetto, S., Withers, B. P., Clancy, L. E., Avdic, S., Stern, L., **Patrick, E.**, Groth, B. F. d. S., Slobedman, B., Gottlieb, D. J., Luciani, F., and Blyth, E. (2020). Mass cytometry reveals immune signatures associated with cytomegalovirus (CMV) control in recipients of allogeneic haemopoietic stem cell transplant and CMV-specific T cells. *Clinical & Translational Immunology*, 9(7):e1149.</font>
+
++ <font size="+1"> Jimenez Vera, E., Chew, Y. V., Nicholson, L., Burns, H., Anderson, P., Chen, H.-T., Williams, L., Keung, K., Zanjani, N. T., Dervish, S., **Patrick, E.**, Wang, X. M., Yi, S., Hawthorne, W., Alexander, S., O’Connell, P. J., and Hu, M. (2019). Standardisation of flow cytometry for whole blood immunopheno-typing of islet transplant and transplant clinical trial recipients. *PLoS ONE*, 14(5).</font>
+
++ <font size="+1"> He J., **Lin Y.,**, Su, X., Luo, Q., **Ghazanfar, S., Yang, J.Y.H.** and Han,Z.G. (2019) Single-Cell RNA-Seq Reveals Naïve B cells Associated with Better Prognosis of HCC. *Biorxiv*. [[paper](https://doi.org/10.1101/731935)]</font>
+
++ <font size="+1"> Su, X., Shi, Y., Zou, X., Lu, Z.N., Xie, G., **Yang, J.Y.H.,** Wu, C.C., Cui., X.F., He, K.Y., Luo, Q., Qu, Y.L., Wang, N., Wang, L., Han, Z.G. (2017) Single-cell RNA-Seq analysis reveals dynamic trajectories during mouse liver development *BMC Genomics*. [[paper](https://doi.org/10.1186/s12864-017-4342-x)]</font>

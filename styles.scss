@@ -1,0 +1,9 @@
+/*-- scss:defaults --*/
+// Base document colors
+.navbar {
+  border-bottom: 3px solid rgba(230,71,39,.95);
+}
+
+.navbar-brand > img {
+  max-height: 36px;
+}

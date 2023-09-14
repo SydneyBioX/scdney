@@ -1,0 +1,340 @@
+---
+title: "Software"
+bibliography: references.bib
+---
+
+```{=html}
+
+<link rel="stylesheet" href="css/hexagons.css">
+
+<div id="importedContent"></div>
+    <script>
+        fetch('https://raw.githubusercontent.com/SydneyBioX/packageHeader/main/scdneyHeader.html')
+            .then(response => response.text())
+            .then(htmlContent => {
+                const importedContentDiv = document.getElementById('importedContent');
+                importedContentDiv.innerHTML = htmlContent;
+            })
+            .catch(error => {
+                console.error('Error fetching content:', error);
+            });
+    </script>
+```
+
+
+```{r echo=FALSE}
+myCitation <- function (package = "base", lib.loc = NULL, auto = NULL) 
+{
+
+  if (!is.null(auto) && !is.logical(auto) && !anyNA(match(c("Package", 
+                                                            "Version", "Title"), names(meta <- as.list(auto)))) && 
+      !all(is.na(match(c("Authors@R", "Author"), names(meta))))) {
+    auto_was_meta <- TRUE
+    package <- meta$Package
+  }
+  else {
+    auto_was_meta <- FALSE
+    dir <- system.file(package = package, lib.loc = lib.loc)
+    if (dir == "") 
+      stop(packageNotFoundError(package, lib.loc, sys.call()))
+    meta <- packageDescription(pkg = package, lib.loc = dirname(dir))
+    citfile <- file.path(dir, "CITATION")
+    test <- file_test("-f", citfile)
+    if (!test) {
+      citfile <- file.path(dir, "inst", "CITATION")
+      test <- file_test("-f", citfile)
+    }
+    if (is.null(auto)) 
+      auto <- !test
+    if (!auto) {
+      return(myReadCitationFile(citfile, meta))
+    }
+  }
+  if ((!is.null(meta$Priority)) && (meta$Priority == "base")) {
+    cit <- myCitation("base", auto = FALSE)
+    attr(cit, "mheader")[1L] <- paste0("The ", sQuote(package), 
+                                       " package is part of R.  ", attr(cit, "mheader")[1L])
+    return(utils:::.citation(cit, package))
+  }
+  year <- sub("-.*", "", meta[["Date/Publication"]])
+  if (!length(year) && !is.null(date <- meta[["Date"]])) {
+    date <- trimws(as.vector(date))[1L]
+    date <- strptime(date, "%Y-%m-%d", tz = "GMT")
+    if (!is.na(date)) 
+      year <- format(date, "%Y")
+  }
+  if (!length(year)) {
+    date <- as.POSIXlt(sub(";.*", "", trimws(meta$Packaged)[1L]))
+    if (!is.na(date)) 
+      year <- format(date, "%Y")
+  }
+  if (!length(year)) {
+    warning(gettextf("could not determine year for %s from package DESCRIPTION file", 
+                     sQuote(package)), domain = NA)
+    year <- NA_character_
+  }
+  author <- meta$`Authors@R`
+  if (length(author)) {
+    aar <- utils:::.read_authors_at_R_field(author)
+    author <- Filter(function(e) {
+      !(is.null(e$given) && is.null(e$family)) && !is.na(match("aut", 
+                                                               e$role))
+    }, aar)
+    if (!length(author)) 
+      author <- Filter(function(e) {
+        !(is.null(e$given) && is.null(e$family)) && !is.na(match("cre", 
+                                                                 e$role))
+      }, aar)
+  }
+  if (length(author)) {
+    has_authors_at_R_field <- TRUE
+  }
+  else {
+    has_authors_at_R_field <- FALSE
+    author <- as.person(meta$Author)
+  }
+  z <- list(title = paste0(package, ": ", meta$Title), author = author, 
+            year = year, note = paste("R package version", meta$Version))
+  if (identical(meta$Repository, "CRAN")) 
+    z$url <- sprintf("https://CRAN.R-project.org/package=%s", 
+                     package)
+  if (identical(meta$Repository, "R-Forge")) {
+    z$url <- if (!is.null(rfp <- meta$"Repository/R-Forge/Project")) 
+      sprintf("https://R-Forge.R-project.org/projects/%s/", 
+              rfp)
+    else "https://R-Forge.R-project.org/"
+    if (!is.null(rfr <- meta$"Repository/R-Forge/Revision")) 
+      z$note <- paste(z$note, rfr, sep = "/r")
+  }
+  if ((is.null(meta$Repository) || identical(meta$Repository, 
+                                             "Bioconductor")) && !is.null(meta$git_url) && startsWith(meta$git_url, 
+                                                                                                      "https://git.bioconductor.org/packages")) {
+    z$url <- sprintf("https://bioconductor.org/packages/%s", 
+                     package)
+    z$doi <- sprintf("10.18129/B9.bioc.%s", package)
+  }
+  
+  meta$URL <- NULL
+  if (!length(z$url) && !is.null(url <- meta$URL)) {
+    if (grepl("[, ]", url)) 
+      z$note <- url
+    else z$url <- url
+  }
+  
+  header <- if (!auto_was_meta) {
+    gettextf("To cite package %s in publications use:", sQuote(package))
+  }
+  else NULL
+  footer <- if (!has_authors_at_R_field && !auto_was_meta) {
+    gettextf("ATTENTION: This myCitation information has been auto-generated from the package DESCRIPTION file and may need manual editing, see %s.", 
+             sQuote("help(\"myCitation\")"))
+  }
+  else NULL
+  author <- format(z$author, include = c("given", "family"))
+  if (length(author) > 1L) 
+    author <- paste(paste(head(author, -1L), collapse = ", "), 
+                    tail(author, 1L), sep = " and ")
+  z$url <- NULL
+  
+  rval <- bibentry(bibtype = "Manual", header = header, footer = footer, 
+                   other = z)
+  utils:::.citation(rval, package)
+}
+
+
+myReadCitationFile <- function (file, meta = NULL) 
+{
+  meta <- as.list(meta)
+  exprs <- tools:::.parse_CITATION_file(file, meta$Encoding)
+  if(length(exprs)>0)exprs[[length(exprs)]]$url <- NULL
+  if(length(exprs)>0)exprs[[length(exprs)]]$eprint <- NULL
+  #exprs[[2]] <- as.call(exprs[[2]])
+   rval <- list()
+  mheader <- NULL
+  mfooter <- NULL
+  envir <- new.env(hash = TRUE)
+  assign("meta", meta, envir = envir)
+  for (expr in exprs) {
+    x <- eval(expr, envir = envir)
+    if (inherits(x, "bibentry")) 
+      rval <- c(rval, list(x))
+  }
+  rlen <- length(rval)
+  if (rlen == 1L) 
+    rval <- rval[[1L]]
+  else if (rlen > 1L) 
+    rval <- do.call(c, rval)
+  utils:::.citation(rval, meta$Package)
+}
+
+
+```
+
+```{=html}
+<style>
+citation {
+  font-size: 9pt;
+}
+</style>
+```
+
+## MoleculeExperiment
+
+<a href="https://sydneybiox.github.io/MoleculeExperiment/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/MoleculeExperiment/MoleculeExperiment.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("MoleculeExperiment", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("MoleculeExperiment"), style = "html")
+```
+</font> 
+
+## simpleSeg
+
+<a href="http://www.bioconductor.org/packages/release/bioc/html/simpleSeg.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/simpleSeg/SimpleSeg_Hex_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("simpleSeg", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("simpleSeg"), style = "html")
+```
+</font>
+
+## scMerge
+
+<a href="https://sydneybiox.github.io/scMerge/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scMerge/scMerge.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("scMerge", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("scMerge"), style = "html")
+```
+</font> 
+
+## FuseSOM
+
+<a href="http://www.bioconductor.org/packages/release/bioc/html/FuseSOM.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/FuseSOM/fuseSOM_ai_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("FuseSOM", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("FuseSOM"), style = "html")
+```
+</font> 
+
+## treekoR
+
+<a href="http://www.bioconductor.org/packages/release/bioc/html/treekoR.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/treekoR/treekoR.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("treekoR", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("treekoR"), style = "html", url = "")
+```
+</font> 
+
+## scFeatures
+
+<a href="http://www.bioconductor.org/packages/release/bioc/html/scFeatures.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scFeatures/sticker_version2.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("scFeatures", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("scFeatures"), style = "html")
+```
+</font> 
+
+## scHOT
+
+<a href="https://bioconductor.org/packages/release/bioc/html/scHOT.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scHOT/scHOT_hex.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("scHOT", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("scHOT"), style = "html")
+```
+</font> 
+
+## spicyR
+
+<a href="https://ellispatrick.github.io/spicyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/spicyR/spicyR_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("spicyR", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("spicyR"), style = "html")
+```
+</font> 
+
+## Statial
+
+<a href="https://sydneybiox.github.io/Statial/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/Statial/statial.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("Statial", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("Statial"), style = "html")
+```
+</font> 
+
+## lisaClust
+
+<a href="https://ellispatrick.github.io/lisaClust/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/lisaClust/lisaClust_sticker_ai_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("lisaClust", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("lisaClust"), style = "html")
+```
+</font> 
+
+## ClassifyR
+
+<a href="https://sydneybiox.github.io/ClassifyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/ClassifyR/classifyR.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("ClassifyR", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("ClassifyR"), style = "html")
+```
+</font> 

@@ -1,0 +1,46 @@
+---
+toc-depth: 1
+---
+
+## Welcome! 
+
+Globally, scientists now have the ability to generate a vast amount of high throughput biomedical data that carry critical information for important clinical and public health applications. This data revolution in biology is now creating a plethora of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery.
+
+
+
+## scdney
+
+```{=html}
+
+
+<link rel="stylesheet" href="css/hexagons.css">
+
+<div id="importedContent"></div>
+    <script>
+        fetch('https://raw.githubusercontent.com/SydneyBioX/packageHeader/main/scdneyHeader.html')
+            .then(response => response.text())
+            .then(htmlContent => {
+                const importedContentDiv = document.getElementById('importedContent');
+                importedContentDiv.innerHTML = htmlContent;
+            })
+            .catch(error => {
+                console.error('Error fetching content:', error);
+            });
+    </script>
+
+```
+
+Deeper explanations of the functionality of our software can be found in the [Software tab](software.qmd)  
+
+### Download them
+The whole suite of scdney packages can be downloaded using BiocManager
+
+```{r eval=FALSE}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install( c("scMerge",
+                        "spicyR",
+                        "scHOT"))
+```
+

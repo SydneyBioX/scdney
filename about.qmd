@@ -1,0 +1,35 @@
+---
+title: "About us"
+---
+
+
+<img src="images/SPDS.jpg" alt="SPDS" style="width: 100%; border: 0px"/>
+
+There are many members of the Sydney Precision Data Science Centre at the University of Sydney who are working on single cells  omics data. As a multidisciplinary team of researchers, we are focused on developing methods to help solve complex global problems, from designing predictive biomarkers of disease progression to ensuring the sustainability and quality of food production.
+
+## Key involvement
+
+### Research Leaders
+
+<img src="https://github.com/shazanfar.png" alt="Shila" style="width: 100px; border: 0px; border-radius: 50%"/> [Dr Shila Ghazanfar](https://shazanfar.github.io/)  
+<img src="https://github.com/ellispatrick.png" alt="Ellis" style="width: 100px; border: 0px; border-radius: 50%"/> [Dr Ellis Patrick](https://ellispatrick.github.io/)  
+<img src="https://www.sydney.edu.au/AcademicProfiles/profile/resource?urlid=pengyi.yang" alt="Pengyi" style="width: 100px; border: 0px; border-radius: 50%"/> [A/Prof Pengyi Yang](https://pyanglab.github.io/)  
+<img src="https://github.com/jeany21.png" alt="Jean" style="width: 100px; border: 0px; border-radius: 50%"/> [Prof Jean Yang](https://www.sydney.edu.au/science/about/our-people/academic-staff/jean-yang.html)  
+
+### Contributors
+
+<img src="https://github.com/fame2827.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Farhan Ameen](https://fame2827.github.io/)    
+<img src="https://github.com/alexrunqin.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Alex Qin](https://alexrunqin.github.io/)  
+<img src="https://github.com/nick-robo.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Nick Robertson](https://nick-robo.github.io/)  
+
+## Our priorities
+We work on the principle that successful and sustainable collaboration grows organically within the right environment. To this end, our priorities for success are to:
+
+- embrace data science challenges by developing innovative, fit-for-purpose applied methods in synergistic partnerships with key data-generating centres at Sydney and beyond
+
+- address data challenges with high societal impact and to build sustainable approaches
+
+- provide an incubator for interdisciplinary careers
+
+- establish a collaborative community that reflects and values diversity.
+
