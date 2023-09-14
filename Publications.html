@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-analysis-categories">    
         <li class="dropdown-header">scRNAseq</li>
         <li>
-    <a class="dropdown-item" href="https://sydneybiox.github.io/Spatial/" rel="" target="">
+    <a class="dropdown-item" href="https://sydneybiox.github.io/Spatial/" rel="" target="_blank">
  <span class="dropdown-text">Spatial</span></a>
   </li>  
         <li class="dropdown-header">Multimodal</li>
@@ -489,6 +489,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/github\.com\/SydneyBioX\/scdney_devel");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
