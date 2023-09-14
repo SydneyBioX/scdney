@@ -16,7 +16,7 @@ website:
         text: Software
       - href: Publications.qmd
         text: Publications
-      - text: "Broad categories"
+      - text: "Analysis categories"
         menu:
           - text: scRNAseq
           - text: Spatial

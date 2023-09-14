@@ -1,0 +1,12 @@
+*.Rproj
+/.Rproj.user/
+.DS_Store
+.Rhistory
+.Ruserdata
+/.quarto/
+/_*.local
+/.venv/
+/.condaenv/
+*_cache/
+/env/
+/_site/
