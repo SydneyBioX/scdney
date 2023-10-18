@@ -16,13 +16,8 @@ website:
         text: Software
       - href: Publications.qmd
         text: Publications
-      - text: "Analysis categories"
-        menu:
-          - text: scRNAseq
-          - text: Spatial
-            href: https://sydneybiox.github.io/Spatial/
-          - text: Multimodal
-    
+      - href: workshops.qmd
+        text: "Problem-focused Workshops"
 
 format:
   html:
