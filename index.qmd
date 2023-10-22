@@ -4,8 +4,7 @@ toc-depth: 1
 
 ## Welcome! 
 
-Globally, scientists now have the ability to generate a vast amount of high throughput biomedical data that carry critical information for important clinical and public health applications. This data revolution in biology is now creating a plethora of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery.
-
+Scientists now have the ability to generate a vast amount of high throughput biomedical data, which can carry critical information for important clinical and public health applications. This data revolution in biology is now generating a multitude of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery.
 
 
 ## SCDNEY
@@ -31,16 +30,4 @@ Globally, scientists now have the ability to generate a vast amount of high thro
 ```
 
 Deeper explanations of the functionality of our software can be found in the [Software tab](software.qmd)  
-
-### Download them
-The whole suite of scdney packages can be downloaded using BiocManager
-
-```{r eval=FALSE}
-if (!require("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-
-BiocManager::install( c("scMerge",
-                        "spicyR",
-                        "scHOT"))
-```
 

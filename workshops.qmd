@@ -1,0 +1,47 @@
+---
+title: "Problem-focused Workshops"
+---
+
+The Sydney Precision Data Science Centre runs several workshops that teach attendees to deal with the complexities of single cell data. These workshops target a specific challenge related to single cell data and show attendees how to address it while highlighting the nuances in each step of the process.
+
+## Fondation workshop
+
+The foundation workshop focuses on the basic aspect of navigating and visualising single-cell data. Additionally it covers aspects such as:
+
+-   Quality control
+-   Normalisation
+-   Batch correction
+-   Cell-type annotation with marker genes
+-   Cell-type clustering
+
+### Advanced extension
+
+Additionally, the foundation workshop can be extended to include advanced topics such as:
+
+-   Merging datasets
+-   Batch effect quantification and visualisation
+-   Joint cell-type annotation
+-   Cell-type annotation quality control
+-   Marker and pathway analysis
+-   Gene regulatory network analysis
+
+## Advanced cell phenotyping
+
+The advanced cell phenotyping workshop guides attendees through the process for annotating cells beyond cell-type.
+
+-   Trajectory analysis
+    -   Feature selection using differential expression, differential stability.
+    -   Dimension reduction and visualisation
+    -   Lineage structure creation with pseudo time inference
+-   Trajectory quality control
+-   Trajectory characterisation
+-   Cell-cell interaction
+
+## Disease Outcome Classification in Single Cell Data
+
+The disease outcome classification guides attendee through using single cell data to classify disease outcome.
+
+-   Generating features from single cell data
+-   Feature quality control
+-   Multi-view classification
+-   Model robustness
