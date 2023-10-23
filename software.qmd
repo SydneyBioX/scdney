@@ -338,3 +338,67 @@ cat(gsub("\n", " ", utils::packageDescription("ClassifyR", fields = "Description
 print(myCitation("ClassifyR"), style = "html")
 ```
 </font> 
+
+## CiteFuse
+
+<a href="https://sydneybiox.github.io/CiteFuse/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/CiteFuse/CiteFuse.png" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("CiteFuse", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("CiteFuse"), style = "html")
+```
+</font> 
+
+
+## scClassify
+
+<a href="https://sydneybiox.github.io/scClassify/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/scClassify/scClassify.png" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("scClassify", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("scClassify"), style = "html")
+```
+</font> 
+
+
+## scReClassify
+
+<a href="https://github.com/SydneyBioX/scReClassify"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/scReClassify/scReClassify.png" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("scReClassify", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("scReClassify"), style = "html")
+```
+</font> 
+
+
+## StabMap
+
+<a href="https://marionilab.github.io/StabMap/"><img src="https://raw.githubusercontent.com/MarioniLab/StabMap/main/man/figures/hex.png" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("StabMap", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("StabMap"), style = "html")
+```
+</font> 
+
