@@ -1,1 +1,1 @@
-Sitemap: https://github.com/SydneyBioX/scdney_devel/sitemap.xml
+Sitemap: https://SydneyBioX.github.io/scdney_devel/sitemap.xml

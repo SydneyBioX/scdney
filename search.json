@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About us",
+    "section": "",
+    "text": "There are many members of the Sydney Precision Data Science Centre at the University of Sydney who are working on single cells omics data. As a multidisciplinary team of researchers, we are focused on developing methods to help solve complex global problems, from designing predictive biomarkers of disease progression to ensuring the sustainability and quality of food production."
+  },
+  {
+    "objectID": "about.html#key-involvement",
+    "href": "about.html#key-involvement",
+    "title": "About us",
+    "section": "Key involvement",
+    "text": "Key involvement\n\nResearch Leaders\n Prof Jean Yang\n A/Prof Pengyi Yang\n Dr Ellis Patrick\n Dr Shila Ghazanfar\n Dr Rachel Wang\n\n\nContributors\n Farhan Ameen\n Alex Qin\n Nick Robertson"
+  },
+  {
+    "objectID": "about.html#our-priorities",
+    "href": "about.html#our-priorities",
+    "title": "About us",
+    "section": "Our priorities",
+    "text": "Our priorities\nWe work on the principle that successful and sustainable collaboration grows organically within the right environment. To this end, our priorities for success are to:\n\nembrace data science challenges by developing innovative, fit-for-purpose applied methods in synergistic partnerships with key data-generating centres at Sydney and beyond\naddress data challenges with high societal impact and to build sustainable approaches\nprovide an incubator for interdisciplinary careers\nestablish a collaborative community that reflects and values diversity."
+  },
+  {
     "objectID": "software.html#moleculeexperiment",
     "href": "software.html#moleculeexperiment",
     "title": "Software",
@@ -11,7 +32,7 @@
     "href": "software.html#simpleseg",
     "title": "Software",
     "section": "simpleSeg",
-    "text": "simpleSeg\n\nImage segmentation is the process of identifying the borders of individual objects (in this case cells) within an image. This allows for the features of cells such as marker expression and morphology to be extracted, stored and analysed. simpleSeg provides functionality for user friendly, watershed based segmentation on multiplexed cellular images in R based on the intensity of user specified protein marker channels. simpleSeg can also be used for the normalization of single cell data obtained from multiple images.\n\n\nCanete N, Nicholls A, Patrick E (2023). simpleSeg: A package to perform simple cell segmentation. doi:10.18129/B9.bioc.simpleSeg, R package version 1.2.3."
+    "text": "simpleSeg\n\nImage segmentation is the process of identifying the borders of individual objects (in this case cells) within an image. This allows for the features of cells such as marker expression and morphology to be extracted, stored and analysed. simpleSeg provides functionality for user friendly, watershed based segmentation on multiplexed cellular images in R based on the intensity of user specified protein marker channels. simpleSeg can also be used for the normalization of single cell data obtained from multiple images.\n\n\nCanete N, Nicholls A, Patrick E (2023). simpleSeg: A package to perform simple cell segmentation. doi:10.18129/B9.bioc.simpleSeg, R package version 1.2.5."
   },
   {
     "objectID": "software.html#scmerge",
@@ -53,21 +74,21 @@
     "href": "software.html#spicyr",
     "title": "Software",
     "section": "spicyR",
-    "text": "spicyR\n\nspicyR provides a series of functions to aid in the analysis of both immunofluorescence and mass cytometry imaging data as well as other assays that can deeply phenotype individual cells and their spatial location.\n\n\nCanete N, Patrick E (2023). spicyR: Spatial analysis of in situ cytometry data. R package version 1.12.1."
+    "text": "spicyR\n\nThe spicyR package provides a framework for performing inference on changes in spatial relationships between pairs of cell types for cell-resolution spatial omics technologies. spicyR consists of three primary steps: (i) summarizing the degree of spatial localization between pairs of cell types for each image; (ii) modelling the variability in localization summary statistics as a function of cell counts and (iii) testing for changes in spatial localizations associated with a response variable.\n\n\nCanete N, Iyengar S, Ormerod J, Baharlou H, Harman A, Patrick E (2022). “spicyR: spatial analysis of in situ cytometry data in R.” Bioinformatics, 38(11), 3099–3105. doi:10.1093/bioinformatics/btac268."
   },
   {
     "objectID": "software.html#statial",
     "href": "software.html#statial",
     "title": "Software",
     "section": "Statial",
-    "text": "Statial\n\nStatial is a suite of functions for identifying changes in cell state. The functionality provided by Statial provides robust quantification of cell type localisation which are invariant to changes in tissue structure. In addition to this Statial uncovers changes in marker expression associated with varying levels of localisation. These features can be used to explore how the structure and function of different cell types may be altered by the agents they are surrounded with.\n\n\nAmeen F, Iyengar S, Ghazanfar S, Patrick E (2023). Statial: A package to identify changes in cell state relative to spatial associations. doi:10.18129/B9.bioc.Statial, R package version 1.2.2."
+    "text": "Statial\n\nStatial is a suite of functions for identifying changes in cell state. The functionality provided by Statial provides robust quantification of cell type localisation which are invariant to changes in tissue structure. In addition to this Statial uncovers changes in marker expression associated with varying levels of localisation. These features can be used to explore how the structure and function of different cell types may be altered by the agents they are surrounded with.\n\n\nAmeen F, Iyengar S, Ghazanfar S, Patrick E (2023). Statial: A package to identify changes in cell state relative to spatial associations. doi:10.18129/B9.bioc.Statial, R package version 1.2.4."
   },
   {
     "objectID": "software.html#lisaclust",
     "href": "software.html#lisaclust",
     "title": "Software",
     "section": "lisaClust",
-    "text": "lisaClust\n\nlisaClust provides a series of functions to identify and visualise regions of tissue where spatial associations between cell-types is similar. This package can be used to provide a high-level summary of cell-type colocalization in multiplexed imaging data that has been segmented at a single-cell resolution.\n\n\nPatrick E, Canete N (2023). lisaClust: lisaClust: Clustering of Local Indicators of Spatial Association. R package version 1.9.1."
+    "text": "lisaClust\n\nlisaClust provides a series of functions to identify and visualise regions of tissue where spatial associations between cell-types is similar. This package can be used to provide a high-level summary of cell-type colocalization in multiplexed imaging data that has been segmented at a single-cell resolution.\n\n\nPatrick E, Canete N (2023). lisaClust: lisaClust: Clustering of Local Indicators of Spatial Association. doi:10.18129/B9.bioc.lisaClust, R package version 1.8.1."
   },
   {
     "objectID": "software.html#classifyr",
@@ -77,46 +98,81 @@
     "text": "ClassifyR\n\nThe software formalises a framework for classification and survival model evaluation in R. There are four stages; Data transformation, feature selection, model training, and prediction. The requirements of variable types and variable order are fixed, but specialised variables for functions can also be provided. The framework is wrapped in a driver loop that reproducibly carries out a number of cross-validation schemes. Functions for differential mean, differential variability, and differential distribution are included. Additional functions may be developed by the user, by creating an interface to the framework.\n\n\nStrbenac D, Mann GJ, Ormerod JT, Yang JYH (2015). “ClassifyR: an R package for performance assessment of classification with applications to transcriptomics.” Bioinformatics, 31(11), 1851-1853."
   },
   {
+    "objectID": "software.html#citefuse",
+    "href": "software.html#citefuse",
+    "title": "Software",
+    "section": "CiteFuse",
+    "text": "CiteFuse\n\nCiteFuse pacakage implements a suite of methods and tools for CITE-seq data from pre-processing to integrative analytics, including doublet detection, network-based modality integration, cell type clustering, differential RNA and protein expression analysis, ADT evaluation, ligand-receptor interaction analysis, and interactive web-based visualisation of the analyses.\n\n\nKim HJ, Lin Y, Geddes TA, Yang P, Yang JYH (2020). “CiteFuse enables multi-modal analysis of CITE-seq data.” Bioinformatics, 36(14), 4137–4143."
+  },
+  {
+    "objectID": "software.html#scclassify",
+    "href": "software.html#scclassify",
+    "title": "Software",
+    "section": "scClassify",
+    "text": "scClassify\n\nscClassify is a multiscale classification framework for single-cell RNA-seq data based on ensemble learning and cell type hierarchies, enabling sample size estimation required for accurate cell type classification and joint classification of cells using multiple references.\n\n\nLin Y, Cao Y, Kim HJ, Salim A, Speed TP, Lin DM, Yang P, Yang JYH (2020). “scClassify: sample size estimation and multiscale classification of cells using single and multiple reference.” Molecular systems biology, 16(6), e9389."
+  },
+  {
+    "objectID": "software.html#screclassify",
+    "href": "software.html#screclassify",
+    "title": "Software",
+    "section": "scReClassify",
+    "text": "scReClassify\n\nA post hoc cell type classification tool to fine-tune cell type annotations generated by any cell type classification procedure with semi-supervised learning algorithm AdaSampling technique. The current version of scReClassify supports Support Vector Machine and Random Forest as a base classifier.\n\n\nKim T, Lo K, Geddes TA, Kim HJ, Yang JYH, Yang P (2019). “scReClassify: post hoc cell type classification of single-cell RNA-seq data.” BMC Genomics, 20(913)."
+  },
+  {
+    "objectID": "software.html#stabmap",
+    "href": "software.html#stabmap",
+    "title": "Software",
+    "section": "StabMap",
+    "text": "StabMap\n\nStabMap performs single cell mosaic data integration by first building a mosaic data topology, and for each reference dataset, traverses the topology to project and predict data onto a common embedding. Mosaic data should be provided in a list format, with all relevant features included in the data matrices within each list object. The output of stabMap is a joint low-dimensional embedding taking into account all available relevant features. Expression imputation can also be performed using the StabMap embedding and any of the original data matrices for given reference and query cell lists.\n\n\nGhazanfar S (2023). StabMap: Stabilised mosaic single cell data integration using unshared features. R package version 0.1.8."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SCDNEY",
     "section": "",
-    "text": "Globally, scientists now have the ability to generate a vast amount of high throughput biomedical data that carry critical information for important clinical and public health applications. This data revolution in biology is now creating a plethora of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery."
+    "text": "Scientists now have the ability to generate a vast amount of high throughput biomedical data, which can carry critical information for important clinical and public health applications. This data revolution in biology is now generating a multitude of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery."
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "SCDNEY",
     "section": "",
-    "text": "Globally, scientists now have the ability to generate a vast amount of high throughput biomedical data that carry critical information for important clinical and public health applications. This data revolution in biology is now creating a plethora of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery."
+    "text": "Scientists now have the ability to generate a vast amount of high throughput biomedical data, which can carry critical information for important clinical and public health applications. This data revolution in biology is now generating a multitude of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery."
   },
   {
     "objectID": "index.html#scdney",
     "href": "index.html#scdney",
     "title": "SCDNEY",
     "section": "SCDNEY",
-    "text": "SCDNEY\n\n\n\n\n\n    \n\nDeeper explanations of the functionality of our software can be found in the Software tab\n\nDownload them\nThe whole suite of scdney packages can be downloaded using BiocManager\n\nif (!require(\"BiocManager\", quietly = TRUE))\n    install.packages(\"BiocManager\")\n\nBiocManager::install( c(\"scMerge\",\n                        \"spicyR\",\n                        \"scHOT\"))"
+    "text": "SCDNEY\n\n\n\n\n\n    \n\nDeeper explanations of the functionality of our software can be found in the Software tab"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About us",
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Problem-focused Workshops",
     "section": "",
-    "text": "There are many members of the Sydney Precision Data Science Centre at the University of Sydney who are working on single cells omics data. As a multidisciplinary team of researchers, we are focused on developing methods to help solve complex global problems, from designing predictive biomarkers of disease progression to ensuring the sustainability and quality of food production."
+    "text": "The Sydney Precision Data Science Centre runs several workshops that teach attendees to deal with the complexities of single cell data. These workshops target a specific challenge related to single cell data and show attendees how to address it while highlighting the nuances in each step of the process."
   },
   {
-    "objectID": "about.html#key-involvement",
-    "href": "about.html#key-involvement",
-    "title": "About us",
-    "section": "Key involvement",
-    "text": "Key involvement\n\nResearch Leaders\n Dr Shila Ghazanfar\n Dr Ellis Patrick\n A/Prof Pengyi Yang\n Prof Jean Yang\n\n\nContributors\n Farhan Ameen\n Alex Qin\n Nick Robertson"
+    "objectID": "workshops.html#fondation-workshop",
+    "href": "workshops.html#fondation-workshop",
+    "title": "Problem-focused Workshops",
+    "section": "Fondation workshop",
+    "text": "Fondation workshop\nThe foundation workshop focuses on the basic aspect of navigating and visualising single-cell data. Additionally it covers aspects such as:\n\nQuality control\nNormalisation\nBatch correction\nCell-type annotation with marker genes\nCell-type clustering\n\n\nAdvanced extension\nAdditionally, the foundation workshop can be extended to include advanced topics such as:\n\nMerging datasets\nBatch effect quantification and visualisation\nJoint cell-type annotation\nCell-type annotation quality control\nMarker and pathway analysis\nGene regulatory network analysis"
   },
   {
-    "objectID": "about.html#our-priorities",
-    "href": "about.html#our-priorities",
-    "title": "About us",
-    "section": "Our priorities",
-    "text": "Our priorities\nWe work on the principle that successful and sustainable collaboration grows organically within the right environment. To this end, our priorities for success are to:\n\nembrace data science challenges by developing innovative, fit-for-purpose applied methods in synergistic partnerships with key data-generating centres at Sydney and beyond\naddress data challenges with high societal impact and to build sustainable approaches\nprovide an incubator for interdisciplinary careers\nestablish a collaborative community that reflects and values diversity."
+    "objectID": "workshops.html#advanced-cell-phenotyping",
+    "href": "workshops.html#advanced-cell-phenotyping",
+    "title": "Problem-focused Workshops",
+    "section": "Advanced cell phenotyping",
+    "text": "Advanced cell phenotyping\nThe advanced cell phenotyping workshop guides attendees through the process for annotating cells beyond cell-type.\n\nTrajectory analysis\n\nFeature selection using differential expression, differential stability.\nDimension reduction and visualisation\nLineage structure creation with pseudo time inference\n\nTrajectory quality control\nTrajectory characterisation\nCell-cell interaction"
+  },
+  {
+    "objectID": "workshops.html#disease-outcome-classification-in-single-cell-data",
+    "href": "workshops.html#disease-outcome-classification-in-single-cell-data",
+    "title": "Problem-focused Workshops",
+    "section": "Disease Outcome Classification in Single Cell Data",
+    "text": "Disease Outcome Classification in Single Cell Data\nThe disease outcome classification guides attendee through using single cell data to classify disease outcome.\n\nGenerating features from single cell data\nFeature quality control\nMulti-view classification\nModel robustness"
   },
   {
     "objectID": "Publications.html",

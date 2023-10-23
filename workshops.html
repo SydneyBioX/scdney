@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SCDNEY</title>
+<title>SCDNEY - Problem-focused Workshops</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -101,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./workshops.html" rel="" target="">
+    <a class="nav-link active" href="./workshops.html" rel="" target="" aria-current="page">
  <span class="menu-text">Problem-focused Workshops</span></a>
   </li>  
 </ul>
@@ -116,37 +116,87 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#fondation-workshop" id="toc-fondation-workshop" class="nav-link active" data-scroll-target="#fondation-workshop">Fondation workshop</a>
+  <ul class="collapse">
+  <li><a href="#advanced-extension" id="toc-advanced-extension" class="nav-link" data-scroll-target="#advanced-extension">Advanced extension</a></li>
+  </ul></li>
+  <li><a href="#advanced-cell-phenotyping" id="toc-advanced-cell-phenotyping" class="nav-link" data-scroll-target="#advanced-cell-phenotyping">Advanced cell phenotyping</a></li>
+  <li><a href="#disease-outcome-classification-in-single-cell-data" id="toc-disease-outcome-classification-in-single-cell-data" class="nav-link" data-scroll-target="#disease-outcome-classification-in-single-cell-data">Disease Outcome Classification in Single Cell Data</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Problem-focused Workshops</h1>
+</div>
 
 
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">Welcome!</h2>
-<p>Scientists now have the ability to generate a vast amount of high throughput biomedical data, which can carry critical information for important clinical and public health applications. This data revolution in biology is now generating a multitude of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery.</p>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>The Sydney Precision Data Science Centre runs several workshops that teach attendees to deal with the complexities of single cell data. These workshops target a specific challenge related to single cell data and show attendees how to address it while highlighting the nuances in each step of the process.</p>
+<section id="fondation-workshop" class="level2">
+<h2 class="anchored" data-anchor-id="fondation-workshop">Fondation workshop</h2>
+<p>The foundation workshop focuses on the basic aspect of navigating and visualising single-cell data. Additionally it covers aspects such as:</p>
+<ul>
+<li>Quality control</li>
+<li>Normalisation</li>
+<li>Batch correction</li>
+<li>Cell-type annotation with marker genes</li>
+<li>Cell-type clustering</li>
+</ul>
+<section id="advanced-extension" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-extension">Advanced extension</h3>
+<p>Additionally, the foundation workshop can be extended to include advanced topics such as:</p>
+<ul>
+<li>Merging datasets</li>
+<li>Batch effect quantification and visualisation</li>
+<li>Joint cell-type annotation</li>
+<li>Cell-type annotation quality control</li>
+<li>Marker and pathway analysis</li>
+<li>Gene regulatory network analysis</li>
+</ul>
 </section>
-<section id="scdney" class="level2">
-<h2 class="anchored" data-anchor-id="scdney">SCDNEY</h2>
-
-
-<link rel="stylesheet" href="css/hexagons.css">
-
-<div id="importedContent"></div>
-    <script>
-        fetch('https://raw.githubusercontent.com/SydneyBioX/packageHeader/main/scdneyHeader.html')
-            .then(response => response.text())
-            .then(htmlContent => {
-                const importedContentDiv = document.getElementById('importedContent');
-                importedContentDiv.innerHTML = htmlContent;
-            })
-            .catch(error => {
-                console.error('Error fetching content:', error);
-            });
-    </script>
-
-<p>Deeper explanations of the functionality of our software can be found in the <a href="./software.html">Software tab</a></p>
+</section>
+<section id="advanced-cell-phenotyping" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-cell-phenotyping">Advanced cell phenotyping</h2>
+<p>The advanced cell phenotyping workshop guides attendees through the process for annotating cells beyond cell-type.</p>
+<ul>
+<li>Trajectory analysis
+<ul>
+<li>Feature selection using differential expression, differential stability.</li>
+<li>Dimension reduction and visualisation</li>
+<li>Lineage structure creation with pseudo time inference</li>
+</ul></li>
+<li>Trajectory quality control</li>
+<li>Trajectory characterisation</li>
+<li>Cell-cell interaction</li>
+</ul>
+</section>
+<section id="disease-outcome-classification-in-single-cell-data" class="level2">
+<h2 class="anchored" data-anchor-id="disease-outcome-classification-in-single-cell-data">Disease Outcome Classification in Single Cell Data</h2>
+<p>The disease outcome classification guides attendee through using single cell data to classify disease outcome.</p>
+<ul>
+<li>Generating features from single cell data</li>
+<li>Feature quality control</li>
+<li>Multi-view classification</li>
+<li>Model robustness</li>
+</ul>
 
 
 </section>

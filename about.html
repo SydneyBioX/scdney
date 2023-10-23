@@ -100,19 +100,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./Publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-analysis-categories" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Analysis categories</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-analysis-categories">    
-        <li class="dropdown-header">scRNAseq</li>
-        <li>
-    <a class="dropdown-item" href="https://sydneybiox.github.io/Spatial/" rel="" target="_blank">
- <span class="dropdown-text">Spatial</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./workshops.html" rel="" target="">
+ <span class="menu-text">Problem-focused Workshops</span></a>
   </li>  
-        <li class="dropdown-header">Multimodal</li>
-    </ul>
-  </li>
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -164,10 +155,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="key-involvement">Key involvement</h2>
 <section id="research-leaders" class="level3">
 <h3 class="anchored" data-anchor-id="research-leaders">Research Leaders</h3>
-<p><img src="https://github.com/shazanfar.png" alt="Shila" style="width: 100px; border: 0px; border-radius: 50%"> <a href="https://shazanfar.github.io/">Dr Shila Ghazanfar</a><br>
-<img src="https://github.com/ellispatrick.png" alt="Ellis" style="width: 100px; border: 0px; border-radius: 50%"> <a href="https://ellispatrick.github.io/">Dr Ellis Patrick</a><br>
+<p><img src="https://github.com/jeany21.png" alt="Jean" style="width: 100px; border: 0px; border-radius: 50%"> <a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/jean-yang.html">Prof Jean Yang</a><br>
 <img src="https://www.sydney.edu.au/AcademicProfiles/profile/resource?urlid=pengyi.yang" alt="Pengyi" style="width: 100px; border: 0px; border-radius: 50%"> <a href="https://pyanglab.github.io/">A/Prof Pengyi Yang</a><br>
-<img src="https://github.com/jeany21.png" alt="Jean" style="width: 100px; border: 0px; border-radius: 50%"> <a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/jean-yang.html">Prof Jean Yang</a></p>
+<img src="https://github.com/ellispatrick.png" alt="Ellis" style="width: 100px; border: 0px; border-radius: 50%"> <a href="https://ellispatrick.github.io/">Dr Ellis Patrick</a><br>
+<img src="https://github.com/shazanfar.png" alt="Shila" style="width: 100px; border: 0px; border-radius: 50%"> <a href="https://shazanfar.github.io/">Dr Shila Ghazanfar</a><br>
+<img src="https://github.com/jeany21.png" alt="Shila" style="width: 100px; border: 0px; border-radius: 50%"> <a href="https://ryxwang.github.io/">Dr Rachel Wang</a></p>
 </section>
 <section id="contributors" class="level3">
 <h3 class="anchored" data-anchor-id="contributors">Contributors</h3>
@@ -421,20 +413,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("*scdney-devel*");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 </div> <!-- /content -->

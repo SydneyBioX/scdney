@@ -100,19 +100,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./Publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-analysis-categories" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Analysis categories</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-analysis-categories">    
-        <li class="dropdown-header">scRNAseq</li>
-        <li>
-    <a class="dropdown-item" href="https://sydneybiox.github.io/Spatial/" rel="" target="_blank">
- <span class="dropdown-text">Spatial</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./workshops.html" rel="" target="">
+ <span class="menu-text">Problem-focused Workshops</span></a>
   </li>  
-        <li class="dropdown-header">Multimodal</li>
-    </ul>
-  </li>
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -140,6 +131,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#statial" id="toc-statial" class="nav-link" data-scroll-target="#statial">Statial</a></li>
   <li><a href="#lisaclust" id="toc-lisaclust" class="nav-link" data-scroll-target="#lisaclust">lisaClust</a></li>
   <li><a href="#classifyr" id="toc-classifyr" class="nav-link" data-scroll-target="#classifyr">ClassifyR</a></li>
+  <li><a href="#citefuse" id="toc-citefuse" class="nav-link" data-scroll-target="#citefuse">CiteFuse</a></li>
+  <li><a href="#scclassify" id="toc-scclassify" class="nav-link" data-scroll-target="#scclassify">scClassify</a></li>
+  <li><a href="#screclassify" id="toc-screclassify" class="nav-link" data-scroll-target="#screclassify">scReClassify</a></li>
+  <li><a href="#stabmap" id="toc-stabmap" class="nav-link" data-scroll-target="#stabmap">StabMap</a></li>
   </ul>
 </nav>
     </div>
@@ -199,7 +194,7 @@ Peters Couto B, Robertson N, Patrick E, Ghazanfar S (2023). <em>MoleculeExperime
 <p>Image segmentation is the process of identifying the borders of individual objects (in this case cells) within an image. This allows for the features of cells such as marker expression and morphology to be extracted, stored and analysed. simpleSeg provides functionality for user friendly, watershed based segmentation on multiplexed cellular images in R based on the intensity of user specified protein marker channels. simpleSeg can also be used for the normalization of single cell data obtained from multiple images.</p>
 <p><font size="-1"></font></p><font size="-1">
 <p>
-Canete N, Nicholls A, Patrick E (2023). <em>simpleSeg: A package to perform simple cell segmentation</em>. <a href="https://doi.org/10.18129/B9.bioc.simpleSeg">doi:10.18129/B9.bioc.simpleSeg</a>, R package version 1.2.3.
+Canete N, Nicholls A, Patrick E (2023). <em>simpleSeg: A package to perform simple cell segmentation</em>. <a href="https://doi.org/10.18129/B9.bioc.simpleSeg">doi:10.18129/B9.bioc.simpleSeg</a>, R package version 1.2.5.
 </p>
 </font><p><font size="-1"></font></p>
 </section>
@@ -254,10 +249,10 @@ Ghazanfar S, Lin Y (2023). <em>scHOT: single-cell higher order testing</em>. <a 
 <section id="spicyr" class="level2">
 <h2 class="anchored" data-anchor-id="spicyr">spicyR</h2>
 <p><a href="https://ellispatrick.github.io/spicyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/spicyR/spicyR_standard.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
-<p>spicyR provides a series of functions to aid in the analysis of both immunofluorescence and mass cytometry imaging data as well as other assays that can deeply phenotype individual cells and their spatial location.</p>
+<p>The spicyR package provides a framework for performing inference on changes in spatial relationships between pairs of cell types for cell-resolution spatial omics technologies. spicyR consists of three primary steps: (i) summarizing the degree of spatial localization between pairs of cell types for each image; (ii) modelling the variability in localization summary statistics as a function of cell counts and (iii) testing for changes in spatial localizations associated with a response variable.</p>
 <p><font size="-1"></font></p><font size="-1">
 <p>
-Canete N, Patrick E (2023). <em>spicyR: Spatial analysis of in situ cytometry data</em>. R package version 1.12.1.
+Canete N, Iyengar S, Ormerod J, Baharlou H, Harman A, Patrick E (2022). “spicyR: spatial analysis of in situ cytometry data in R.” <em>Bioinformatics</em>, <b>38</b>(11), 3099–3105. <a href="https://doi.org/10.1093/bioinformatics/btac268">doi:10.1093/bioinformatics/btac268</a>.
 </p>
 </font><p><font size="-1"></font></p>
 </section>
@@ -267,7 +262,7 @@ Canete N, Patrick E (2023). <em>spicyR: Spatial analysis of in situ cytometry da
 <p>Statial is a suite of functions for identifying changes in cell state. The functionality provided by Statial provides robust quantification of cell type localisation which are invariant to changes in tissue structure. In addition to this Statial uncovers changes in marker expression associated with varying levels of localisation. These features can be used to explore how the structure and function of different cell types may be altered by the agents they are surrounded with.</p>
 <p><font size="-1"></font></p><font size="-1">
 <p>
-Ameen F, Iyengar S, Ghazanfar S, Patrick E (2023). <em>Statial: A package to identify changes in cell state relative to spatial associations</em>. <a href="https://doi.org/10.18129/B9.bioc.Statial">doi:10.18129/B9.bioc.Statial</a>, R package version 1.2.2.
+Ameen F, Iyengar S, Ghazanfar S, Patrick E (2023). <em>Statial: A package to identify changes in cell state relative to spatial associations</em>. <a href="https://doi.org/10.18129/B9.bioc.Statial">doi:10.18129/B9.bioc.Statial</a>, R package version 1.2.4.
 </p>
 </font><p><font size="-1"></font></p>
 </section>
@@ -277,7 +272,7 @@ Ameen F, Iyengar S, Ghazanfar S, Patrick E (2023). <em>Statial: A package to ide
 <p>lisaClust provides a series of functions to identify and visualise regions of tissue where spatial associations between cell-types is similar. This package can be used to provide a high-level summary of cell-type colocalization in multiplexed imaging data that has been segmented at a single-cell resolution.</p>
 <p><font size="-1"></font></p><font size="-1">
 <p>
-Patrick E, Canete N (2023). <em>lisaClust: lisaClust: Clustering of Local Indicators of Spatial Association</em>. R package version 1.9.1.
+Patrick E, Canete N (2023). <em>lisaClust: lisaClust: Clustering of Local Indicators of Spatial Association</em>. <a href="https://doi.org/10.18129/B9.bioc.lisaClust">doi:10.18129/B9.bioc.lisaClust</a>, R package version 1.8.1.
 </p>
 </font><p><font size="-1"></font></p>
 </section>
@@ -288,6 +283,46 @@ Patrick E, Canete N (2023). <em>lisaClust: lisaClust: Clustering of Local Indica
 <p><font size="-1"></font></p><font size="-1">
 <p>
 Strbenac D, Mann GJ, Ormerod JT, Yang JYH (2015). “ClassifyR: an R package for performance assessment of classification with applications to transcriptomics.” <em>Bioinformatics</em>, <b>31</b>(11), 1851-1853.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="citefuse" class="level2">
+<h2 class="anchored" data-anchor-id="citefuse">CiteFuse</h2>
+<p><a href="https://sydneybiox.github.io/CiteFuse/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/CiteFuse/CiteFuse.png" align="right" style="height: 100px; border: 0px"></a></p>
+<p>CiteFuse pacakage implements a suite of methods and tools for CITE-seq data from pre-processing to integrative analytics, including doublet detection, network-based modality integration, cell type clustering, differential RNA and protein expression analysis, ADT evaluation, ligand-receptor interaction analysis, and interactive web-based visualisation of the analyses.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Kim HJ, Lin Y, Geddes TA, Yang P, Yang JYH (2020). “CiteFuse enables multi-modal analysis of CITE-seq data.” <em>Bioinformatics</em>, <b>36</b>(14), 4137–4143.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="scclassify" class="level2">
+<h2 class="anchored" data-anchor-id="scclassify">scClassify</h2>
+<p><a href="https://sydneybiox.github.io/scClassify/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/scClassify/scClassify.png" align="right" style="height: 100px; border: 0px"></a></p>
+<p>scClassify is a multiscale classification framework for single-cell RNA-seq data based on ensemble learning and cell type hierarchies, enabling sample size estimation required for accurate cell type classification and joint classification of cells using multiple references.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Lin Y, Cao Y, Kim HJ, Salim A, Speed TP, Lin DM, Yang P, Yang JYH (2020). “scClassify: sample size estimation and multiscale classification of cells using single and multiple reference.” <em>Molecular systems biology</em>, <b>16</b>(6), e9389.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="screclassify" class="level2">
+<h2 class="anchored" data-anchor-id="screclassify">scReClassify</h2>
+<p><a href="https://github.com/SydneyBioX/scReClassify"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/scReClassify/scReClassify.png" align="right" style="height: 100px; border: 0px"></a></p>
+<p>A post hoc cell type classification tool to fine-tune cell type annotations generated by any cell type classification procedure with semi-supervised learning algorithm AdaSampling technique. The current version of scReClassify supports Support Vector Machine and Random Forest as a base classifier.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Kim T, Lo K, Geddes TA, Kim HJ, Yang JYH, Yang P (2019). “scReClassify: post hoc cell type classification of single-cell RNA-seq data.” <em>BMC Genomics</em>, <b>20</b>(913).
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="stabmap" class="level2">
+<h2 class="anchored" data-anchor-id="stabmap">StabMap</h2>
+<p><a href="https://marionilab.github.io/StabMap/"><img src="https://raw.githubusercontent.com/MarioniLab/StabMap/main/man/figures/hex.png" align="right" style="height: 100px; border: 0px"></a></p>
+<p>StabMap performs single cell mosaic data integration by first building a mosaic data topology, and for each reference dataset, traverses the topology to project and predict data onto a common embedding. Mosaic data should be provided in a list format, with all relevant features included in the data matrices within each list object. The output of stabMap is a joint low-dimensional embedding taking into account all available relevant features. Expression imputation can also be performed using the StabMap embedding and any of the original data matrices for given reference and query cell lists.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Ghazanfar S (2023). <em>StabMap: Stabilised mosaic single cell data integration using unshared features</em>. R package version 0.1.8.
 </p>
 </font><p><font size="-1"></font></p>
 
@@ -526,20 +561,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("*scdney-devel*");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
