@@ -2,7 +2,7 @@
 title: "Problem-focused Workshops"
 ---
 
-The Sydney Precision Data Science Centre runs several workshops that teach attendees to deal with the complexities of single cell data. These workshops target a specific challenge related to single cell data and show attendees how to address it while highlighting the nuances in each step of the process.
+The Sydney Precision Data Science Centre has developed a series of living workshops for building data stories, using Single-cell data integrative analysis (scdney). scdney is a wrapper package with a collection of single-cell analysis R packages incorporating data integration, cell type annotation, higher order testing and more. Through these workshops, we not only showcase current solutions, but also highlight critical thinking points. In particular, we highlight the Thinking Process Template that provides a structured framework for the decision-making process behind such single-cell analyses. Furthermore, our workshop will incorporate dynamic contributions from the community in a collaborative learning approach, thus the term ‘living’. For more information on the  Thinking Process Template, please see our F1000 publication (https://f1000research.com/articles/12-261)
 
 ## Fondation workshop
 
@@ -14,7 +14,7 @@ The foundation workshop focuses on the basic aspect of navigating and visualisin
 -   Cell-type annotation with marker genes
 -   Cell-type clustering
 
-### Advanced extension
+## Advanced foundation extension workshop
 
 Additionally, the foundation workshop can be extended to include advanced topics such as:
 
