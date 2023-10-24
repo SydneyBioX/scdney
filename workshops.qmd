@@ -25,7 +25,7 @@ Additionally, the foundation workshop can be extended to include advanced topics
 -   Marker and pathway analysis
 -   Gene regulatory network analysis
 
-## Advanced cell phenotyping
+## [Advanced cell phenotyping](https://sydneybiox.github.io/scdneyAdvancedPhenotyping/articles/advanced_phenotyping.html)
 
 The advanced cell phenotyping workshop guides attendees through the process for annotating cells beyond cell-type.
 
@@ -37,7 +37,7 @@ The advanced cell phenotyping workshop guides attendees through the process for 
 -   Trajectory characterisation
 -   Cell-cell interaction
 
-## Disease Outcome Classification in Single Cell Data
+## [Disease Outcome Classification in Single Cell Data](https://sydneybiox.github.io/scdneyDiseasePrediction/articles/disease_outcome_classification_schulte.html)
 
 The disease outcome classification guides attendee through using single cell data to classify disease outcome.
 
