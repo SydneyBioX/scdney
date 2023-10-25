@@ -126,6 +126,20 @@
     "text": "StabMap\n\nStabMap performs single cell mosaic data integration by first building a mosaic data topology, and for each reference dataset, traverses the topology to project and predict data onto a common embedding. Mosaic data should be provided in a list format, with all relevant features included in the data matrices within each list object. The output of stabMap is a joint low-dimensional embedding taking into account all available relevant features. Expression imputation can also be performed using the StabMap embedding and any of the original data matrices for given reference and query cell lists.\n\n\nGhazanfar S (2023). StabMap: Stabilised mosaic single cell data integration using unshared features. R package version 0.1.8."
   },
   {
+    "objectID": "software.html#cepo",
+    "href": "software.html#cepo",
+    "title": "Software",
+    "section": "Cepo",
+    "text": "Cepo\n\nDefining the identity of a cell is fundamental to understand the heterogeneity of cells to various environmental signals and perturbations. We present Cepo, a new method to explore cell identities from single-cell RNA-sequencing data using differential stability as a new metric to define cell identity genes. Cepo computes cell-type specific gene statistics pertaining to differential stable gene expression.\n\n\nKim H, Wang K (2023). Cepo: Cepo for the identification of differentially stable genes. doi:10.18129/B9.bioc.Cepo, R package version 1.6.0."
+  },
+  {
+    "objectID": "software.html#simbench",
+    "href": "software.html#simbench",
+    "title": "Software",
+    "section": "SimBench",
+    "text": "SimBench\n\nThe SimBench package is designed for benchmarking simulation methods based on two key aspects of accuracy of data properties estimation and ability to retain biological signals. It contains functions for comparing simulated data obtained from simulation methods and real data that was used as the reference input into the simulation methods on the two aspects.\n\n\nCao Y, Yang P, Yang J (2021). SimBench: SimBench: benchmarking simulation methods. R package version 0.99.1."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "SCDNEY",
