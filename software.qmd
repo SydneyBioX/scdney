@@ -402,3 +402,33 @@ print(myCitation("StabMap"), style = "html")
 ```
 </font> 
 
+## Cepo
+
+<a href="https://pyanglab.github.io/Cepo/"><img src="https://raw.githubusercontent.com/PYangLab/Cepo/main/man/figures/Cepo_logo.png" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("Cepo", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("Cepo"), style = "html")
+```
+</font> 
+
+## SimBench
+
+<a href="https://github.com/SydneyBioX/SimBench"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/SimBench/simbench_sticker.png" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("SimBench", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("SimBench"), style = "html")
+```
+</font> 
+
