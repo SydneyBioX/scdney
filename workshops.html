@@ -120,9 +120,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fondation-workshop" id="toc-fondation-workshop" class="nav-link active" data-scroll-target="#fondation-workshop">Fondation workshop</a></li>
-  <li><a href="#advanced-foundation-extension-workshop" id="toc-advanced-foundation-extension-workshop" class="nav-link" data-scroll-target="#advanced-foundation-extension-workshop">Advanced foundation extension workshop</a></li>
-  <li><a href="#advanced-cell-phenotyping" id="toc-advanced-cell-phenotyping" class="nav-link" data-scroll-target="#advanced-cell-phenotyping">Advanced cell phenotyping</a></li>
+  <li><a href="#advanced-cell-phenotyping" id="toc-advanced-cell-phenotyping" class="nav-link active" data-scroll-target="#advanced-cell-phenotyping">Advanced cell phenotyping</a></li>
   <li><a href="#disease-outcome-classification-in-single-cell-data" id="toc-disease-outcome-classification-in-single-cell-data" class="nav-link" data-scroll-target="#disease-outcome-classification-in-single-cell-data">Disease Outcome Classification in Single Cell Data</a></li>
   </ul>
 </nav>
@@ -147,56 +145,41 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The Sydney Precision Data Science Centre has developed a series of living workshops for building data stories, using Single-cell data integrative analysis (scdney). scdney is a wrapper package with a collection of single-cell analysis R packages incorporating data integration, cell type annotation, higher order testing and more. Through these workshops, we not only showcase current solutions, but also highlight critical thinking points. In particular, we highlight the Thinking Process Template that provides a structured framework for the decision-making process behind such single-cell analyses. Furthermore, our workshop will incorporate dynamic contributions from the community in a collaborative learning approach, thus the term ‘living’. For more information on the Thinking Process Template, please see our F1000 publication (https://f1000research.com/articles/12-261)</p>
-<section id="fondation-workshop" class="level2">
-<h2 class="anchored" data-anchor-id="fondation-workshop">Fondation workshop</h2>
-<p>The foundation workshop focuses on the basic aspect of navigating and visualising single-cell data. Additionally it covers aspects such as:</p>
-<ul>
-<li>Quality control</li>
-<li>Normalisation</li>
-<li>Batch correction</li>
-<li>Cell-type annotation with marker genes</li>
-<li>Cell-type clustering</li>
-</ul>
-</section>
-<section id="advanced-foundation-extension-workshop" class="level2">
-<h2 class="anchored" data-anchor-id="advanced-foundation-extension-workshop">Advanced foundation extension workshop</h2>
-<p>Additionally, the foundation workshop can be extended to include advanced topics such as:</p>
-<ul>
-<li>Merging datasets</li>
-<li>Batch effect quantification and visualisation</li>
-<li>Joint cell-type annotation</li>
-<li>Cell-type annotation quality control</li>
-<li>Marker and pathway analysis</li>
-<li>Gene regulatory network analysis</li>
-</ul>
-</section>
+<p>The Sydney Precision Data Science Centre has developed a series of living workshops for building data stories, using single-cell data integrative analysis (SCDNEY). Through these workshops, we not only showcase current solutions, but also highlight critical thinking points. In particular, we highlight the Thinking Process Template that provides a structured framework for the decision-making process behind such single-cell analyses. Furthermore, our workshop will incorporate dynamic contributions from the community in a collaborative learning approach, thus the term ‘living’. For more information on the Thinking Process Template, please see our F1000 publication (https://f1000research.com/articles/12-261)</p>
 <section id="advanced-cell-phenotyping" class="level2">
 <h2 class="anchored" data-anchor-id="advanced-cell-phenotyping"><a href="https://sydneybiox.github.io/scdneyAdvancedPhenotyping/articles/advanced_phenotyping.html">Advanced cell phenotyping</a></h2>
-<p>The advanced cell phenotyping workshop guides attendees through the process for annotating cells beyond cell-type.</p>
+<p>The advanced cell phenotyping workshop guides attendees through the challenge of annotating cells beyond cell-type.</p>
+<section id="learning-objectives" class="level4">
+<h4 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h4>
 <ul>
-<li>Trajectory analysis
-<ul>
-<li>Feature selection using differential expression, differential stability.</li>
-<li>Dimension reduction and visualisation</li>
-<li>Lineage structure creation with pseudo time inference</li>
-</ul></li>
-<li>Trajectory quality control</li>
-<li>Trajectory characterisation</li>
-<li>Cell-cell interaction</li>
+<li>Describe various strategies for cellular phenotyping</li>
+<li>Identify different workflows to build trajectory including calculate pseudo-times</li>
+<li>Generate appropriate graphics to visualise the trajectories and expression of genes</li>
+<li>Understand the different trajectory characterisation approaches including differentially expressed genes across trajectories,</li>
+<li>Evaluate the single cell data to identify genes that distinguish trajectories and ligand-receptor interactions that distinguish cell types</li>
+<li>[Optional] Identify cell-cell interactions in a single cell data and understand how cell-cell communication can be used to distinguish cell types</li>
 </ul>
+</section>
 </section>
 <section id="disease-outcome-classification-in-single-cell-data" class="level2">
 <h2 class="anchored" data-anchor-id="disease-outcome-classification-in-single-cell-data"><a href="https://sydneybiox.github.io/scdneyDiseasePrediction/articles/disease_outcome_classification_schulte.html">Disease Outcome Classification in Single Cell Data</a></h2>
 <p>The disease outcome classification guides attendee through using single cell data to classify disease outcome.</p>
+<section id="learning-objectives-1" class="level4">
+<h4 class="anchored" data-anchor-id="learning-objectives-1">Learning Objectives</h4>
 <ul>
-<li>Generating features from single cell data</li>
-<li>Feature quality control</li>
-<li>Multi-view classification</li>
-<li>Model robustness</li>
+<li>Explore various strategies for disease outcome prediction using single cell data<br>
+</li>
+<li>Understand the transformation from cell level features to patient level features<br>
+</li>
+<li>Generate patient representations from gene expression matrix<br>
+</li>
+<li>Understand the characteristics of good classification models<br>
+</li>
+<li>Perform disease outcome prediction using the feature representation and robust classification framework</li>
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

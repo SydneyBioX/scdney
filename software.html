@@ -120,23 +120,35 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#moleculeexperiment" id="toc-moleculeexperiment" class="nav-link active" data-scroll-target="#moleculeexperiment">MoleculeExperiment</a></li>
-  <li><a href="#simpleseg" id="toc-simpleseg" class="nav-link" data-scroll-target="#simpleseg">simpleSeg</a></li>
+  <li><a href="#how-do-i-process-my-data-to-get-cells" id="toc-how-do-i-process-my-data-to-get-cells" class="nav-link active" data-scroll-target="#how-do-i-process-my-data-to-get-cells">How do I process my data to get cells?</a>
+  <ul class="collapse">
+  <li><a href="#moleculeexperiment" id="toc-moleculeexperiment" class="nav-link" data-scroll-target="#moleculeexperiment">MoleculeExperiment</a></li>
   <li><a href="#scmerge" id="toc-scmerge" class="nav-link" data-scroll-target="#scmerge">scMerge</a></li>
+  <li><a href="#simpleseg" id="toc-simpleseg" class="nav-link" data-scroll-target="#simpleseg">simpleSeg</a></li>
+  </ul></li>
+  <li><a href="#what-types-of-cells-are-in-my-data" id="toc-what-types-of-cells-are-in-my-data" class="nav-link" data-scroll-target="#what-types-of-cells-are-in-my-data">What types of cells are in my data?</a>
+  <ul class="collapse">
+  <li><a href="#cepo" id="toc-cepo" class="nav-link" data-scroll-target="#cepo">Cepo</a></li>
   <li><a href="#fusesom" id="toc-fusesom" class="nav-link" data-scroll-target="#fusesom">FuseSOM</a></li>
+  <li><a href="#scclassify" id="toc-scclassify" class="nav-link" data-scroll-target="#scclassify">scClassify</a></li>
+  <li><a href="#screclassify" id="toc-screclassify" class="nav-link" data-scroll-target="#screclassify">scReClassify</a></li>
+  </ul></li>
+  <li><a href="#how-do-i-find-changes-in-my-data" id="toc-how-do-i-find-changes-in-my-data" class="nav-link" data-scroll-target="#how-do-i-find-changes-in-my-data">How do I find changes in my data?</a>
+  <ul class="collapse">
+  <li><a href="#classifyr" id="toc-classifyr" class="nav-link" data-scroll-target="#classifyr">ClassifyR</a></li>
   <li><a href="#treekor" id="toc-treekor" class="nav-link" data-scroll-target="#treekor">treekoR</a></li>
   <li><a href="#scfeatures" id="toc-scfeatures" class="nav-link" data-scroll-target="#scfeatures">scFeatures</a></li>
   <li><a href="#schot" id="toc-schot" class="nav-link" data-scroll-target="#schot">scHOT</a></li>
   <li><a href="#spicyr" id="toc-spicyr" class="nav-link" data-scroll-target="#spicyr">spicyR</a></li>
   <li><a href="#statial" id="toc-statial" class="nav-link" data-scroll-target="#statial">Statial</a></li>
   <li><a href="#lisaclust" id="toc-lisaclust" class="nav-link" data-scroll-target="#lisaclust">lisaClust</a></li>
-  <li><a href="#classifyr" id="toc-classifyr" class="nav-link" data-scroll-target="#classifyr">ClassifyR</a></li>
-  <li><a href="#citefuse" id="toc-citefuse" class="nav-link" data-scroll-target="#citefuse">CiteFuse</a></li>
-  <li><a href="#scclassify" id="toc-scclassify" class="nav-link" data-scroll-target="#scclassify">scClassify</a></li>
-  <li><a href="#screclassify" id="toc-screclassify" class="nav-link" data-scroll-target="#screclassify">scReClassify</a></li>
-  <li><a href="#stabmap" id="toc-stabmap" class="nav-link" data-scroll-target="#stabmap">StabMap</a></li>
-  <li><a href="#cepo" id="toc-cepo" class="nav-link" data-scroll-target="#cepo">Cepo</a></li>
   <li><a href="#simbench" id="toc-simbench" class="nav-link" data-scroll-target="#simbench">SimBench</a></li>
+  </ul></li>
+  <li><a href="#can-i-combine-different-types-of-omics-data" id="toc-can-i-combine-different-types-of-omics-data" class="nav-link" data-scroll-target="#can-i-combine-different-types-of-omics-data">Can I combine different types of omics data?</a>
+  <ul class="collapse">
+  <li><a href="#citefuse" id="toc-citefuse" class="nav-link" data-scroll-target="#citefuse">CiteFuse</a></li>
+  <li><a href="#stabmap" id="toc-stabmap" class="nav-link" data-scroll-target="#stabmap">StabMap</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -180,8 +192,10 @@ citation {
   font-size: 9pt;
 }
 </style>
-<section id="moleculeexperiment" class="level2">
-<h2 class="anchored" data-anchor-id="moleculeexperiment">MoleculeExperiment</h2>
+<section id="how-do-i-process-my-data-to-get-cells" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-i-process-my-data-to-get-cells">How do I process my data to get cells?</h2>
+<section id="moleculeexperiment" class="level3">
+<h3 class="anchored" data-anchor-id="moleculeexperiment">MoleculeExperiment</h3>
 <p><a href="https://sydneybiox.github.io/MoleculeExperiment/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/MoleculeExperiment/MoleculeExperiment.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
 <p>MoleculeExperiment contains functions to create and work with objects from the new MoleculeExperiment class. We introduce this class for analysing molecule-based spatial transcriptomics data (e.g., Xenium by 10X, Cosmx SMI by Nanostring, and Merscope by Vizgen). This allows researchers to analyse spatial transcriptomics data at the molecule level, and to have standardised data formats accross vendors.</p>
 <p><font size="-1"></font></p><font size="-1">
@@ -190,18 +204,8 @@ Peters Couto B, Robertson N, Patrick E, Ghazanfar S (2023). <em>MoleculeExperime
 </p>
 </font><p><font size="-1"></font></p>
 </section>
-<section id="simpleseg" class="level2">
-<h2 class="anchored" data-anchor-id="simpleseg">simpleSeg</h2>
-<p><a href="http://www.bioconductor.org/packages/release/bioc/html/simpleSeg.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/simpleSeg/SimpleSeg_Hex_standard.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
-<p>Image segmentation is the process of identifying the borders of individual objects (in this case cells) within an image. This allows for the features of cells such as marker expression and morphology to be extracted, stored and analysed. simpleSeg provides functionality for user friendly, watershed based segmentation on multiplexed cellular images in R based on the intensity of user specified protein marker channels. simpleSeg can also be used for the normalization of single cell data obtained from multiple images.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Canete N, Nicholls A, Patrick E (2023). <em>simpleSeg: A package to perform simple cell segmentation</em>. <a href="https://doi.org/10.18129/B9.bioc.simpleSeg">doi:10.18129/B9.bioc.simpleSeg</a>, R package version 1.2.5.
-</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="scmerge" class="level2">
-<h2 class="anchored" data-anchor-id="scmerge">scMerge</h2>
+<section id="scmerge" class="level3">
+<h3 class="anchored" data-anchor-id="scmerge">scMerge</h3>
 <p><a href="https://sydneybiox.github.io/scMerge/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scMerge/scMerge.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
 <p>Like all gene expression data, single-cell data suffers from batch effects and other unwanted variations that makes accurate biological interpretations difficult. The scMerge method leverages factor analysis, stably expressed genes (SEGs) and (pseudo-) replicates to remove unwanted variations and merge multiple single-cell data. This package contains all the necessary functions in the scMerge pipeline, including the identification of SEGs, replication-identification methods, and merging of single-cell data.</p>
 <p><font size="-1"></font></p><font size="-1">
@@ -210,126 +214,21 @@ Lin Y, Ghazanfar S, Wang K, Gagnon-Bartsch J, Lo K, Su X, Han Z, Ormerod J, Spee
 </p>
 </font><p><font size="-1"></font></p>
 </section>
-<section id="fusesom" class="level2">
-<h2 class="anchored" data-anchor-id="fusesom">FuseSOM</h2>
-<p><a href="http://www.bioconductor.org/packages/release/bioc/html/FuseSOM.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/FuseSOM/fuseSOM_ai_standard.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
-<p>A correlation-based multiview self-organizing map for the characterization of cell types in highly multiplexed in situ imaging cytometry assays (<code>FuseSOM</code>) is a tool for unsupervised clustering. <code>FuseSOM</code> is robust and achieves high accuracy by combining a <code>Self Organizing Map</code> architecture and a <code>Multiview</code> integration of correlation based metrics. This allows FuseSOM to cluster highly multiplexed in situ imaging cytometry assays.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>&lt;0-length citation&gt;</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="treekor" class="level2">
-<h2 class="anchored" data-anchor-id="treekor">treekoR</h2>
-<p><a href="http://www.bioconductor.org/packages/release/bioc/html/treekoR.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/treekoR/treekoR.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
-<p>treekoR is a novel framework that aims to utilise the hierarchical nature of single cell cytometry data to find robust and interpretable associations between cell subsets and patient clinical end points. These associations are aimed to recapitulate the nested proportions prevalent in workflows inovlving manual gating, which are often overlooked in workflows using automatic clustering to identify cell populations. We developed treekoR to: Derive a hierarchical tree structure of cell clusters; quantify a cell types as a proportion relative to all cells in a sample (%total), and, as the proportion relative to a parent population (%parent); perform significance testing using the calculated proportions; and provide an interactive html visualisation to help highlight key results.</p>
+<section id="simpleseg" class="level3">
+<h3 class="anchored" data-anchor-id="simpleseg">simpleSeg</h3>
+<p><a href="http://www.bioconductor.org/packages/release/bioc/html/simpleSeg.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/simpleSeg/SimpleSeg_Hex_standard.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
+<p>Image segmentation is the process of identifying the borders of individual objects (in this case cells) within an image. This allows for the features of cells such as marker expression and morphology to be extracted, stored and analysed. simpleSeg provides functionality for user friendly, watershed based segmentation on multiplexed cellular images in R based on the intensity of user specified protein marker channels. simpleSeg can also be used for the normalization of single cell data obtained from multiple images.</p>
 <p><font size="-1"></font></p><font size="-1">
 <p>
-Chan A (2023). <em>treekoR: Cytometry Cluster Hierarchy and Cellular-to-phenotype Associations</em>. <a href="https://doi.org/10.18129/B9.bioc.treekoR">doi:10.18129/B9.bioc.treekoR</a>, R package version 1.8.0.
+Canete N, Nicholls A, Patrick E (2023). <em>simpleSeg: A package to perform simple cell segmentation</em>. <a href="https://doi.org/10.18129/B9.bioc.simpleSeg">doi:10.18129/B9.bioc.simpleSeg</a>, R package version 1.2.5.
 </p>
 </font><p><font size="-1"></font></p>
 </section>
-<section id="scfeatures" class="level2">
-<h2 class="anchored" data-anchor-id="scfeatures">scFeatures</h2>
-<p><a href="http://www.bioconductor.org/packages/release/bioc/html/scFeatures.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scFeatures/sticker_version2.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
-<p>scFeatures constructs multi-view representations of single-cell and spatial data. scFeatures is a tool that generates multi-view representations of single-cell and spatial data through the construction of a total of 17 feature types. These features can then be used for a variety of analyses using other software in Biocondutor.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Cao,Y., Lin,Y., Patrick,E., Yang,P., Yang,J.Y.H. &amp; (2022). “scFeatures: multi-view representations of single-cell and spatial data for disease outcome prediction.” <em>Bioinformatics</em>, <b>38</b>(20), 4745-4753. ISSN 1367-4803, <a href="https://doi.org/10.1093/bioinformatics/btac590">doi:10.1093/bioinformatics/btac590</a>.
-</p>
-</font><p><font size="-1"></font></p>
 </section>
-<section id="schot" class="level2">
-<h2 class="anchored" data-anchor-id="schot">scHOT</h2>
-<p><a href="https://bioconductor.org/packages/release/bioc/html/scHOT.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scHOT/scHOT_hex.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
-<p>Single cell Higher Order Testing (scHOT) is an R package that facilitates testing changes in higher order structure of gene expression along either a developmental trajectory or across space. scHOT is general and modular in nature, can be run in multiple data contexts such as along a continuous trajectory, between discrete groups, and over spatial orientations; as well as accommodate any higher order measurement such as variability or correlation. scHOT meaningfully adds to first order effect testing, such as differential expression, and provides a framework for interrogating higher order interactions from single cell data.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Ghazanfar S, Lin Y (2023). <em>scHOT: single-cell higher order testing</em>. <a href="https://doi.org/10.18129/B9.bioc.scHOT">doi:10.18129/B9.bioc.scHOT</a>, R package version 1.12.0.
-</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="spicyr" class="level2">
-<h2 class="anchored" data-anchor-id="spicyr">spicyR</h2>
-<p><a href="https://ellispatrick.github.io/spicyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/spicyR/spicyR_standard.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
-<p>The spicyR package provides a framework for performing inference on changes in spatial relationships between pairs of cell types for cell-resolution spatial omics technologies. spicyR consists of three primary steps: (i) summarizing the degree of spatial localization between pairs of cell types for each image; (ii) modelling the variability in localization summary statistics as a function of cell counts and (iii) testing for changes in spatial localizations associated with a response variable.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Canete N, Iyengar S, Ormerod J, Baharlou H, Harman A, Patrick E (2022). “spicyR: spatial analysis of in situ cytometry data in R.” <em>Bioinformatics</em>, <b>38</b>(11), 3099–3105. <a href="https://doi.org/10.1093/bioinformatics/btac268">doi:10.1093/bioinformatics/btac268</a>.
-</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="statial" class="level2">
-<h2 class="anchored" data-anchor-id="statial">Statial</h2>
-<p><a href="https://sydneybiox.github.io/Statial/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/Statial/statial.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
-<p>Statial is a suite of functions for identifying changes in cell state. The functionality provided by Statial provides robust quantification of cell type localisation which are invariant to changes in tissue structure. In addition to this Statial uncovers changes in marker expression associated with varying levels of localisation. These features can be used to explore how the structure and function of different cell types may be altered by the agents they are surrounded with.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Ameen F, Iyengar S, Ghazanfar S, Patrick E (2023). <em>Statial: A package to identify changes in cell state relative to spatial associations</em>. <a href="https://doi.org/10.18129/B9.bioc.Statial">doi:10.18129/B9.bioc.Statial</a>, R package version 1.2.4.
-</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="lisaclust" class="level2">
-<h2 class="anchored" data-anchor-id="lisaclust">lisaClust</h2>
-<p><a href="https://ellispatrick.github.io/lisaClust/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/lisaClust/lisaClust_sticker_ai_standard.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
-<p>lisaClust provides a series of functions to identify and visualise regions of tissue where spatial associations between cell-types is similar. This package can be used to provide a high-level summary of cell-type colocalization in multiplexed imaging data that has been segmented at a single-cell resolution.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Patrick E, Canete N (2023). <em>lisaClust: lisaClust: Clustering of Local Indicators of Spatial Association</em>. <a href="https://doi.org/10.18129/B9.bioc.lisaClust">doi:10.18129/B9.bioc.lisaClust</a>, R package version 1.8.1.
-</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="classifyr" class="level2">
-<h2 class="anchored" data-anchor-id="classifyr">ClassifyR</h2>
-<p><a href="https://sydneybiox.github.io/ClassifyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/ClassifyR/classifyR.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
-<p>The software formalises a framework for classification and survival model evaluation in R. There are four stages; Data transformation, feature selection, model training, and prediction. The requirements of variable types and variable order are fixed, but specialised variables for functions can also be provided. The framework is wrapped in a driver loop that reproducibly carries out a number of cross-validation schemes. Functions for differential mean, differential variability, and differential distribution are included. Additional functions may be developed by the user, by creating an interface to the framework.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Strbenac D, Mann GJ, Ormerod JT, Yang JYH (2015). “ClassifyR: an R package for performance assessment of classification with applications to transcriptomics.” <em>Bioinformatics</em>, <b>31</b>(11), 1851-1853.
-</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="citefuse" class="level2">
-<h2 class="anchored" data-anchor-id="citefuse">CiteFuse</h2>
-<p><a href="https://sydneybiox.github.io/CiteFuse/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/CiteFuse/CiteFuse.png" align="right" style="height: 100px; border: 0px"></a></p>
-<p>CiteFuse pacakage implements a suite of methods and tools for CITE-seq data from pre-processing to integrative analytics, including doublet detection, network-based modality integration, cell type clustering, differential RNA and protein expression analysis, ADT evaluation, ligand-receptor interaction analysis, and interactive web-based visualisation of the analyses.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Kim HJ, Lin Y, Geddes TA, Yang P, Yang JYH (2020). “CiteFuse enables multi-modal analysis of CITE-seq data.” <em>Bioinformatics</em>, <b>36</b>(14), 4137–4143.
-</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="scclassify" class="level2">
-<h2 class="anchored" data-anchor-id="scclassify">scClassify</h2>
-<p><a href="https://sydneybiox.github.io/scClassify/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/scClassify/scClassify.png" align="right" style="height: 100px; border: 0px"></a></p>
-<p>scClassify is a multiscale classification framework for single-cell RNA-seq data based on ensemble learning and cell type hierarchies, enabling sample size estimation required for accurate cell type classification and joint classification of cells using multiple references.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Lin Y, Cao Y, Kim HJ, Salim A, Speed TP, Lin DM, Yang P, Yang JYH (2020). “scClassify: sample size estimation and multiscale classification of cells using single and multiple reference.” <em>Molecular systems biology</em>, <b>16</b>(6), e9389.
-</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="screclassify" class="level2">
-<h2 class="anchored" data-anchor-id="screclassify">scReClassify</h2>
-<p><a href="https://github.com/SydneyBioX/scReClassify"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/scReClassify/scReClassify.png" align="right" style="height: 100px; border: 0px"></a></p>
-<p>A post hoc cell type classification tool to fine-tune cell type annotations generated by any cell type classification procedure with semi-supervised learning algorithm AdaSampling technique. The current version of scReClassify supports Support Vector Machine and Random Forest as a base classifier.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Kim T, Lo K, Geddes TA, Kim HJ, Yang JYH, Yang P (2019). “scReClassify: post hoc cell type classification of single-cell RNA-seq data.” <em>BMC Genomics</em>, <b>20</b>(913).
-</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="stabmap" class="level2">
-<h2 class="anchored" data-anchor-id="stabmap">StabMap</h2>
-<p><a href="https://marionilab.github.io/StabMap/"><img src="https://raw.githubusercontent.com/MarioniLab/StabMap/main/man/figures/hex.png" align="right" style="height: 100px; border: 0px"></a></p>
-<p>StabMap performs single cell mosaic data integration by first building a mosaic data topology, and for each reference dataset, traverses the topology to project and predict data onto a common embedding. Mosaic data should be provided in a list format, with all relevant features included in the data matrices within each list object. The output of stabMap is a joint low-dimensional embedding taking into account all available relevant features. Expression imputation can also be performed using the StabMap embedding and any of the original data matrices for given reference and query cell lists.</p>
-<p><font size="-1"></font></p><font size="-1">
-<p>
-Ghazanfar S (2023). <em>StabMap: Stabilised mosaic single cell data integration using unshared features</em>. R package version 0.1.8.
-</p>
-</font><p><font size="-1"></font></p>
-</section>
-<section id="cepo" class="level2">
-<h2 class="anchored" data-anchor-id="cepo">Cepo</h2>
+<section id="what-types-of-cells-are-in-my-data" class="level2">
+<h2 class="anchored" data-anchor-id="what-types-of-cells-are-in-my-data">What types of cells are in my data?</h2>
+<section id="cepo" class="level3">
+<h3 class="anchored" data-anchor-id="cepo">Cepo</h3>
 <p><a href="https://pyanglab.github.io/Cepo/"><img src="https://raw.githubusercontent.com/PYangLab/Cepo/main/man/figures/Cepo_logo.png" align="right" style="height: 100px; border: 0px"></a></p>
 <p>Defining the identity of a cell is fundamental to understand the heterogeneity of cells to various environmental signals and perturbations. We present Cepo, a new method to explore cell identities from single-cell RNA-sequencing data using differential stability as a new metric to define cell identity genes. Cepo computes cell-type specific gene statistics pertaining to differential stable gene expression.</p>
 <p><font size="-1"></font></p><font size="-1">
@@ -338,8 +237,109 @@ Kim H, Wang K (2023). <em>Cepo: Cepo for the identification of differentially st
 </p>
 </font><p><font size="-1"></font></p>
 </section>
-<section id="simbench" class="level2">
-<h2 class="anchored" data-anchor-id="simbench">SimBench</h2>
+<section id="fusesom" class="level3">
+<h3 class="anchored" data-anchor-id="fusesom">FuseSOM</h3>
+<p><a href="http://www.bioconductor.org/packages/release/bioc/html/FuseSOM.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/FuseSOM/fuseSOM_ai_standard.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
+<p>A correlation-based multiview self-organizing map for the characterization of cell types in highly multiplexed in situ imaging cytometry assays (<code>FuseSOM</code>) is a tool for unsupervised clustering. <code>FuseSOM</code> is robust and achieves high accuracy by combining a <code>Self Organizing Map</code> architecture and a <code>Multiview</code> integration of correlation based metrics. This allows FuseSOM to cluster highly multiplexed in situ imaging cytometry assays.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>&lt;0-length citation&gt;</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="scclassify" class="level3">
+<h3 class="anchored" data-anchor-id="scclassify">scClassify</h3>
+<p><a href="https://sydneybiox.github.io/scClassify/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/scClassify/scClassify.png" align="right" style="height: 100px; border: 0px"></a></p>
+<p>scClassify is a multiscale classification framework for single-cell RNA-seq data based on ensemble learning and cell type hierarchies, enabling sample size estimation required for accurate cell type classification and joint classification of cells using multiple references.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Lin Y, Cao Y, Kim HJ, Salim A, Speed TP, Lin DM, Yang P, Yang JYH (2020). “scClassify: sample size estimation and multiscale classification of cells using single and multiple reference.” <em>Molecular systems biology</em>, <b>16</b>(6), e9389.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="screclassify" class="level3">
+<h3 class="anchored" data-anchor-id="screclassify">scReClassify</h3>
+<p><a href="https://github.com/SydneyBioX/scReClassify"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/scReClassify/scReClassify.png" align="right" style="height: 100px; border: 0px"></a></p>
+<p>A post hoc cell type classification tool to fine-tune cell type annotations generated by any cell type classification procedure with semi-supervised learning algorithm AdaSampling technique. The current version of scReClassify supports Support Vector Machine and Random Forest as a base classifier.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Kim T, Lo K, Geddes TA, Kim HJ, Yang JYH, Yang P (2019). “scReClassify: post hoc cell type classification of single-cell RNA-seq data.” <em>BMC Genomics</em>, <b>20</b>(913).
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+</section>
+<section id="how-do-i-find-changes-in-my-data" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-i-find-changes-in-my-data">How do I find changes in my data?</h2>
+<section id="classifyr" class="level3">
+<h3 class="anchored" data-anchor-id="classifyr">ClassifyR</h3>
+<p><a href="https://sydneybiox.github.io/ClassifyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/ClassifyR/classifyR.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
+<p>The software formalises a framework for classification and survival model evaluation in R. There are four stages; Data transformation, feature selection, model training, and prediction. The requirements of variable types and variable order are fixed, but specialised variables for functions can also be provided. The framework is wrapped in a driver loop that reproducibly carries out a number of cross-validation schemes. Functions for differential mean, differential variability, and differential distribution are included. Additional functions may be developed by the user, by creating an interface to the framework.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Strbenac D, Mann GJ, Ormerod JT, Yang JYH (2015). “ClassifyR: an R package for performance assessment of classification with applications to transcriptomics.” <em>Bioinformatics</em>, <b>31</b>(11), 1851-1853.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="treekor" class="level3">
+<h3 class="anchored" data-anchor-id="treekor">treekoR</h3>
+<p><a href="http://www.bioconductor.org/packages/release/bioc/html/treekoR.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/treekoR/treekoR.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
+<p>treekoR is a novel framework that aims to utilise the hierarchical nature of single cell cytometry data to find robust and interpretable associations between cell subsets and patient clinical end points. These associations are aimed to recapitulate the nested proportions prevalent in workflows inovlving manual gating, which are often overlooked in workflows using automatic clustering to identify cell populations. We developed treekoR to: Derive a hierarchical tree structure of cell clusters; quantify a cell types as a proportion relative to all cells in a sample (%total), and, as the proportion relative to a parent population (%parent); perform significance testing using the calculated proportions; and provide an interactive html visualisation to help highlight key results.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Chan A (2023). <em>treekoR: Cytometry Cluster Hierarchy and Cellular-to-phenotype Associations</em>. <a href="https://doi.org/10.18129/B9.bioc.treekoR">doi:10.18129/B9.bioc.treekoR</a>, R package version 1.8.0.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="scfeatures" class="level3">
+<h3 class="anchored" data-anchor-id="scfeatures">scFeatures</h3>
+<p><a href="http://www.bioconductor.org/packages/release/bioc/html/scFeatures.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scFeatures/sticker_version2.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
+<p>scFeatures constructs multi-view representations of single-cell and spatial data. scFeatures is a tool that generates multi-view representations of single-cell and spatial data through the construction of a total of 17 feature types. These features can then be used for a variety of analyses using other software in Biocondutor.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Cao,Y., Lin,Y., Patrick,E., Yang,P., Yang,J.Y.H. &amp; (2022). “scFeatures: multi-view representations of single-cell and spatial data for disease outcome prediction.” <em>Bioinformatics</em>, <b>38</b>(20), 4745-4753. ISSN 1367-4803, <a href="https://doi.org/10.1093/bioinformatics/btac590">doi:10.1093/bioinformatics/btac590</a>.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="schot" class="level3">
+<h3 class="anchored" data-anchor-id="schot">scHOT</h3>
+<p><a href="https://bioconductor.org/packages/release/bioc/html/scHOT.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scHOT/scHOT_hex.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
+<p>Single cell Higher Order Testing (scHOT) is an R package that facilitates testing changes in higher order structure of gene expression along either a developmental trajectory or across space. scHOT is general and modular in nature, can be run in multiple data contexts such as along a continuous trajectory, between discrete groups, and over spatial orientations; as well as accommodate any higher order measurement such as variability or correlation. scHOT meaningfully adds to first order effect testing, such as differential expression, and provides a framework for interrogating higher order interactions from single cell data.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Ghazanfar S, Lin Y (2023). <em>scHOT: single-cell higher order testing</em>. <a href="https://doi.org/10.18129/B9.bioc.scHOT">doi:10.18129/B9.bioc.scHOT</a>, R package version 1.12.0.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="spicyr" class="level3">
+<h3 class="anchored" data-anchor-id="spicyr">spicyR</h3>
+<p><a href="https://ellispatrick.github.io/spicyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/spicyR/spicyR_standard.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
+<p>The spicyR package provides a framework for performing inference on changes in spatial relationships between pairs of cell types for cell-resolution spatial omics technologies. spicyR consists of three primary steps: (i) summarizing the degree of spatial localization between pairs of cell types for each image; (ii) modelling the variability in localization summary statistics as a function of cell counts and (iii) testing for changes in spatial localizations associated with a response variable.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Canete N, Iyengar S, Ormerod J, Baharlou H, Harman A, Patrick E (2022). “spicyR: spatial analysis of in situ cytometry data in R.” <em>Bioinformatics</em>, <b>38</b>(11), 3099–3105. <a href="https://doi.org/10.1093/bioinformatics/btac268">doi:10.1093/bioinformatics/btac268</a>.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="statial" class="level3">
+<h3 class="anchored" data-anchor-id="statial">Statial</h3>
+<p><a href="https://sydneybiox.github.io/Statial/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/Statial/statial.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
+<p>Statial is a suite of functions for identifying changes in cell state. The functionality provided by Statial provides robust quantification of cell type localisation which are invariant to changes in tissue structure. In addition to this Statial uncovers changes in marker expression associated with varying levels of localisation. These features can be used to explore how the structure and function of different cell types may be altered by the agents they are surrounded with.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Ameen F, Iyengar S, Ghazanfar S, Patrick E (2023). <em>Statial: A package to identify changes in cell state relative to spatial associations</em>. <a href="https://doi.org/10.18129/B9.bioc.Statial">doi:10.18129/B9.bioc.Statial</a>, R package version 1.2.4.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="lisaclust" class="level3">
+<h3 class="anchored" data-anchor-id="lisaclust">lisaClust</h3>
+<p><a href="https://ellispatrick.github.io/lisaClust/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/lisaClust/lisaClust_sticker_ai_standard.png?raw=true" align="right" style="height: 100px; border: 0px"></a></p>
+<p>lisaClust provides a series of functions to identify and visualise regions of tissue where spatial associations between cell-types is similar. This package can be used to provide a high-level summary of cell-type colocalization in multiplexed imaging data that has been segmented at a single-cell resolution.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Patrick E, Canete N (2023). <em>lisaClust: lisaClust: Clustering of Local Indicators of Spatial Association</em>. <a href="https://doi.org/10.18129/B9.bioc.lisaClust">doi:10.18129/B9.bioc.lisaClust</a>, R package version 1.8.1.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="simbench" class="level3">
+<h3 class="anchored" data-anchor-id="simbench">SimBench</h3>
 <p><a href="https://github.com/SydneyBioX/SimBench"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/SimBench/simbench_sticker.png" align="right" style="height: 100px; border: 0px"></a></p>
 <p>The SimBench package is designed for benchmarking simulation methods based on two key aspects of accuracy of data properties estimation and ability to retain biological signals. It contains functions for comparing simulated data obtained from simulation methods and real data that was used as the reference input into the simulation methods on the two aspects.</p>
 <p><font size="-1"></font></p><font size="-1">
@@ -347,8 +347,32 @@ Kim H, Wang K (2023). <em>Cepo: Cepo for the identification of differentially st
 Cao Y, Yang P, Yang J (2021). <em>SimBench: SimBench: benchmarking simulation methods</em>. R package version 0.99.1.
 </p>
 </font><p><font size="-1"></font></p>
+</section>
+</section>
+<section id="can-i-combine-different-types-of-omics-data" class="level2">
+<h2 class="anchored" data-anchor-id="can-i-combine-different-types-of-omics-data">Can I combine different types of omics data?</h2>
+<section id="citefuse" class="level3">
+<h3 class="anchored" data-anchor-id="citefuse">CiteFuse</h3>
+<p><a href="https://sydneybiox.github.io/CiteFuse/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/CiteFuse/CiteFuse.png" align="right" style="height: 100px; border: 0px"></a></p>
+<p>CiteFuse pacakage implements a suite of methods and tools for CITE-seq data from pre-processing to integrative analytics, including doublet detection, network-based modality integration, cell type clustering, differential RNA and protein expression analysis, ADT evaluation, ligand-receptor interaction analysis, and interactive web-based visualisation of the analyses.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Kim HJ, Lin Y, Geddes TA, Yang P, Yang JYH (2020). “CiteFuse enables multi-modal analysis of CITE-seq data.” <em>Bioinformatics</em>, <b>36</b>(14), 4137–4143.
+</p>
+</font><p><font size="-1"></font></p>
+</section>
+<section id="stabmap" class="level3">
+<h3 class="anchored" data-anchor-id="stabmap">StabMap</h3>
+<p><a href="https://marionilab.github.io/StabMap/"><img src="https://raw.githubusercontent.com/MarioniLab/StabMap/main/man/figures/hex.png" align="right" style="height: 100px; border: 0px"></a></p>
+<p>StabMap performs single cell mosaic data integration by first building a mosaic data topology, and for each reference dataset, traverses the topology to project and predict data onto a common embedding. Mosaic data should be provided in a list format, with all relevant features included in the data matrices within each list object. The output of stabMap is a joint low-dimensional embedding taking into account all available relevant features. Expression imputation can also be performed using the StabMap embedding and any of the original data matrices for given reference and query cell lists.</p>
+<p><font size="-1"></font></p><font size="-1">
+<p>
+Ghazanfar S (2023). <em>StabMap: Stabilised mosaic single cell data integration using unshared features</em>. R package version 0.1.8.
+</p>
+</font><p><font size="-1"></font></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
