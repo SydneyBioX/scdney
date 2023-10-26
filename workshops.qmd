@@ -2,46 +2,30 @@
 title: "Problem-focused Workshops"
 ---
 
-The Sydney Precision Data Science Centre has developed a series of living workshops for building data stories, using Single-cell data integrative analysis (scdney). scdney is a wrapper package with a collection of single-cell analysis R packages incorporating data integration, cell type annotation, higher order testing and more. Through these workshops, we not only showcase current solutions, but also highlight critical thinking points. In particular, we highlight the Thinking Process Template that provides a structured framework for the decision-making process behind such single-cell analyses. Furthermore, our workshop will incorporate dynamic contributions from the community in a collaborative learning approach, thus the term ‘living’. For more information on the  Thinking Process Template, please see our F1000 publication (https://f1000research.com/articles/12-261)
-
-## Fondation workshop
-
-The foundation workshop focuses on the basic aspect of navigating and visualising single-cell data. Additionally it covers aspects such as:
-
--   Quality control
--   Normalisation
--   Batch correction
--   Cell-type annotation with marker genes
--   Cell-type clustering
-
-## Advanced foundation extension workshop
-
-Additionally, the foundation workshop can be extended to include advanced topics such as:
-
--   Merging datasets
--   Batch effect quantification and visualisation
--   Joint cell-type annotation
--   Cell-type annotation quality control
--   Marker and pathway analysis
--   Gene regulatory network analysis
+The Sydney Precision Data Science Centre has developed a series of living workshops for building data stories, using single-cell data integrative analysis (SCDNEY). Through these workshops, we not only showcase current solutions, but also highlight critical thinking points. In particular, we highlight the Thinking Process Template that provides a structured framework for the decision-making process behind such single-cell analyses. Furthermore, our workshop will incorporate dynamic contributions from the community in a collaborative learning approach, thus the term 'living'. For more information on the Thinking Process Template, please see our F1000 publication (https://f1000research.com/articles/12-261)
 
 ## [Advanced cell phenotyping](https://sydneybiox.github.io/scdneyAdvancedPhenotyping/articles/advanced_phenotyping.html)
 
-The advanced cell phenotyping workshop guides attendees through the process for annotating cells beyond cell-type.
+The advanced cell phenotyping workshop guides attendees through the challenge of annotating cells beyond cell-type.
 
--   Trajectory analysis
-    -   Feature selection using differential expression, differential stability.
-    -   Dimension reduction and visualisation
-    -   Lineage structure creation with pseudo time inference
--   Trajectory quality control
--   Trajectory characterisation
--   Cell-cell interaction
+
+#### Learning Objectives
+
+- Describe various strategies for cellular phenotyping
+- Identify different workflows to build trajectory including calculate pseudo-times
+- Generate appropriate graphics to visualise the trajectories and expression of genes
+- Understand the different trajectory characterisation approaches including differentially expressed genes across trajectories, 
+- Evaluate the single cell data to identify genes that distinguish trajectories and ligand-receptor interactions that distinguish cell types
+- [Optional] Identify cell-cell interactions in a single cell data and understand how cell-cell communication can be used to distinguish cell types
 
 ## [Disease Outcome Classification in Single Cell Data](https://sydneybiox.github.io/scdneyDiseasePrediction/articles/disease_outcome_classification_schulte.html)
 
 The disease outcome classification guides attendee through using single cell data to classify disease outcome.
 
--   Generating features from single cell data
--   Feature quality control
--   Multi-view classification
--   Model robustness
+#### Learning Objectives
+
+- Explore various strategies for disease outcome prediction using single cell data     
+- Understand the transformation from cell level features to patient level features     
+- Generate patient representations from gene expression matrix      
+- Understand the characteristics of good classification models   
+- Perform disease outcome prediction using the feature representation and robust classification framework     
