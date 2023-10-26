@@ -25,21 +25,23 @@ There are many members of the Sydney Precision Data Science Centre at the Univer
 
 ### Contributors
 
-::: {layout-ncol=2}
+::: {layout-ncol=3}
 
-<img src="https://github.com/DarioS.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Dr. Dario Strbenac](https://github.com/DarioS)  
-<img src="https://github.com/yingxinlin.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Dr. Yingxin Lin](https://yingxinlin.github.io/)  
-<img src="https://github.com/ycao6928.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Dr. Yue Cao](https://github.com/ycao6928)  
-<img src="https://github.com/HaniJieunKim.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Dr. Hani Kim](https://github.com/HaniJieunKim)  
-<img src="https://github.com/kevinwang09.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Dr. Kevin Y.X. Wang](https://github.com/kevinwang09)  
-<img src="https://github.com/taiyunkim.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Dr. Taiyun Kim](https://github.com/taiyunkim)  
+<img src="https://github.com/DarioS.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Dr. Dario Strbenac](https://github.com/DarioS)  
+<img src="https://github.com/yingxinlin.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Dr. Yingxin Lin](https://yingxinlin.github.io/)  
+<img src="https://github.com/ycao6928.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Dr. Yue Cao](https://github.com/ycao6928)  
+<img src="https://github.com/HaniJieunKim.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Dr. Hani Kim](https://github.com/HaniJieunKim)  
+<img src="https://github.com/kevinwang09.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Dr. Kevin Y.X. Wang](https://github.com/kevinwang09)  
 
-<img src="https://github.com/nick-robo.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Nick Robertson](https://nick-robo.github.io/)  
-<img src="https://github.com/fame2827.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Farhan Ameen](https://fame2827.github.io/)    
-<img src="https://github.com/adam2o1o.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Adam Chan](https://github.com/adam2o1o)  
-<img src="https://github.com/alexrunqin.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Alex Qin](https://alexrunqin.github.io/)  
-<img src="https://github.com/ecool50.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Elijah Willie](https://github.com/ecool50)  
-<img src="https://github.com/barbarazpc.png" alt="SPDS" style="width: 100px; border: 0px; border-radius: 50%"/> [Bárbara Zita Peters Couto](https://github.com/barbarazpc)  
+<img src="https://github.com/taiyunkim.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Dr. Taiyun Kim](https://github.com/taiyunkim)  
+<img src="https://github.com/nick-robo.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Nick Robertson](https://nick-robo.github.io/)  
+<img src="https://github.com/trandypandy.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Andy Tran](https://github.com/trandypandy)  
+<img src="https://github.com/fame2827.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Farhan Ameen](https://fame2827.github.io/)    
+
+<img src="https://github.com/adam2o1o.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Adam Chan](https://github.com/adam2o1o)  
+<img src="https://github.com/alexrunqin.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Alex Qin](https://alexrunqin.github.io/)  
+<img src="https://github.com/ecool50.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Elijah Willie](https://github.com/ecool50)  
+<img src="https://github.com/barbarazpc.png" alt="SPDS" style="width: 60px; border: 0px; border-radius: 50%"/> [Bárbara Zita Peters Couto](https://github.com/barbarazpc)  
 
 :::
 
