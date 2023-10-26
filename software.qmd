@@ -178,7 +178,9 @@ citation {
 </style>
 ```
 
-## MoleculeExperiment
+## How do I process my data to get cells?
+
+### MoleculeExperiment
 
 <a href="https://sydneybiox.github.io/MoleculeExperiment/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/MoleculeExperiment/MoleculeExperiment.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
 
@@ -192,22 +194,7 @@ print(myCitation("MoleculeExperiment"), style = "html")
 ```
 </font> 
 
-## simpleSeg
-
-<a href="http://www.bioconductor.org/packages/release/bioc/html/simpleSeg.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/simpleSeg/SimpleSeg_Hex_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
-
-
-```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("simpleSeg", fields = "Description")))
-```
-
-<font size=-1> 
-```{r, results = 'asis', echo = FALSE}
-print(myCitation("simpleSeg"), style = "html")
-```
-</font>
-
-## scMerge
+### scMerge
 
 <a href="https://sydneybiox.github.io/scMerge/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scMerge/scMerge.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
 
@@ -222,7 +209,41 @@ print(myCitation("scMerge"), style = "html")
 ```
 </font> 
 
-## FuseSOM
+### simpleSeg
+
+<a href="http://www.bioconductor.org/packages/release/bioc/html/simpleSeg.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/simpleSeg/SimpleSeg_Hex_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("simpleSeg", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("simpleSeg"), style = "html")
+```
+</font>
+
+
+## What types of cells are in my data?
+
+### Cepo
+
+<a href="https://pyanglab.github.io/Cepo/"><img src="https://raw.githubusercontent.com/PYangLab/Cepo/main/man/figures/Cepo_logo.png" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("Cepo", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("Cepo"), style = "html")
+```
+</font> 
+
+
+### FuseSOM
 
 <a href="http://www.bioconductor.org/packages/release/bioc/html/FuseSOM.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/FuseSOM/fuseSOM_ai_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
 
@@ -237,125 +258,7 @@ print(myCitation("FuseSOM"), style = "html")
 ```
 </font> 
 
-## treekoR
-
-<a href="http://www.bioconductor.org/packages/release/bioc/html/treekoR.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/treekoR/treekoR.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
-
-
-```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("treekoR", fields = "Description")))
-```
-
-<font size=-1> 
-```{r, results = 'asis', echo = FALSE}
-print(myCitation("treekoR"), style = "html", url = "")
-```
-</font> 
-
-## scFeatures
-
-<a href="http://www.bioconductor.org/packages/release/bioc/html/scFeatures.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scFeatures/sticker_version2.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
-
-```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("scFeatures", fields = "Description")))
-```
-
-<font size=-1> 
-```{r, results = 'asis', echo = FALSE}
-print(myCitation("scFeatures"), style = "html")
-```
-</font> 
-
-## scHOT
-
-<a href="https://bioconductor.org/packages/release/bioc/html/scHOT.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scHOT/scHOT_hex.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
-
-```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("scHOT", fields = "Description")))
-```
-
-<font size=-1> 
-```{r, results = 'asis', echo = FALSE}
-print(myCitation("scHOT"), style = "html")
-```
-</font> 
-
-## spicyR
-
-<a href="https://ellispatrick.github.io/spicyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/spicyR/spicyR_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
-
-```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("spicyR", fields = "Description")))
-```
-
-<font size=-1> 
-```{r, results = 'asis', echo = FALSE}
-print(myCitation("spicyR"), style = "html")
-```
-</font> 
-
-## Statial
-
-<a href="https://sydneybiox.github.io/Statial/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/Statial/statial.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
-
-
-```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("Statial", fields = "Description")))
-```
-
-<font size=-1> 
-```{r, results = 'asis', echo = FALSE}
-print(myCitation("Statial"), style = "html")
-```
-</font> 
-
-## lisaClust
-
-<a href="https://ellispatrick.github.io/lisaClust/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/lisaClust/lisaClust_sticker_ai_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
-
-
-```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("lisaClust", fields = "Description")))
-```
-
-<font size=-1> 
-```{r, results = 'asis', echo = FALSE}
-print(myCitation("lisaClust"), style = "html")
-```
-</font> 
-
-## ClassifyR
-
-<a href="https://sydneybiox.github.io/ClassifyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/ClassifyR/classifyR.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
-
-
-```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("ClassifyR", fields = "Description")))
-```
-
-<font size=-1> 
-```{r, results = 'asis', echo = FALSE}
-print(myCitation("ClassifyR"), style = "html")
-```
-</font> 
-
-## CiteFuse
-
-<a href="https://sydneybiox.github.io/CiteFuse/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/CiteFuse/CiteFuse.png" align="right" style="height: 100px; border: 0px"/></a>
-
-
-```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("CiteFuse", fields = "Description")))
-```
-
-<font size=-1> 
-```{r, results = 'asis', echo = FALSE}
-print(myCitation("CiteFuse"), style = "html")
-```
-</font> 
-
-
-## scClassify
+### scClassify
 
 <a href="https://sydneybiox.github.io/scClassify/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/scClassify/scClassify.png" align="right" style="height: 100px; border: 0px"/></a>
 
@@ -371,7 +274,7 @@ print(myCitation("scClassify"), style = "html")
 </font> 
 
 
-## scReClassify
+### scReClassify
 
 <a href="https://github.com/SydneyBioX/scReClassify"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/scReClassify/scReClassify.png" align="right" style="height: 100px; border: 0px"/></a>
 
@@ -387,37 +290,113 @@ print(myCitation("scReClassify"), style = "html")
 </font> 
 
 
-## StabMap
+## How do I find changes in my data?
 
-<a href="https://marionilab.github.io/StabMap/"><img src="https://raw.githubusercontent.com/MarioniLab/StabMap/main/man/figures/hex.png" align="right" style="height: 100px; border: 0px"/></a>
+### ClassifyR
+
+<a href="https://sydneybiox.github.io/ClassifyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/ClassifyR/classifyR.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
 
 
 ```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("StabMap", fields = "Description")))
+cat(gsub("\n", " ", utils::packageDescription("ClassifyR", fields = "Description")))
 ```
 
 <font size=-1> 
 ```{r, results = 'asis', echo = FALSE}
-print(myCitation("StabMap"), style = "html")
+print(myCitation("ClassifyR"), style = "html")
 ```
 </font> 
 
-## Cepo
 
-<a href="https://pyanglab.github.io/Cepo/"><img src="https://raw.githubusercontent.com/PYangLab/Cepo/main/man/figures/Cepo_logo.png" align="right" style="height: 100px; border: 0px"/></a>
+### treekoR
+
+<a href="http://www.bioconductor.org/packages/release/bioc/html/treekoR.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/treekoR/treekoR.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
 
 
 ```{r, results = 'asis', echo = FALSE}
-cat(gsub("\n", " ", utils::packageDescription("Cepo", fields = "Description")))
+cat(gsub("\n", " ", utils::packageDescription("treekoR", fields = "Description")))
 ```
 
 <font size=-1> 
 ```{r, results = 'asis', echo = FALSE}
-print(myCitation("Cepo"), style = "html")
+print(myCitation("treekoR"), style = "html", url = "")
 ```
 </font> 
 
-## SimBench
+### scFeatures
+
+<a href="http://www.bioconductor.org/packages/release/bioc/html/scFeatures.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scFeatures/sticker_version2.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("scFeatures", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("scFeatures"), style = "html")
+```
+</font> 
+
+### scHOT
+
+<a href="https://bioconductor.org/packages/release/bioc/html/scHOT.html"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/scHOT/scHOT_hex.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("scHOT", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("scHOT"), style = "html")
+```
+</font> 
+
+### spicyR
+
+<a href="https://ellispatrick.github.io/spicyR/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/spicyR/spicyR_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("spicyR", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("spicyR"), style = "html")
+```
+</font> 
+
+### Statial
+
+<a href="https://sydneybiox.github.io/Statial/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/Statial/statial.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("Statial", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("Statial"), style = "html")
+```
+</font> 
+
+### lisaClust
+
+<a href="https://ellispatrick.github.io/lisaClust/"><img src="https://github.com/SydneyBioX/SydneyBioXStickers/blob/main/lisaClust/lisaClust_sticker_ai_standard.png?raw=true" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("lisaClust", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("lisaClust"), style = "html")
+```
+</font> 
+
+
+### SimBench
 
 <a href="https://github.com/SydneyBioX/SimBench"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/SimBench/simbench_sticker.png" align="right" style="height: 100px; border: 0px"/></a>
 
@@ -429,6 +408,40 @@ cat(gsub("\n", " ", utils::packageDescription("SimBench", fields = "Description"
 <font size=-1> 
 ```{r, results = 'asis', echo = FALSE}
 print(myCitation("SimBench"), style = "html")
+```
+</font> 
+
+
+## Can I combine different types of omics data?
+
+### CiteFuse
+
+<a href="https://sydneybiox.github.io/CiteFuse/"><img src="https://raw.githubusercontent.com/SydneyBioX/SydneyBioXStickers/main/CiteFuse/CiteFuse.png" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("CiteFuse", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("CiteFuse"), style = "html")
+```
+</font> 
+
+
+### StabMap
+
+<a href="https://marionilab.github.io/StabMap/"><img src="https://raw.githubusercontent.com/MarioniLab/StabMap/main/man/figures/hex.png" align="right" style="height: 100px; border: 0px"/></a>
+
+
+```{r, results = 'asis', echo = FALSE}
+cat(gsub("\n", " ", utils::packageDescription("StabMap", fields = "Description")))
+```
+
+<font size=-1> 
+```{r, results = 'asis', echo = FALSE}
+print(myCitation("StabMap"), style = "html")
 ```
 </font> 
 
