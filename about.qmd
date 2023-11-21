@@ -53,3 +53,5 @@ We work on the principle that successful and sustainable collaboration grows org
 - provide an incubator for interdisciplinary careers
 - establish a collaborative community that reflects and values diversity.
 
+
+We have a [code of conduct](conduct.qmd) that outlines our values.
