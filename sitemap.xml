@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://SydneyBioX.github.io/scdney_devel/about.html</loc>
-    <lastmod>2023-11-21T23:18:01.358Z</lastmod>
+    <loc>https://SydneyBioX.github.io/scdney/about.html</loc>
+    <lastmod>2023-11-21T23:32:02.571Z</lastmod>
   </url>
   <url>
-    <loc>https://SydneyBioX.github.io/scdney_devel/software.html</loc>
-    <lastmod>2023-11-21T23:18:00.834Z</lastmod>
+    <loc>https://SydneyBioX.github.io/scdney/software.html</loc>
+    <lastmod>2023-11-21T23:32:02.024Z</lastmod>
   </url>
   <url>
-    <loc>https://SydneyBioX.github.io/scdney_devel/index.html</loc>
-    <lastmod>2023-11-21T23:17:59.058Z</lastmod>
+    <loc>https://SydneyBioX.github.io/scdney/workshops.html</loc>
+    <lastmod>2023-11-21T23:32:00.678Z</lastmod>
   </url>
   <url>
-    <loc>https://SydneyBioX.github.io/scdney_devel/conduct.html</loc>
-    <lastmod>2023-11-21T23:17:58.884Z</lastmod>
+    <loc>https://SydneyBioX.github.io/scdney/conduct.html</loc>
+    <lastmod>2023-11-21T23:32:00.328Z</lastmod>
   </url>
   <url>
-    <loc>https://SydneyBioX.github.io/scdney_devel/workshops.html</loc>
-    <lastmod>2023-11-21T23:17:59.244Z</lastmod>
+    <loc>https://SydneyBioX.github.io/scdney/index.html</loc>
+    <lastmod>2023-11-21T23:32:00.494Z</lastmod>
   </url>
   <url>
-    <loc>https://SydneyBioX.github.io/scdney_devel/Publications.html</loc>
-    <lastmod>2023-11-21T23:18:01.188Z</lastmod>
+    <loc>https://SydneyBioX.github.io/scdney/contribute.html</loc>
+    <lastmod>2023-11-21T23:32:00.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SydneyBioX.github.io/scdney/Publications.html</loc>
+    <lastmod>2023-11-21T23:32:02.378Z</lastmod>
   </url>
 </urlset>

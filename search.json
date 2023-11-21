@@ -21,6 +21,13 @@
     "text": "Our priorities\nWe work on the principle that successful and sustainable collaboration grows organically within the right environment. To this end, our priorities for success are to:\n\nembrace data science challenges by developing innovative, fit-for-purpose applied methods in synergistic partnerships with key data-generating centres at Sydney and beyond\naddress data challenges with high societal impact and to build sustainable approaches\nprovide an incubator for interdisciplinary careers\nestablish a collaborative community that reflects and values diversity.\n\nWe have a code of conduct that outlines our values."
   },
   {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "If you would like to contribute to SCDNEY, check out the guidelines."
+  },
+  {
     "objectID": "software.html#how-do-i-process-my-data-to-get-cells",
     "href": "software.html#how-do-i-process-my-data-to-get-cells",
     "title": "Software",
@@ -49,25 +56,25 @@
     "text": "Can I combine different types of omics data?\n\nCiteFuse\n\nCiteFuse pacakage implements a suite of methods and tools for CITE-seq data from pre-processing to integrative analytics, including doublet detection, network-based modality integration, cell type clustering, differential RNA and protein expression analysis, ADT evaluation, ligand-receptor interaction analysis, and interactive web-based visualisation of the analyses.\n\n\nKim HJ, Lin Y, Geddes TA, Yang P, Yang JYH (2020). “CiteFuse enables multi-modal analysis of CITE-seq data.” Bioinformatics, 36(14), 4137–4143.\n\n\n\n\nStabMap\n\nStabMap performs single cell mosaic data integration by first building a mosaic data topology, and for each reference dataset, traverses the topology to project and predict data onto a common embedding. Mosaic data should be provided in a list format, with all relevant features included in the data matrices within each list object. The output of stabMap is a joint low-dimensional embedding taking into account all available relevant features. Expression imputation can also be performed using the StabMap embedding and any of the original data matrices for given reference and query cell lists.\n\n\nGhazanfar S (2023). StabMap: Stabilised mosaic single cell data integration using unshared features. R package version 0.1.8."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SCDNEY",
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Problem-focused Workshops",
     "section": "",
-    "text": "Scientists now have the ability to generate a vast amount of high throughput biomedical data, which can carry critical information for important clinical and public health applications. This data revolution in biology is now generating a multitude of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery."
+    "text": "The Sydney Precision Data Science Centre has developed a series of living workshops for building data stories, using single-cell data integrative analysis (SCDNEY). Through these workshops, we not only showcase current solutions, but also highlight critical thinking points. In particular, we highlight the Thinking Process Template that provides a structured framework for the decision-making process behind such single-cell analyses. Furthermore, our workshop will incorporate dynamic contributions from the community in a collaborative learning approach, thus the term ‘living’. For more information on the Thinking Process Template, please see our F1000 publication (https://f1000research.com/articles/12-261)"
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "SCDNEY",
-    "section": "",
-    "text": "Scientists now have the ability to generate a vast amount of high throughput biomedical data, which can carry critical information for important clinical and public health applications. This data revolution in biology is now generating a multitude of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery."
+    "objectID": "workshops.html#advanced-cell-phenotyping",
+    "href": "workshops.html#advanced-cell-phenotyping",
+    "title": "Problem-focused Workshops",
+    "section": "Advanced cell phenotyping",
+    "text": "Advanced cell phenotyping\nThe advanced cell phenotyping workshop guides attendees through the challenge of annotating cells beyond cell-type.\n\nLearning Objectives\n\nDescribe various strategies for cellular phenotyping\nIdentify different workflows to build trajectory including calculate pseudo-times\nGenerate appropriate graphics to visualise the trajectories and expression of genes\nUnderstand the different trajectory characterisation approaches including differentially expressed genes across trajectories,\nEvaluate the single cell data to identify genes that distinguish trajectories and ligand-receptor interactions that distinguish cell types\n[Optional] Identify cell-cell interactions in a single cell data and understand how cell-cell communication can be used to distinguish cell types"
   },
   {
-    "objectID": "index.html#scdney",
-    "href": "index.html#scdney",
-    "title": "SCDNEY",
-    "section": "SCDNEY",
-    "text": "SCDNEY\n\n\n\n\n\n    \n\nDeeper explanations of the functionality of our software can be found in the Software tab"
+    "objectID": "workshops.html#disease-outcome-classification-in-single-cell-data",
+    "href": "workshops.html#disease-outcome-classification-in-single-cell-data",
+    "title": "Problem-focused Workshops",
+    "section": "Disease Outcome Classification in Single Cell Data",
+    "text": "Disease Outcome Classification in Single Cell Data\nThe disease outcome classification guides attendee through using single cell data to classify disease outcome.\n\nLearning Objectives\n\nExplore various strategies for disease outcome prediction using single cell data\n\nUnderstand the transformation from cell level features to patient level features\n\nGenerate patient representations from gene expression matrix\n\nUnderstand the characteristics of good classification models\n\nPerform disease outcome prediction using the feature representation and robust classification framework"
   },
   {
     "objectID": "conduct.html",
@@ -91,25 +98,46 @@
     "text": "Reporting\nIf someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible. You can make a report either anonymously or personally. All reports will be reviewed by the Code of Conduct Committee and will be kept confidential.\n\nElectronically\nYou can email the Code of Conduct Committee (maths.bioconductor@sydney.edu.au). Please include screenshots/copies of all relevant electronic conversations whenever possible (you don’t need to compromise your anonymity!).\n\n\nPersonal Report (for any SCDNEY events: in-person or virtual)\nYou can make a personal report to any member of the event Code of Conduct committee present at an event.\nWhen taking a personal report, we will ensure you are safe and cannot be overheard. We may involve other event staff to ensure your report is managed properly. Once safe, we’ll ask you to tell us about what happened. This can be upsetting, but we’ll handle it as respectfully as possible, and you can bring someone to support you. You won’t be asked to confront anyone, and we won’t tell anyone who you are.\nOur team will be happy to help you get the relevant support (e.g. help contacting hotel/venue security, local law enforcement, local support services, provide escorts, or otherwise assist you to feel safe for the duration of the event).\nWe value your attendance and participation at SCDNEY events and in our community.\n(Adapted from the BioC 2020 Code of Conduct)"
   },
   {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
-    "title": "Problem-focused Workshops",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SCDNEY",
     "section": "",
-    "text": "The Sydney Precision Data Science Centre has developed a series of living workshops for building data stories, using single-cell data integrative analysis (SCDNEY). Through these workshops, we not only showcase current solutions, but also highlight critical thinking points. In particular, we highlight the Thinking Process Template that provides a structured framework for the decision-making process behind such single-cell analyses. Furthermore, our workshop will incorporate dynamic contributions from the community in a collaborative learning approach, thus the term ‘living’. For more information on the Thinking Process Template, please see our F1000 publication (https://f1000research.com/articles/12-261)"
+    "text": "Scientists now have the ability to generate a vast amount of high throughput biomedical data, which can carry critical information for important clinical and public health applications. This data revolution in biology is now generating a multitude of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery."
   },
   {
-    "objectID": "workshops.html#advanced-cell-phenotyping",
-    "href": "workshops.html#advanced-cell-phenotyping",
-    "title": "Problem-focused Workshops",
-    "section": "Advanced cell phenotyping",
-    "text": "Advanced cell phenotyping\nThe advanced cell phenotyping workshop guides attendees through the challenge of annotating cells beyond cell-type.\n\nLearning Objectives\n\nDescribe various strategies for cellular phenotyping\nIdentify different workflows to build trajectory including calculate pseudo-times\nGenerate appropriate graphics to visualise the trajectories and expression of genes\nUnderstand the different trajectory characterisation approaches including differentially expressed genes across trajectories,\nEvaluate the single cell data to identify genes that distinguish trajectories and ligand-receptor interactions that distinguish cell types\n[Optional] Identify cell-cell interactions in a single cell data and understand how cell-cell communication can be used to distinguish cell types"
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "SCDNEY",
+    "section": "",
+    "text": "Scientists now have the ability to generate a vast amount of high throughput biomedical data, which can carry critical information for important clinical and public health applications. This data revolution in biology is now generating a multitude of new single-cell datasets. Concurrently, there have been significant methodological advances in single-cell research. Integrating these two resources, creating tailor-made, efficient, and purpose-specific data analysis approaches can assist in accelerating scientific discovery."
   },
   {
-    "objectID": "workshops.html#disease-outcome-classification-in-single-cell-data",
-    "href": "workshops.html#disease-outcome-classification-in-single-cell-data",
-    "title": "Problem-focused Workshops",
-    "section": "Disease Outcome Classification in Single Cell Data",
-    "text": "Disease Outcome Classification in Single Cell Data\nThe disease outcome classification guides attendee through using single cell data to classify disease outcome.\n\nLearning Objectives\n\nExplore various strategies for disease outcome prediction using single cell data\n\nUnderstand the transformation from cell level features to patient level features\n\nGenerate patient representations from gene expression matrix\n\nUnderstand the characteristics of good classification models\n\nPerform disease outcome prediction using the feature representation and robust classification framework"
+    "objectID": "index.html#scdney",
+    "href": "index.html#scdney",
+    "title": "SCDNEY",
+    "section": "SCDNEY",
+    "text": "SCDNEY\n\n\n\n\n\n    \n\nDeeper explanations of the functionality of our software can be found in the Software tab"
+  },
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Contribute to SCDNEY",
+    "section": "",
+    "text": "SCDNEY would not be possible without the contributions of the R community. No matter your current skills, it’s possible to contribute back to SCDNEY."
+  },
+  {
+    "objectID": "contribute.html#issues",
+    "href": "contribute.html#issues",
+    "title": "Contribute to SCDNEY",
+    "section": "File issues",
+    "text": "File issues\nIf you’ve found a bug in any of the packages, first create a minimal reprex. Spend some time trying to make it as minimal as possible: the more time you spend doing this, the easier it will be for the tidyverse team to fix it. Then file it on the GitHub repo of the appropriate package."
+  },
+  {
+    "objectID": "contribute.html#contribute-code",
+    "href": "contribute.html#contribute-code",
+    "title": "Contribute to SCDNEY",
+    "section": "Contribute code",
+    "text": "Contribute code\nIf you are a more experienced programmer, you might want to help out with the package development. Before you do a pull request, you should always file an issue and make sure someone from the SCDNEY team agrees that it’s a problem, and is happy with your basic proposal for fixing it. We don’t want you to spend a bunch of time on something that we don’t think is a good idea.\nMake sure to read the tidyverse style guide to ensure that your new code and documentation matches the existing style, and our code review principles for advice on how to submit a great pull request. Using these guides makes the overall review process much smoother!"
   },
   {
     "objectID": "Publications.html",
