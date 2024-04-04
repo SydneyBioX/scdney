@@ -6,10 +6,11 @@ title: "Publications"
 
 ### Preprint
 
-+ <font size="+1"> **Lin, Y.,** Wu, T. Y., Chen, X., Wan, S., Chao, B., Xin, J., **Yang, J.Y.H & Wang,** Wong W.H., Wang R.Y.X. (2022). scTIE: data integration and inference of gene regulation using single-cell temporal multimodal data. *BioRxiv*. [[paper](https://www.biorxiv.org/content/10.1101/2023.05.18.541381v1)]</font>
-
-
 + <font size="+1"> **Yin, D.**, **Cao, Y.**, **Chen, J.**, Mak, C. L., Yu, K. H., Lin, Y., **Ho, J.W.K.** & **Yang, J.Y.H.** (2022). Covidscope: An atlas-scale COVID-19 resource for single-cell meta analysis at sample and cell levels. *BioRxiv*. [[paper](https://doi.org/10.1101/2022.12.03.518997)]</font>
+
+### 2024
+
++ <font size="+1"> **Lin, Y.,** Wu, T. Y., Chen, X., Wan, S., Chao, B., Xin, J., **Yang, J.Y.H & Wang,** Wong W.H., Wang R.Y.X. (2022). scTIE: data integration and inference of gene regulation using single-cell temporal multimodal data. *Genome Res*. [[paper](https://doi.org/10.1101/gr.277960.123)]</font>
 
 ### 2023
 
