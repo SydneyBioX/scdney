@@ -19,6 +19,9 @@ title: "Publications"
 
 + <font size="+1"> **Chan, A. S.**, **Wang, C.**, **Fu, X.**, **Ghazanfar, S.**, Kim, J., **Patrick, E.**, & **Yang, J. Y. H.** (2023). Benchmarking the translational potential of spatial gene expression prediction from histology. *BioRxiv*. [[paper](https://doi.org/10.1101/2023.12.12.571251)]</font>
 
++ <font size="+1"> **Cao, Y.**, **Yu, L.**, **Torkel, M.**, **Kim, S.**, **Lin, Y.**, **Yang, P.**, Speed, T.P., **Ghazanfar, S.** & **Yang, J.Y.H.** 2023. The current landscape and emerging challenges of benchmarking single-cell methods.  *BioRxiv*. [[paper](https://doi.org/10.1101/2023.12.19.572303)]</font>
+
+
 
 ### 2024
 
