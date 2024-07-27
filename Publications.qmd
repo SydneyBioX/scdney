@@ -6,23 +6,38 @@ title: "Publications"
 
 ### Preprint
 
-+ <font size="+1"> **Yin, D.**, **Cao, Y.**, **Chen, J.**, Mak, C. L., Yu, K. H., Lin, Y., **Ho, J.W.K.** & **Yang, J.Y.H.** (2022). Covidscope: An atlas-scale COVID-19 resource for single-cell meta analysis at sample and cell levels. *BioRxiv*. [[paper](https://doi.org/10.1101/2022.12.03.518997)]</font>
++ <font size="+1"> **Yin, D.**, **Cao, Y.**, **Chen, J.**, Mak, C. L., Yu, K. H., Lin, Y., **Ho, J.W.K.** & **Yang, J.Y.H.** (2022). Scope+: An open source generalizable architecture for single-cell atlases at sample and cell levels. *BioRxiv*. [[paper](https://doi.org/10.1101/2022.12.03.518997)]</font>
+
+
++ <font size="+1"> **Ding, W.**, **Cao, Y.**, **Fu, X.**, **Torkel, M.**, & **Yang, J.Y.H.** (2024). A Message Passing Framework for Precise Cell State Identification with scClassify2. *BioRxiv*. [[paper](https://doi.org/10.1101/2024.06.26.600770)]</font>
+
+
++ <font size="+1"> **Liang, X.**, **Cao, Y.**, & **Yang, J. Y. H.** (2024). Multi-task benchmarking of spatially resolved gene expression simulation models.  *BioRxiv*. (2024).[[paper](https://doi.org/10.1101/2024.05.29.596418)]</font>
+
++ <font size="+1"> **Fu, X.**, **Cao, Y.**, **Bian, B.**, **Wang, C.**, Graham, D., Pathmanathan, N., **Patrick, E.**, Kim, J. and **Yang, J.Y.H.** (2024). Spatial gene expression at single-cell resolution from histology using deep learning with GHIST.  *BioRxiv*. [[paper](https://doi.org/10.1101/2024.07.02.601790)]</font>
+ 
+
++ <font size="+1"> **Chan, A. S.**, **Wang, C.**, **Fu, X.**, **Ghazanfar, S.**, Kim, J., **Patrick, E.**, & **Yang, J. Y. H.** (2023). Benchmarking the translational potential of spatial gene expression prediction from histology. *BioRxiv*. [[paper](https://doi.org/10.1101/2023.12.12.571251)]</font>
+
 
 ### 2024
 
-+ <font size="+1"> **Lin, Y.,** Wu, T. Y., Chen, X., Wan, S., Chao, B., Xin, J., **Yang, J.Y.H & Wang,** Wong W.H., Wang R.Y.X. (2022). scTIE: data integration and inference of gene regulation using single-cell temporal multimodal data. *Genome Res*. [[paper](https://doi.org/10.1101/gr.277960.123)]</font>
++ <font size="+1"> **Lin, Y.**, Wu, T. Y., Chen, X., Wan, S., Chao, B., Xin, J., **Yang, J.Y.H**, Wong, W.H. & Wang R.Y.X. (2024). Data integration and inference of gene regulation using single-cell temporal multimodal data with scTIE. *Genome Research*. [[paper](https://doi.org/10.1101/gr.277960.123)]</font>
+
+
++ <font size="+1"> **Fu, X.**, **Lin, Y.**, Lin, D.M., **Mechtersheimer, D.**, **Wang, C.**, **Ameen, F.**, **Ghazanfar, S.**, **Patrick, E.**, Kim, J. & **Yang, J.Y.H. ** (2024). BIDCell: Biologically-informed self-supervised learning for segmentation of subcellular spatial transcriptomics data. *Nature Communications*. [[paper](https://doi.org/10.1038/s41467-023-44560-w)]</font>
+
 
 ### 2023
 
-+ <font size="+1"> **Couto, B. Z. P.,** **Robertson, N.,** **Patrick, E.,** & **Ghazanfar, S.** (2023). MoleculeExperiment enables consistent infrastructure for molecule-resolved spatial transcriptomics data in Bioconductor. *Accepted by Bioinformatics* [[paper](https://www.biorxiv.org/content/10.1101/2023.05.16.541040v1)]</font>
-
++ <font size="+1"> **Peters Couto, B. Z.**, **Robertson, N.**, **Patrick, E.**, & **Ghazanfar, S.** (2023). MoleculeExperiment enables consistent infrastructure for molecule-resolved spatial omics data in bioconductor. *Bioinformatics* [[paper](https://doi.org/10.1093/bioinformatics/btad550)]</font>
 
 
 + <font size="+1"> **Yu, L.,** **Liu, C.,** **Yang, J.Y.H.,** & **Yang, P.** (2023). Ensemble deep learning of embeddings for clustering multimodal single-cell omics data. *Bioinformatics*. [[paper](https://academic.oup.com/bioinformatics/article/39/6/btad382/7197799)]</font>
 
 
 
-+ <font size="+1"> **Lin, Y.**, Cao, Y., Willie, E., Patrick, E., & Yang, J. Y. H. (2023). Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2. *Nature Communications*. [[paper](https://www.nature.com/articles/s41467-023-39923-2)]</font>
++ <font size="+1"> **Lin, Y.**, **Cao, Y.**, **Willie, E.**, **Patrick, E.**, & **Yang, J. Y. H.** (2023). Atlas-scale single-cell multi-sample multi-condition data integration using scMerge2. *Nature Communications*. [[paper](https://www.nature.com/articles/s41467-023-39923-2)]</font>
 
 
 + <font size="+1"> **Ghazanfar, S.,** Guibentif, C., & Marioni, J. C. (2023). Stabilized mosaic single-cell data integration using unshared features. Nature Biotechnology, 1-9. [[paper](https://www.nature.com/articles/s41587-023-01766-z)]</font>
@@ -33,21 +48,21 @@ title: "Publications"
 
 + <font size="+1"> **Patrick, E., Canete, N. P., Baharlou, H., Iyengar, S. S.,** Harman, A. N., Sutherland, G. T., and **Yang P.** (2021). Spatial analysis for highly multiplexed imaging data to identify tissue microenvironments. *Cytometry A*. [[package](http://bioconductor.org/packages/release/bioc/html/lisaClust.html)][[shiny](http://shiny.maths.usyd.edu.au/lisaClust)][[paper](https://doi.org/10.1101/2021.08.16.456469)]</font>
 
-+ <font size="+1"> **Cao, Y.**, Ghazanfar, S., Yang, P., & **Yang, J.Y.H.** (2023). Benchmarking of analytical combinations for COVID-19 outcome prediction using single-cell RNA sequencing data. *Briefings in Bioinformatics*. [[paper](https://doi.org/10.1093/bib/bbad159)]</font>
++ <font size="+1"> **Cao, Y.**, **Ghazanfar, S.**, **Yang, P.**, & **Yang, J.Y.H.** (2023). Benchmarking of analytical combinations for COVID-19 outcome prediction using single-cell RNA sequencing data. *Briefings in Bioinformatics*. [[paper](https://doi.org/10.1093/bib/bbad159)]</font>
 
-+ <font size="+1"> **Cao, Y.**, **Tran, A.**, **Kim, H.**, Robertson, N., Lin, Y., Torkel, M., Yang, P., Patrick, E., **Ghazanfar, S.**, & **Yang, J.Y.H.** (2023). Thinking process templates for constructing data stories with SCDNEY. *F1000 Research*. [[paper](https://doi.org/10.12688/f1000research.130623.1)]</font>
++ <font size="+1"> **Cao, Y.**, **Tran, A.**, **Kim, H.**, **Robertson, N.**, **Lin, Y.**, **Torkel, M.**, **Yang, P.**, **Patrick, E.**, **Ghazanfar, S.**, & **Yang, J.Y.H.** (2023). Thinking process templates for constructing data stories with SCDNEY. *F1000 Research*. [[paper](https://doi.org/10.12688/f1000research.130623.1)]</font>
 
-+ <font size="+1"> **Yu, L.**, Cao, Y., Yang, J.Y.H., & **Yang, P**. (2022). Benchmarking clustering algorithms on estimating the number of cell types from single-cell RNA-sequencing data. *Genome Biology*. [[paper](https://doi.org/10.1186/s13059-022-02622-0)]</font>
++ <font size="+1"> **Yu, L.**, **Cao, Y.**, **Yang, J.Y.H.**, & **Yang, P**. (2022). Benchmarking clustering algorithms on estimating the number of cell types from single-cell RNA-sequencing data. *Genome Biology*. [[paper](https://doi.org/10.1186/s13059-022-02622-0)]</font>
 
 ### 2022
 
 + <font size="+1"> **Canete, N. P., Iyengar, S. S.**, Wilmott. J. S., **Ormerod, J. T.**, Harman, A. N., and **Patrick, E.**(2021) spicyR: Spatial analysis of in situ cytometry data in R. *Bioinformatics*. [[package](http://bioconductor.org/packages/release/bioc/html/spicyR.html)][[shiny](http://shiny.maths.usyd.edu.au/spicyR/)][[paper](https://doi.org/10.1093/bioinformatics/btac268)]</font>
 
-+ <font size="+1"> **Cao, Y., Lin, Y., Patrick, E., Yang, P., and Yang, J.Y.H.** (2022)  scFeatures: Multi-view representations of single-cell and spatial data for disease outcome prediction. *Bioinformatics*. [[paper](https://doi.org/10.1093/bioinformatics/btac590)]</font>
++ <font size="+1"> **Cao, Y.**, **Lin, Y.**, **Patrick, E.**, **Yang, P.**, and **Yang, J.Y.H.** (2022)  scFeatures: Multi-view representations of single-cell and spatial data for disease outcome prediction. *Bioinformatics*. [[paper](https://doi.org/10.1093/bioinformatics/btac590)]</font>
 
 + <font size="+1"> **Lin, Y.**, Wu, T.Y., Wan, S., **Yang, J.Y.H.,** Wong, W.H., and **Wang, Y.X.R.** (2022)  scJoint: transfer learning for data integration of single-cell RNA-seq and ATAC-seq. *Nature Biotechnology*. [[package](https://github.com/SydneyBioX/scJoint)][[paper]( https://doi.org/10.1038/s41587-021-01161-6)]</font>
 
-+ <font size="+1"> **Tran, A., Yang P., Yang, J.Y.H., and Ormerod, J. T.** (2022)  scREMOTE: Using multimodal single cell data to predict regulatory gene relationships and to build a computational cell reprogramming model. *NAR Genomics and Bioinformaitics*. [[package](https://github.com/SydneyBioX/scREMOTE)][[paper]( https://doi.org/10.1093/nargab/lqac023)]</font>
++ <font size="+1"> **Tran, A.**, **Yang P.**, **Yang, J.Y.H.**, and **Ormerod, J. T.** (2022)  scREMOTE: Using multimodal single cell data to predict regulatory gene relationships and to build a computational cell reprogramming model. *NAR Genomics and Bioinformaitics*. [[package](https://github.com/SydneyBioX/scREMOTE)][[paper]( https://doi.org/10.1093/nargab/lqac023)]</font>
 
 
 ### 2021
