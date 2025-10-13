@@ -4,22 +4,23 @@ title: "Publications"
 
 ## **Methodology and tools**
 
-### Preprint
 
-+ <font size="+1"> **Yin, D.**, **Cao, Y.**, **Chen, J.**, Mak, C. L., Yu, K. H., Lin, Y., **Ho, J.W.K.** & **Yang, J.Y.H.** (2022). Scope+: An open source generalizable architecture for single-cell atlases at sample and cell levels. *BioRxiv*. [[paper](https://doi.org/10.1101/2022.12.03.518997)]</font>
+### 2025
 
-
-+ <font size="+1"> **Ding, W.**, **Cao, Y.**, **Fu, X.**, **Torkel, M.**, & **Yang, J.Y.H.** (2024). A Message Passing Framework for Precise Cell State Identification with scClassify2. *BioRxiv*. [[paper](https://doi.org/10.1101/2024.06.26.600770)]</font>
++ <font size="+1"> **Yin, D.**, **Cao, Y.**, **Chen, J.**, Mak, C. L., Yu, K. H., Lin, Y., **Ho, J.W.K.** & **Yang, J.Y.H.** (2025). Scope+: An open source generalizable architecture for single-cell atlases at sample and cell levels. *Bioinformatics*. [[paper](https://academic.oup.com/bioinformatics/article/41/1/btae727/7929810)]</font>
 
 
-+ <font size="+1"> **Liang, X.**, **Cao, Y.**, & **Yang, J. Y. H.** (2024). Multi-task benchmarking of spatially resolved gene expression simulation models.  *BioRxiv*. (2024).[[paper](https://doi.org/10.1101/2024.05.29.596418)]</font>
++ <font size="+1"> **Ding, W.**, **Cao, Y.**, **Fu, X.**, **Torkel, M.**, & **Yang, J.Y.H.** (2025). A Message Passing Framework for Precise Cell State Identification with scClassify2. *Genome Biology*. [[paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03722-3)]</font>
 
-+ <font size="+1"> **Fu, X.**, **Cao, Y.**, **Bian, B.**, **Wang, C.**, Graham, D., Pathmanathan, N., **Patrick, E.**, Kim, J. and **Yang, J.Y.H.** (2024). Spatial gene expression at single-cell resolution from histology using deep learning with GHIST.  *BioRxiv*. [[paper](https://doi.org/10.1101/2024.07.02.601790)]</font>
+
++ <font size="+1"> **Liang, X.**, **Cao, Y.**, & **Yang, J. Y. H.** (2025). Multi-task benchmarking of spatially resolved gene expression simulation models.  *Genome Biology*. (2025).[[paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03505-w)]</font>
+
++ <font size="+1"> **Fu, X.**, **Cao, Y.**, **Bian, B.**, **Wang, C.**, Graham, D., Pathmanathan, N., **Patrick, E.**, Kim, J. and **Yang, J.Y.H.** (2025). Spatial gene expression at single-cell resolution from histology using deep learning with GHIST.  *Nature Methods*. [[paper](https://www.nature.com/articles/s41592-025-02795-z)]</font>
  
 
-+ <font size="+1"> **Chan, A. S.**, **Wang, C.**, **Fu, X.**, **Ghazanfar, S.**, Kim, J., **Patrick, E.**, & **Yang, J. Y. H.** (2023). Benchmarking the translational potential of spatial gene expression prediction from histology. *BioRxiv*. [[paper](https://doi.org/10.1101/2023.12.12.571251)]</font>
++ <font size="+1">  **Wang, C.**, **Chan, A. S.**, **Fu, X.**, **Ghazanfar, S.**, Kim, J., **Patrick, E.**, & **Yang, J. Y. H.** (2023). Benchmarking the translational potential of spatial gene expression prediction from histology. *Nature Communications*. [[paper](https://www.nature.com/articles/s41467-025-56618-y)]</font>
 
-+ <font size="+1"> **Cao, Y.**, **Yu, L.**, **Torkel, M.**, **Kim, S.**, **Lin, Y.**, **Yang, P.**, Speed, T.P., **Ghazanfar, S.** & **Yang, J.Y.H.** 2023. The current landscape and emerging challenges of benchmarking single-cell methods.  *BioRxiv*. [[paper](https://doi.org/10.1101/2023.12.19.572303)]</font>
++ <font size="+1"> **Cao, Y.**, **Yu, L.**, **Torkel, M.**, **Kim, S.**, **Lin, Y.**, **Yang, P.**, Speed, T.P., **Ghazanfar, S.** & **Yang, J.Y.H.** 2023. The current landscape and emerging challenges of benchmarking single-cell methods.  *Briefings in Bioinformatics*. [[paper](https://academic.oup.com/bib/article/26/5/bbaf380/8273832)]</font>
 
 
 
